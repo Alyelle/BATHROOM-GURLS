@@ -3,7 +3,6 @@ using UnityEngine;
 
 //text engine that generates dialogue + voice lines
 [CreateAssetMenu(fileName = "NewStoryScene", menuName = "Data/New Story Scene")]
-[System.Serializable]
 public class TextEngine : ScriptableObject
 {
     public List<Sentence> sentences;
@@ -14,9 +13,9 @@ public class TextEngine : ScriptableObject
     public struct Sentence
     {
         [TextArea(5, 50)]
-        public string text;     
+        public string text;
+        public float delay;
         public Speaker speaker;
-        public Sprite speakerSprite;
         //insert voice lines (to be manually added)
         public AudioClip voiceLine;
     }

@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Athena
   m_EditorClassIdentifier: 
   speakerName: Athena
-  textColor: {r: 0.46412563, g: 0.14417945, b: 0.6792453, a: 0}
+  textColor: {r: 0.46412563, g: 0.14417945, b: 0.6792453, a: 1}

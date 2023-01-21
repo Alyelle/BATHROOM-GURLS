@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Cecile
   m_EditorClassIdentifier: 
   speakerName: Cecile
-  textColor: {r: 0.13968495, g: 0.6886792, b: 0.5596032, a: 0}
+  textColor: {r: 0.13968495, g: 0.6886792, b: 0.5596032, a: 1}

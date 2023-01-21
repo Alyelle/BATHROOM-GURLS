@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Lilith
   m_EditorClassIdentifier: 
   speakerName: Lilith
-  textColor: {r: 0.8113208, g: 0.18752226, b: 0.7305178, a: 0}
+  textColor: {r: 0.8113208, g: 0.18752226, b: 0.7305178, a: 1}

@@ -14,12 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sentences:
   - text: Hello world!
+    delay: 0.05
     speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
-    speakerSprite: {fileID: 21300000, guid: 0d8622289f13e7e49a61715d6c52e131, type: 3}
+    voiceLine: {fileID: 0}
   - text: Goodbye world!
+    delay: 0.05
     speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
-    speakerSprite: {fileID: 21300000, guid: c0a84947020af1243840179d7d62c6ba, type: 3}
+    voiceLine: {fileID: 0}
   - text: Sad :(
+    delay: 0.05
     speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
-    speakerSprite: {fileID: 21300000, guid: 120ba8209e0a08e449760cda4af21d7c, type: 3}
+    voiceLine: {fileID: 0}
   nextScene: {fileID: 0}

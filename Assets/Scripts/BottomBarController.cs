@@ -39,6 +39,8 @@ public class BottomBarController : MonoBehaviour
             NameText.text = CurrentText.sentences[sentenceIndex].speaker.speakerName;
 
             speakerSprite.sprite = CurrentText.sentences[sentenceIndex].speaker.sprites[CurrentText.sentences[sentenceIndex].speakerSpriteId];
+
+            NameText.color = CurrentText.sentences[sentenceIndex].speaker.textColor;
         }
     }
 

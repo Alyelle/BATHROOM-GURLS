@@ -75,6 +75,19 @@ public class BottomBarController : MonoBehaviour
 
         if (state == State.COMPLETED && Input.GetMouseButtonDown(0))
         {
+            if (SentenceIndex >= CurrentText.sentences.Count - 1)
+            {
+                CurrentText = null;
+
+                gameObject.SetActive(false); // Exit animation
+
+                Time.timeScale = 1f;
+
+                OnDialogueEnd();
+
+                return;
+            }
+
             SentenceIndex++;
         }
         else if (state == State.PLAYING && currentPlayingCoroutine != null && Input.GetMouseButtonDown(1))

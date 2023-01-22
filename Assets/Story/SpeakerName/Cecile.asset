@@ -14,3 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speakerName: Cecile
   textColor: {r: 0.13968495, g: 0.6886792, b: 0.5596032, a: 1}
+  sprites:
+  - {fileID: 21300000, guid: 95fe1bf1c79f45b439166500ef66985f, type: 3}
+  - {fileID: 21300000, guid: 3de671d4c61cd684cbfd255c28b21dcf, type: 3}
+  - {fileID: 21300000, guid: 120ba8209e0a08e449760cda4af21d7c, type: 3}
+  - {fileID: 21300000, guid: 30ed92461e840ca4499d0d04962e8b77, type: 3}
+  - {fileID: 21300000, guid: c0a84947020af1243840179d7d62c6ba, type: 3}
+  - {fileID: 21300000, guid: 0d8622289f13e7e49a61715d6c52e131, type: 3}
+  - {fileID: 21300000, guid: 6aea8b580af29c14183620d68c815421, type: 3}
+  - {fileID: 21300000, guid: 4bbee63c8014fe342ba907e8319cef7e, type: 3}
+  - {fileID: 21300000, guid: 33d91517ff0d369489e0e70c530dbebd, type: 3}
+  - {fileID: 21300000, guid: 8e12b0f37a1db0a4798be2e29023d6f4, type: 3}
+  - {fileID: 21300000, guid: 673bdf22903db7843853818ea45e41f8, type: 3}
+  - {fileID: 21300000, guid: 90dca5ba0637e884d8b1bf56efa4c47b, type: 3}
+  - {fileID: 21300000, guid: 868ec75a144c5aa40a638945232336cb, type: 3}

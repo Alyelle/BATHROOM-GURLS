@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BottomBarController : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class BottomBarController : MonoBehaviour
 
     public TMP_Text DialogueText;
     public TMP_Text NameText;
+
+    public Image speakerSprite;
 
     public TextEngine CurrentText;
 
@@ -32,6 +35,10 @@ public class BottomBarController : MonoBehaviour
                 StopCoroutine(currentPlayingCoroutine);
 
             currentPlayingCoroutine = StartCoroutine(TypeText(CurrentText.sentences[sentenceIndex].text, CurrentText.sentences[sentenceIndex].delay));
+
+            NameText.text = CurrentText.sentences[sentenceIndex].speaker.speakerName;
+
+            speakerSprite.sprite = CurrentText.sentences[sentenceIndex].speaker.sprites[CurrentText.sentences[sentenceIndex].speakerSpriteId];
         }
     }
 
@@ -69,7 +76,13 @@ public class BottomBarController : MonoBehaviour
         if (state == State.COMPLETED && Input.GetMouseButtonDown(0))
         {
             SentenceIndex++;
-        } 
+        }
+        else if (state == State.PLAYING && currentPlayingCoroutine != null && Input.GetMouseButtonDown(1))
+        {
+            StopCoroutine(currentPlayingCoroutine);
+            DialogueText.text = CurrentText.sentences[sentenceIndex].text;
+            state = State.COMPLETED;
+        }
     }
 
     private IEnumerator TypeText(string text, float delay)
@@ -80,7 +93,7 @@ public class BottomBarController : MonoBehaviour
 
         int wordIndex = 0; // The position of the text character inside the string
 
-        while (state != State.COMPLETED) 
+        while (state != State.COMPLETED)
         {
             DialogueText.text += text[wordIndex];
 

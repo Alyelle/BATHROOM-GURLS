@@ -14,9 +14,13 @@ public class TextEngine : ScriptableObject
     {
         [TextArea(5, 50)]
         public string text;
+
         public float delay;
+
+        public int speakerSpriteId;
+
         public Speaker speaker;
-        //insert voice lines (to be manually added)
-        public AudioClip voiceLine;
+        
+        public AudioClip voiceLine; //insert voice lines (to be manually added)
     }
 }

@@ -13,16 +13,22 @@ MonoBehaviour:
   m_Name: Introduction
   m_EditorClassIdentifier: 
   sentences:
-  - text: Hello world!
-    delay: 0.05
+  - text: Hello world! Long ass sentence to just test this stupid system that should
+      be done ages ago but ok this is kinda long now but I think it should be longer
+      for good measure so we can really test this thing but oh well why am I writing
+      this instead of spamming my keyboard? well, IDK
+    delay: 0.025
+    speakerSpriteId: 0
     speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
     voiceLine: {fileID: 0}
   - text: Goodbye world!
-    delay: 0.05
+    delay: 0.025
+    speakerSpriteId: 1
     speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
     voiceLine: {fileID: 0}
   - text: Sad :(
-    delay: 0.05
+    delay: 0.025
+    speakerSpriteId: 2
     speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
     voiceLine: {fileID: 0}
   nextScene: {fileID: 0}

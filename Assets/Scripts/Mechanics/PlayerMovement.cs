@@ -19,6 +19,6 @@ public class PlayerMovement : MonoBehaviour
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
 
-        rb.MovePosition((Vector2)transform.position + movement * moveSpeed * Time.deltaTime);
+        transform.Translate(movement * moveSpeed * Time.deltaTime);
     }
 }

@@ -8,6 +8,7 @@ public class BottomBarController : MonoBehaviour
 {
     public static BottomBarController Instance;
 
+    public bool DoubleClickToSkip;
     public TMP_Text DialogueText;
     public TMP_Text NameText;
 
@@ -92,7 +93,7 @@ public class BottomBarController : MonoBehaviour
 
             SentenceIndex++;
         }
-        else if (state == State.PLAYING && currentPlayingCoroutine != null && Input.GetMouseButtonDown(1))
+        else if (state == State.PLAYING && currentPlayingCoroutine != null && Input.GetMouseButtonDown(DoubleClickToSkip ? 0 : 1))
         {
             StopCoroutine(currentPlayingCoroutine);
             DialogueText.text = CurrentText.sentences[sentenceIndex].text;

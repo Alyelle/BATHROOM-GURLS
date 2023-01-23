@@ -242,6 +242,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7cd94be0c0467d4cb391e47cbdc08c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DoubleClickToSkip: 0
   DialogueText: {fileID: 877818592}
   NameText: {fileID: 984372827}
   speakerSprite: {fileID: 403274265}
@@ -723,7 +724,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36.9
+  m_fontSize: 32.05
   m_fontSizeBase: 32
   m_fontWeight: 400
   m_enableAutoSizing: 1

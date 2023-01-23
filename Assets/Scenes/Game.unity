@@ -243,6 +243,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoubleClickToSkip: 0
+  KeyBindings: 
+  SkipKeyBindings: 
   DialogueText: {fileID: 877818592}
   NameText: {fileID: 984372827}
   speakerSprite: {fileID: 403274265}

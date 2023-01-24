@@ -242,7 +242,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7cd94be0c0467d4cb391e47cbdc08c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DoubleClickToSkip: 0
   KeyBindings: 
   SkipKeyBindings: 
   DialogueText: {fileID: 877818592}

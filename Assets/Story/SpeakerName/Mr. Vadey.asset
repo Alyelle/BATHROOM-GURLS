@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f9d1b129a1c96f4b932c5ed60b1068a, type: 3}
   m_Name: Mr. Vadey
   m_EditorClassIdentifier: 
-  speakerName: 
-  textColor: {r: 0, g: 0, b: 0, a: 0}
+  speakerName: Mr. Vadey
+  textColor: {r: 1, g: 1, b: 1, a: 0}
   sprites: []

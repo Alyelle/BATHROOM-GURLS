@@ -1,3 +1,4 @@
+using Game.Utils;
 using System;
 using System.Collections;
 using TMPro;
@@ -19,6 +20,10 @@ public class BottomBarController : MonoBehaviour
 
     Coroutine currentPlayingCoroutine;
 
+    AudioSource currentVoiceline;
+
+    Transform cameraTrans;
+
     [HideInInspector]
     public int SentenceIndex
     {
@@ -36,7 +41,7 @@ public class BottomBarController : MonoBehaviour
             if (currentPlayingCoroutine != null)
                 StopCoroutine(currentPlayingCoroutine);
 
-            currentPlayingCoroutine = StartCoroutine(TypeText(CurrentText.sentences[sentenceIndex].text, CurrentText.sentences[sentenceIndex].delay));
+            currentPlayingCoroutine = StartCoroutine(TypeText(CurrentText.sentences[sentenceIndex].text, CurrentText.sentences[sentenceIndex].delay, CurrentText.sentences[sentenceIndex].voiceLine));
 
             NameText.text = CurrentText.sentences[sentenceIndex].speaker.speakerName;
 
@@ -54,6 +59,8 @@ public class BottomBarController : MonoBehaviour
     {
         if (Instance == null) Instance = this;
         else Destroy(gameObject);
+
+        cameraTrans = Camera.main.transform;
     }
 
     private void Start()
@@ -78,15 +85,17 @@ public class BottomBarController : MonoBehaviour
             return;
 
         bool keyPressed = false;
-        foreach(KeyCode key in KeyBindings) {
-            if(Input.GetKeyDown(key)) keyPressed = true;
+        foreach (KeyCode key in KeyBindings)
+        {
+            if (Input.GetKeyDown(key)) keyPressed = true;
         }
-        
+
         bool skipKeyPressed = false;
-        foreach(KeyCode key in SkipKeyBindings) {
-            if(Input.GetKeyDown(key)) skipKeyPressed = true;
+        foreach (KeyCode key in SkipKeyBindings)
+        {
+            if (Input.GetKeyDown(key)) skipKeyPressed = true;
         }
-        
+
         if (state == State.COMPLETED && (Input.GetMouseButtonDown(0) || keyPressed))
         {
             if (SentenceIndex >= CurrentText.sentences.Count - 1)
@@ -112,8 +121,13 @@ public class BottomBarController : MonoBehaviour
         }
     }
 
-    private IEnumerator TypeText(string text, float delay)
+    private IEnumerator TypeText(string text, float delay, AudioClip voice)
     {
+        if (currentVoiceline != null)
+            Destroy(currentVoiceline.gameObject);
+
+        currentVoiceline = AudioSystem.PlaySound(voice, cameraTrans.position, 1f, 128);
+
         DialogueText.text = ""; // Reset the dialogue box
 
         state = State.PLAYING; // Set the play state of the dialogue

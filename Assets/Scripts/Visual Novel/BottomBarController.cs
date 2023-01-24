@@ -8,7 +8,6 @@ public class BottomBarController : MonoBehaviour
 {
     public static BottomBarController Instance;
 
-    public bool DoubleClickToSkip;
     public KeyCode[] KeyBindings;
     public KeyCode[] SkipKeyBindings;
     public TMP_Text DialogueText;
@@ -105,7 +104,7 @@ public class BottomBarController : MonoBehaviour
 
             SentenceIndex++;
         }
-        else if (state == State.PLAYING && currentPlayingCoroutine != null && (Input.GetMouseButtonDown(DoubleClickToSkip ? 0 : 1) || skipKeyPressed))
+        else if (state == State.PLAYING && currentPlayingCoroutine != null && (Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1) || skipKeyPressed))
         {
             StopCoroutine(currentPlayingCoroutine);
             DialogueText.text = CurrentText.sentences[sentenceIndex].text;

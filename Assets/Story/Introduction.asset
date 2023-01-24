@@ -108,12 +108,364 @@ MonoBehaviour:
     voiceLine: {fileID: 0}
   - text: "Ew, don\u2019t even mention that name! I literally can't with her."
     delay: 0.025
-    speakerSpriteId: 1
+    speakerSpriteId: 4
     speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
     voiceLine: {fileID: 0}
   - text: 'So much for using the restroom. '
     delay: 0.025
-    speakerSpriteId: 1
+    speakerSpriteId: 9
+    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "Won\u2019t hurt to try convincing them."
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
+    voiceLine: {fileID: 0}
+  - text: No way! Let's be realistic.
+    delay: 0.025
+    speakerSpriteId: 9
+    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "ATHENA thinks she\u2019s too good for us and, well, LEAH is\u2026 LEAH."
+    delay: 0.025
+    speakerSpriteId: 10
+    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "She\u2019s going to give you that dirty look and you\u2019ll just embarrass
+      yourself."
+    delay: 0.025
+    speakerSpriteId: 4
+    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "Just forget about it. We\u2019ll just suffer for the rest of this dumb
+      lecture."
+    delay: 0.025
+    speakerSpriteId: 7
+    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Hey ATHENA.
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
+    voiceLine: {fileID: 0}
+  - text: ...
+    delay: 0.025
+    speakerSpriteId: 8
+    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Are you serious?
+    delay: 0.025
+    speakerSpriteId: 7
+    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "\u2026"
+    delay: 0.025
+    speakerSpriteId: 10
+    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: .............................
+    delay: 0.025
+    speakerSpriteId: 10
+    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: ATHENA.
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
+    voiceLine: {fileID: 0}
+  - text: .......................................................................
+    delay: 0.025
+    speakerSpriteId: 10
+    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "What do you want? I\u2019m trying to focus."
+    delay: 0.025
+    speakerSpriteId: 4
+    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Bathroom. You know what I mean.
+    delay: 0.025
+    speakerSpriteId: 4
+    speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Hmph! Class has barely begun.
+    delay: 0.025
+    speakerSpriteId: 9
+    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Can you dimwits not concentrate for more than an hour at a time?
+    delay: 0.025
+    speakerSpriteId: 2
+    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "There she goes again\u2026"
+    delay: 0.025
+    speakerSpriteId: 7
+    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    voiceLine: {fileID: 0}
+  - text: 'Unlike you guys, I have my priorities. After all, there''s approximately
+      28 minutes left of class, or 1680 seconds. '
+    delay: 0.025
+    speakerSpriteId: 10
+    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Stick your tongue out and count.
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Oune...tueo...
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    voiceLine: {fileID: 0}
+  - text: ATHENA, please.
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "Like I\u2019d ever sacrifice my precious grades for your worthless digestive
+      system."
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: ...
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Well actually...
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Well actually...I kind of need to fix my hair.
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: ...!
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "So you\u2019ll go with us?"
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    voiceLine: {fileID: 0}
+  - text: You owe me one.
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "Yes! Now we\u2019ll need to somehow convince LEAH."
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    voiceLine: {fileID: 0}
+  - text: You do it, LILITH.
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Wow, really relying on me for this, huh. I see.
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
+    voiceLine: {fileID: 0}
+  - text: ' Psst! LEAH.'
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Blah blah blah. It's the bathroom thing, isn't it?
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
+    voiceLine: {fileID: 0}
+  - text: It is. LEAH, please. You're the only other girl in this class.
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "Do you seriously think I\u2019d ever do you a favor?"
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
+    voiceLine: {fileID: 0}
+  - text: I don't have anything to do with you or your apple-headed friend.
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
+    voiceLine: {fileID: 0}
+  - text: APPLE-HEADED?!?!?!?!?!
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    voiceLine: {fileID: 0}
+  - text: LEAH, I beg you...
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
+    voiceLine: {fileID: 0}
+  - text: CECILE, ATHENA, and I all need it.
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "We\u2019ve had our differences, but we can get along, right?"
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
+    voiceLine: {fileID: 0}
+  - text: ...
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
+    voiceLine: {fileID: 0}
+  - text: You get to miss out on this boring, endless lecture.
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "Don\u2019t you want that?"
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
+    voiceLine: {fileID: 0}
+  - text: ...
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Nah, get lost. Just go by yourselves.
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
+    voiceLine: {fileID: 0}
+  - text: The next time you need to use the restroom in this class, we can all go
+      with you.
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
+    voiceLine: {fileID: 0}
+  - text: We can truce for this class only. We'd be doing each other mutual favors.
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
+    voiceLine: {fileID: 0}
+  - text: ...
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Ugh.
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Fine. Don't think I'm on any better terms with you guys.
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Yes! We got all four of us!
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    voiceLine: {fileID: 0}
+  - text: ...
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Mr. Vadey! Can I use the restroom?
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    voiceLine: {fileID: 0}
+  - text: I need to go as well.
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Me too.
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: ...
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
+    voiceLine: {fileID: 0}
+  - text: (Please don't do this to us LEAH...please please please please please!)
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    voiceLine: {fileID: 0}
+  - text: I...also need to go.
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
+    voiceLine: {fileID: 0}
+  - text: (THANK GOD.)
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    voiceLine: {fileID: 0}
+  - text: What is it with girls always going to the bathroom four or more at a time?
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: d632a88962f871444aebd2b5cce93ada, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "Is it that \u201Cmonsters on the way to the bathroom\u201D rumor again?"
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: d632a88962f871444aebd2b5cce93ada, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "That\u2019s just some childish tale. Admin has already investigated it
+      and found nothing."
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: d632a88962f871444aebd2b5cce93ada, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "No, it\u2019s nothing like that. We just coincidentally need to use the
+      restroom at the same time."
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Hm. Alright. You guys better not cause any trouble.
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: d632a88962f871444aebd2b5cce93ada, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Of course we won't! I-I mean, I won't. I don't know about them.
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    voiceLine: {fileID: 0}
+  - text: ...
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: But hurry up. CECILE, you are already doing poorly in my class.
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: d632a88962f871444aebd2b5cce93ada, type: 2}
+    voiceLine: {fileID: 0}
+  - text: ...
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Let's go, girls.
+    delay: 0.025
+    speakerSpriteId: 0
     speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
     voiceLine: {fileID: 0}
   nextScene: {fileID: 0}

@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.Audio;
 
 namespace Game.Utils
 {
@@ -7,7 +6,7 @@ namespace Game.Utils
     {
         #region Methods
 
-        public static void PlaySound(AudioClip _sound, Vector2 _position, float _volume, int _priority)
+        public static AudioSource PlaySound(AudioClip _sound, Vector2 _position, float _volume, int _priority)
         {
             GameObject soundObj = new GameObject("Sound", typeof(AudioSource), typeof(DestroyAfter));
             AudioSource au = soundObj.GetComponent<AudioSource>();
@@ -22,6 +21,8 @@ namespace Game.Utils
             au.minDistance = 1.5f;
 
             au.Play();
+
+            return au;
         }
 
         #endregion

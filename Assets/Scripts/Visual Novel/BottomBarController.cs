@@ -158,7 +158,7 @@ public class BottomBarController : MonoBehaviour
     {
         defaultSpriteColor = speakerSprite.color;
         
-        for(float alpha = 1f; alpha >= 0f; alpha -= Time.deltaTime * 2f)
+        for(float alpha = 1f; alpha >= 0f; alpha -= Time.deltaTime * 8f)
         {
             NameText.color = new Color(NameText.color.r, NameText.color.g, NameText.color.b, alpha);
             DialogueText.color = new Color(DialogueText.color.r, DialogueText.color.g, DialogueText.color.b, alpha);
@@ -177,7 +177,7 @@ public class BottomBarController : MonoBehaviour
         currentPlayingCoroutine = StartCoroutine(TypeText(CurrentText.sentences[indx].text, CurrentText.sentences[indx].delay, CurrentText.sentences[indx].voiceLine));
         
         
-        for(float alpha = 0f; alpha < 1f; alpha += Time.deltaTime * 2f)
+        for(float alpha = 0f; alpha < 1f; alpha += Time.deltaTime * 8f)
         {
             NameText.color = new Color(NameText.color.r, NameText.color.g, NameText.color.b, alpha);
             speakerSprite.color = new Color(defaultSpriteColor.r * alpha, defaultSpriteColor.g * alpha, defaultSpriteColor.b * alpha, 1f);

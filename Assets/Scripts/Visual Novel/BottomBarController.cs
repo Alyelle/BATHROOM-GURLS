@@ -46,7 +46,7 @@ public class BottomBarController : MonoBehaviour
 
             if (currentPlayingCoroutine != null)
                 StopCoroutine(currentPlayingCoroutine);
-
+                
             currentPlayingCoroutine = StartCoroutine(TypeText(CurrentText.sentences[sentenceIndex].text, CurrentText.sentences[sentenceIndex].delay, CurrentText.sentences[sentenceIndex].voiceLine));
 
             NameText.text = CurrentText.sentences[sentenceIndex].speaker.speakerName;
@@ -167,6 +167,40 @@ public class BottomBarController : MonoBehaviour
             }
         }
     }
+    
+    /*private IEnumerator FadeSpeaker(int indx)
+    {
+        defaultSpriteColor = speakerSprite.color;
+        
+        for(float alpha = 1f; alpha >= 0f; alpha -= Time.deltaTime * 2f)
+        {
+            NameText.color = new Color(NameText.color.r, NameText.color.g, NameText.color.b, alpha);
+            DialogueText.color = new Color(DialogueText.color.r, DialogueText.color.g, DialogueText.color.b, alpha);
+            speakerSprite.color = new Color(defaultSpriteColor.r * alpha, defaultSpriteColor.g * alpha, defaultSpriteColor.b * alpha, 1f);
+            yield return null;
+        }
+        
+        NameText.text = CurrentText.sentences[indx].speaker.speakerName;
+        DialogueText.text = "";
+        DialogueText.color = new Color(DialogueText.color.r, DialogueText.color.g, DialogueText.color.b, 1f);
+        speakerSprite.sprite = CurrentText.sentences[indx].speaker.sprites[CurrentText.sentences[indx].speakerSpriteId];
+        Color newColor = CurrentText.sentences[indx].speaker.textColor;
+        NameText.color = new Color(newColor.r, newColor.g, newColor.b, 0f);
+        
+        
+        currentPlayingCoroutine = StartCoroutine(TypeText(CurrentText.sentences[indx].text, CurrentText.sentences[indx].delay, CurrentText.sentences[indx].voiceLine));
+        
+        
+        for(float alpha = 0f; alpha < 1f; alpha += Time.deltaTime * 2f)
+        {
+            NameText.color = new Color(NameText.color.r, NameText.color.g, NameText.color.b, alpha);
+            speakerSprite.color = new Color(defaultSpriteColor.r * alpha, defaultSpriteColor.g * alpha, defaultSpriteColor.b * alpha, 1f);
+            yield return null;
+        }
+        
+        fadingCoroutine = null;
+        yield break;
+    }*/
 
     private enum State
     {

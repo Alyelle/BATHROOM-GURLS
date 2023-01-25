@@ -14,6 +14,7 @@ public class TextEngine : ScriptableObject
     {
         [TextArea(5, 50)]
         public string text;
+        public string animationName;
 
         public float delay;
 

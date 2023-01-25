@@ -24,6 +24,8 @@ public class BottomBarController : MonoBehaviour
 
     Transform cameraTrans;
 
+    Animator anim;
+
     [HideInInspector]
     public int SentenceIndex
     {
@@ -44,10 +46,14 @@ public class BottomBarController : MonoBehaviour
             currentPlayingCoroutine = StartCoroutine(TypeText(CurrentText.sentences[sentenceIndex].text, CurrentText.sentences[sentenceIndex].delay, CurrentText.sentences[sentenceIndex].voiceLine));
 
             NameText.text = CurrentText.sentences[sentenceIndex].speaker.speakerName;
+            NameText.color = CurrentText.sentences[sentenceIndex].speaker.textColor;
 
             speakerSprite.sprite = CurrentText.sentences[sentenceIndex].speaker.sprites[CurrentText.sentences[sentenceIndex].speakerSpriteId];
 
-            NameText.color = CurrentText.sentences[sentenceIndex].speaker.textColor;
+            if (string.IsNullOrEmpty(CurrentText.sentences[sentenceIndex].animationName))
+                anim.Play("None", -1, 0f);
+            else
+                anim.Play(CurrentText.sentences[sentenceIndex].animationName, -1, 0f);
         }
     }
 
@@ -61,6 +67,8 @@ public class BottomBarController : MonoBehaviour
         else Destroy(gameObject);
 
         cameraTrans = Camera.main.transform;
+
+        anim = speakerSprite.GetComponent<Animator>();
     }
 
     private void Start()

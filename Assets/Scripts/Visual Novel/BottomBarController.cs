@@ -19,6 +19,10 @@ public class BottomBarController : MonoBehaviour
     public TextEngine CurrentText;
 
     Coroutine currentPlayingCoroutine;
+    
+    Coroutine fadingCoroutine;
+    
+    Color defaultSpriteColor;
 
     AudioSource currentVoiceline;
 
@@ -40,14 +44,8 @@ public class BottomBarController : MonoBehaviour
 
             if (currentPlayingCoroutine != null)
                 StopCoroutine(currentPlayingCoroutine);
-
-            currentPlayingCoroutine = StartCoroutine(TypeText(CurrentText.sentences[sentenceIndex].text, CurrentText.sentences[sentenceIndex].delay, CurrentText.sentences[sentenceIndex].voiceLine));
-
-            NameText.text = CurrentText.sentences[sentenceIndex].speaker.speakerName;
-
-            speakerSprite.sprite = CurrentText.sentences[sentenceIndex].speaker.sprites[CurrentText.sentences[sentenceIndex].speakerSpriteId];
-
-            NameText.color = CurrentText.sentences[sentenceIndex].speaker.textColor;
+            
+            fadingCoroutine = StartCoroutine(FadeSpeaker(sentenceIndex));
         }
     }
 
@@ -96,7 +94,7 @@ public class BottomBarController : MonoBehaviour
             if (Input.GetKeyDown(key)) skipKeyPressed = true;
         }
 
-        if (state == State.COMPLETED && (Input.GetMouseButtonDown(0) || keyPressed))
+        if (fadingCoroutine == null && state == State.COMPLETED && (Input.GetMouseButtonDown(0) || keyPressed))
         {
             if (SentenceIndex >= CurrentText.sentences.Count - 1)
             {
@@ -116,8 +114,14 @@ public class BottomBarController : MonoBehaviour
         else if (state == State.PLAYING && currentPlayingCoroutine != null && (Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1) || skipKeyPressed))
         {
             StopCoroutine(currentPlayingCoroutine);
+            if(fadingCoroutine != null)
+                StopCoroutine(fadingCoroutine);
+            speakerSprite.color = defaultSpriteColor;
+            NameText.color = CurrentText.sentences[sentenceIndex].speaker.textColor;
+            DialogueText.color = new Color(DialogueText.color.r, DialogueText.color.g, DialogueText.color.b, 1f);
             DialogueText.text = CurrentText.sentences[sentenceIndex].text;
             state = State.COMPLETED;
+            fadingCoroutine = null;
         }
     }
 
@@ -148,6 +152,40 @@ public class BottomBarController : MonoBehaviour
                 break;
             }
         }
+    }
+    
+    private IEnumerator FadeSpeaker(int indx)
+    {
+        defaultSpriteColor = speakerSprite.color;
+        
+        for(float alpha = 1f; alpha >= 0f; alpha -= Time.deltaTime * 2f)
+        {
+            NameText.color = new Color(NameText.color.r, NameText.color.g, NameText.color.b, alpha);
+            DialogueText.color = new Color(DialogueText.color.r, DialogueText.color.g, DialogueText.color.b, alpha);
+            speakerSprite.color = new Color(defaultSpriteColor.r * alpha, defaultSpriteColor.g * alpha, defaultSpriteColor.b * alpha, 1f);
+            yield return null;
+        }
+        
+        NameText.text = CurrentText.sentences[indx].speaker.speakerName;
+        DialogueText.text = "";
+        DialogueText.color = new Color(DialogueText.color.r, DialogueText.color.g, DialogueText.color.b, 1f);
+        speakerSprite.sprite = CurrentText.sentences[indx].speaker.sprites[CurrentText.sentences[indx].speakerSpriteId];
+        Color newColor = CurrentText.sentences[indx].speaker.textColor;
+        NameText.color = new Color(newColor.r, newColor.g, newColor.b, 0f);
+        
+        
+        currentPlayingCoroutine = StartCoroutine(TypeText(CurrentText.sentences[indx].text, CurrentText.sentences[indx].delay, CurrentText.sentences[indx].voiceLine));
+        
+        
+        for(float alpha = 0f; alpha < 1f; alpha += Time.deltaTime * 2f)
+        {
+            NameText.color = new Color(NameText.color.r, NameText.color.g, NameText.color.b, alpha);
+            speakerSprite.color = new Color(defaultSpriteColor.r * alpha, defaultSpriteColor.g * alpha, defaultSpriteColor.b * alpha, 1f);
+            yield return null;
+        }
+        
+        fadingCoroutine = null;
+        yield break;
     }
 
     private enum State

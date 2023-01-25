@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class DialogTrigger : MonoBehaviour
+public class DialogueTrigger : MonoBehaviour
 {
     public TextEngine Dialogue;
 

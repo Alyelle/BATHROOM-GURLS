@@ -19,6 +19,10 @@ public class BottomBarController : MonoBehaviour
     public TextEngine CurrentText;
 
     Coroutine currentPlayingCoroutine;
+    
+    Coroutine fadingCoroutine;
+    
+    Color defaultSpriteColor;
 
     AudioSource currentVoiceline;
 
@@ -104,7 +108,7 @@ public class BottomBarController : MonoBehaviour
             if (Input.GetKeyDown(key)) skipKeyPressed = true;
         }
 
-        if (state == State.COMPLETED && (Input.GetMouseButtonDown(0) || keyPressed))
+        if (fadingCoroutine == null && state == State.COMPLETED && (Input.GetMouseButtonDown(0) || keyPressed))
         {
             if (SentenceIndex >= CurrentText.sentences.Count - 1)
             {
@@ -124,8 +128,14 @@ public class BottomBarController : MonoBehaviour
         else if (state == State.PLAYING && currentPlayingCoroutine != null && (Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1) || skipKeyPressed))
         {
             StopCoroutine(currentPlayingCoroutine);
+            if(fadingCoroutine != null)
+                StopCoroutine(fadingCoroutine);
+            speakerSprite.color = defaultSpriteColor;
+            NameText.color = CurrentText.sentences[sentenceIndex].speaker.textColor;
+            DialogueText.color = new Color(DialogueText.color.r, DialogueText.color.g, DialogueText.color.b, 1f);
             DialogueText.text = CurrentText.sentences[sentenceIndex].text;
             state = State.COMPLETED;
+            fadingCoroutine = null;
         }
     }
 

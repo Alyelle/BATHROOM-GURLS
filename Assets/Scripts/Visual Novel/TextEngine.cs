@@ -16,12 +16,15 @@ public class TextEngine : ScriptableObject
         public string text;
         public string animationName;
 
+        public bool unskippable;
+        public bool autoPlay;
+
         public float delay;
 
         public int speakerSpriteId;
 
         public Speaker speaker;
         
-        public AudioClip voiceLine; //insert voice lines (to be manually added)
+        public AudioClip voiceLine; // insert voice lines (to be manually added)
     }
 }

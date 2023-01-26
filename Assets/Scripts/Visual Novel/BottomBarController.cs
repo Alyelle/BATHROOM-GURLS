@@ -108,35 +108,42 @@ public class BottomBarController : MonoBehaviour
             if (Input.GetKeyDown(key)) skipKeyPressed = true;
         }
 
+        if (state == State.COMPLETED && CurrentText.sentences[sentenceIndex].autoPlay) NextSentence();
+
         if (/*fadingCoroutine == null &&*/ state == State.COMPLETED && (Input.GetMouseButtonDown(0) || keyPressed))
         {
-            if (SentenceIndex >= CurrentText.sentences.Count - 1)
-            {
-                CurrentText = null;
-
-                gameObject.SetActive(false); // Exit animation
-
-                Time.timeScale = 1f;
-
-                OnDialogueEnd();
-
-                return;
-            }
-
-            SentenceIndex++;
+            NextSentence();
         }
-        else if (state == State.PLAYING && currentPlayingCoroutine != null && (Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1) || skipKeyPressed))
+        else if (state == State.PLAYING && currentPlayingCoroutine != null && (Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1) || skipKeyPressed) && !CurrentText.sentences[sentenceIndex].unskippable)
         {
             StopCoroutine(currentPlayingCoroutine);
             //if(fadingCoroutine != null)
-                //StopCoroutine(fadingCoroutine);
-/*            speakerSprite.color = defaultSpriteColor;
-            NameText.color = CurrentText.sentences[sentenceIndex].speaker.textColor;
-            DialogueText.color = new Color(DialogueText.color.r, DialogueText.color.g, DialogueText.color.b, 1f);
-            DialogueText.text = CurrentText.sentences[sentenceIndex].text;*/
+            //StopCoroutine(fadingCoroutine);
+            /* speakerSprite.color = defaultSpriteColor;
+              NameText.color = CurrentText.sentences[sentenceIndex].speaker.textColor;
+              DialogueText.color = new Color(DialogueText.color.r, DialogueText.color.g, DialogueText.color.b, 1f); */
+            DialogueText.text = CurrentText.sentences[sentenceIndex].text;
             state = State.COMPLETED;
             //fadingCoroutine = null;
         }
+    }
+
+    public void NextSentence()
+    {
+        if (SentenceIndex >= CurrentText.sentences.Count - 1)
+        {
+            CurrentText = null;
+
+            gameObject.SetActive(false); // Exit animation
+
+            Time.timeScale = 1f;
+
+            OnDialogueEnd();
+
+            return;
+        }
+
+        SentenceIndex++;
     }
 
     private IEnumerator TypeText(string text, float delay, AudioClip voice)

@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Mr. Vadey
   m_EditorClassIdentifier: 
   speakerName: Mr. Vadey
-  textColor: {r: 1, g: 1, b: 1, a: 0}
+  textColor: {r: 1, g: 1, b: 1, a: 1}
   sprites: []

@@ -247,7 +247,7 @@ MonoBehaviour:
   DialogueText: {fileID: 877818592}
   NameText: {fileID: 984372827}
   speakerSprite: {fileID: 403274265}
-  CurrentText: {fileID: 11400000, guid: d5a19a426d19e194b810a4338fbda2b7, type: 2}
+  CurrentText: {fileID: 11400000, guid: 7b96e5f033d88a6448ea3c51e37be130, type: 2}
 --- !u!114 &246360094
 MonoBehaviour:
   m_ObjectHideFlags: 0

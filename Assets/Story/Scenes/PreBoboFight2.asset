@@ -1,0 +1,262 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfec41f37a28ba844bf0cf2f2c2a911e, type: 3}
+  m_Name: PreBoboFight2
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: ...
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: e9b226a15c826b64ba55fb63994be0dd, type: 2}
+    voiceLine: {fileID: 0}
+  - text: I...I'll show them....
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: e9b226a15c826b64ba55fb63994be0dd, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "I'll show them that I\u2019m more than just a pathetic little meatball\u2014"
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: e9b226a15c826b64ba55fb63994be0dd, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Heyyyy! Pathetic little meatball!
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    voiceLine: {fileID: 0}
+  - text: ...!
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: eae57be4ee65a264798c739e0accbfa4, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Why are you crying?
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "I\u2019m not a pathetic little meatball! My name is Little Bobo!"
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: e9b226a15c826b64ba55fb63994be0dd, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Everyone thinks I get no spaghetti because of how I look...
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: eae57be4ee65a264798c739e0accbfa4, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "But\u2026 I\u2019m more than what they think! I am\u2014"
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: eae57be4ee65a264798c739e0accbfa4, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "Don\u2019t worry Little Bobo. I like you plenty!"
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "You\u2019re so small and cute, I could just hold you in my hands and pet
+      you all day!"
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    voiceLine: {fileID: 0}
+  - text: ...
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: eae57be4ee65a264798c739e0accbfa4, type: 2}
+    voiceLine: {fileID: 0}
+  - text: .......................................
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: eae57be4ee65a264798c739e0accbfa4, type: 2}
+    voiceLine: {fileID: 0}
+  - text: You...what.
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: eae57be4ee65a264798c739e0accbfa4, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Hahahahaha...HAHAHAHAHAHAHAHA. I see. I see now.
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: eae57be4ee65a264798c739e0accbfa4, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "I\u2019LL SHOW YOU...! I'LL SHOW YOU ALL WHAT THIS PATHETIC LITTLE MEATBALL
+      CAN DO...!"
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: eae57be4ee65a264798c739e0accbfa4, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Oh Cecile...you made it angry...
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "H-huh? I was just\u2014"
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "Look! It\u2019s\u2026 summoning\u2026 those mean meatballs back?"
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
+    voiceLine: {fileID: 0}
+  - text: AHHH! Why am I here?!
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 76575704777040b4cba7eada674ae396, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Help! Help us!
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: e675b7bc17026f64b8cf8f6cd5563650, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Little Bobo, you don't have to do this! I'm sorry!
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: af7c25e4d5f373146bf6fa7cdd36fedb, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Goodness! Where did all that spaghetti come from?
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "It\u2019s lost it! It\u2019s somehow mind controlling the other meatballs
+      and all that spaghetti!"
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
+    voiceLine: {fileID: 0}
+  - text: RAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA!!!
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: eae57be4ee65a264798c739e0accbfa4, type: 2}
+    voiceLine: {fileID: 0}
+  - text: '"LITTLE BOBO" IS NO MORE!'
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: eae57be4ee65a264798c739e0accbfa4, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Seriously, another name change?
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
+    voiceLine: {fileID: 0}
+  - text: FROM NOW ON, YOU MUST ADDRESS ME AS HIS NOODLINESS...THE FLYING SPAGHETTI
+      MONSTER!
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: eae57be4ee65a264798c739e0accbfa4, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "I\u2019LL SHOW YOU! I\u2019LL SHOW THEM ALL!!!"
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 526967cf407f31540a1e69b6f0f99495, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "BY THE END OF THIS FIGHT, I\u2019LL BECOME THE CENTER OF A RELIGION!"
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 526967cf407f31540a1e69b6f0f99495, type: 2}
+    voiceLine: {fileID: 0}
+  - text: What the hell is it on about?
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "I don\u2019t know, but it doesn\u2019t look good!"
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
+    voiceLine: {fileID: 0}
+  - text: COME AND SPAGHETT IT!
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 526967cf407f31540a1e69b6f0f99495, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Hey, long time no see!
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 3a5417b518449e345a5495681768da7c, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "Don\u2019t mind me just stepping in with some useful information again."
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 3a5417b518449e345a5495681768da7c, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "You\u2019re about to fight the first boss of the game. Instead of dying
+      instantly, the girls all share one health bar."
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 3a5417b518449e345a5495681768da7c, type: 2}
+    voiceLine: {fileID: 0}
+  - text: However, the boss also has a health bar.
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 3a5417b518449e345a5495681768da7c, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "If you succumb before defeating the boss, you\u2019ll have to restart
+      the boss battle."
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 3a5417b518449e345a5495681768da7c, type: 2}
+    voiceLine: {fileID: 0}
+  - text: 'Here''s a tip: remember to analyze its attack patterns.'
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 3a5417b518449e345a5495681768da7c, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Best of luck.
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 3a5417b518449e345a5495681768da7c, type: 2}
+    voiceLine: {fileID: 0}
+  nextScene: {fileID: 0}

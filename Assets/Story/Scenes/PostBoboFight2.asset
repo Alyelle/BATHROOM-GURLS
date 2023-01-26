@@ -1,0 +1,235 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfec41f37a28ba844bf0cf2f2c2a911e, type: 3}
+  m_Name: PostBoboFight2
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: LOOK AT ME NOW! AHAHAHA!
+    animationName: 
+    delay: 0
+    speakerSpriteId: 0
+    speaker: {fileID: 0}
+    voiceLine: {fileID: 0}
+  - text: YOU THOUGHT YOU WON? I HAVEN'T SHOWN YOU MY FULL POTENTIAL YET, RAHAHAHAAHAHA!
+    animationName: 
+    delay: 0
+    speakerSpriteId: 0
+    speaker: {fileID: 0}
+    voiceLine: {fileID: 0}
+  - text: ANYWAY, ANY LAST WORDS BEFORE YOU GUYS GET THROWN INTO THE PILE OF MISSING
+      PEOPLE?!
+    animationName: 
+    delay: 0
+    speakerSpriteId: 0
+    speaker: {fileID: 0}
+    voiceLine: {fileID: 0}
+  - text: "HERE'S A SUGGESTION: APOLOGIZE AND ADMIT THAT I'M JUST BETTER\u2014"
+    animationName: 
+    delay: 0
+    speakerSpriteId: 0
+    speaker: {fileID: 0}
+    voiceLine: {fileID: 0}
+  - text: STOP THIS! Please...
+    animationName: 
+    delay: 0
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
+    voiceLine: {fileID: 0}
+  - text: What the heck? A goth girl?
+    animationName: 
+    delay: 0
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 526967cf407f31540a1e69b6f0f99495, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "Ooh, that was the loudest I\u2019ve ever heard her talk."
+    animationName: 
+    delay: 0
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "Agh, it doesn\u2019t matter."
+    animationName: 
+    delay: 0
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 526967cf407f31540a1e69b6f0f99495, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "Tsk, it doesn\u2019t matter."
+    animationName: 
+    delay: 0
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 526967cf407f31540a1e69b6f0f99495, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "PREPARE TO PERISH! RAHAHAHA\u2014"
+    animationName: 
+    delay: 0
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 526967cf407f31540a1e69b6f0f99495, type: 2}
+    voiceLine: {fileID: 0}
+  - text: LISTEN TO ME!
+    animationName: 
+    delay: 0
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
+    voiceLine: {fileID: 0}
+  - text: ...!
+    animationName: 
+    delay: 0
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 526967cf407f31540a1e69b6f0f99495, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Little Bobo, I know how you feel.
+    animationName: 
+    delay: 0
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
+    voiceLine: {fileID: 0}
+  - text: ...what?
+    animationName: 
+    delay: 0
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 526967cf407f31540a1e69b6f0f99495, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "I mean\u2014I\u2019ve been there."
+    animationName: 
+    delay: 0
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "Everybody just sees me as some\u2026 edgy quiet goth girl."
+    animationName: 
+    delay: 0
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
+    voiceLine: {fileID: 0}
+  - text: (Whoops.)
+    animationName: 
+    delay: 0
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "The thing is, they\u2019re not wrong, but they also miss the side of me
+      that\u2019s...hardworking...persistent..."
+    animationName: 
+    delay: 0
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "I\u2019m academically stable, and I have bigger aspirations beyond high
+      school."
+    animationName: 
+    delay: 0
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "But nobody acknowledges that part of me, just because it doesn\u2019t
+      fit their narrative of who they think I am."
+    animationName: 
+    delay: 0
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
+    voiceLine: {fileID: 0}
+  - text: So I get it.
+    animationName: 
+    delay: 0
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "I know you\u2019re tired of being stereotyped by these other meatballs."
+    animationName: 
+    delay: 0
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "I know that you want to change yourself just so they can start seeing
+      the meatball you\u2019ve always seen, but that doesn\u2019t help."
+    animationName: 
+    delay: 0
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "But it\u2019s not worth changing yourself just so others can realize what
+      was always there."
+    animationName: 
+    delay: 0
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "You'll just have to find the right people that\u2019ll see past what you
+      appear to be."
+    animationName: 
+    delay: 0
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Lilith...
+    animationName: 
+    delay: 0
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "Oh for noodles\u2019 sake, what am I in, a soap opera?"
+    animationName: 
+    delay: 0
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
+    voiceLine: {fileID: 0}
+  - text: You know what, she makes for a good motivational speaker. Put her on the
+      speech and debate team.
+    animationName: 
+    delay: 0
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Hm...
+    animationName: 
+    delay: 0
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 526967cf407f31540a1e69b6f0f99495, type: 2}
+    voiceLine: {fileID: 0}
+  - text: I see.
+    animationName: 
+    delay: 0
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 526967cf407f31540a1e69b6f0f99495, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Thanks for that, random goth girl.
+    animationName: 
+    delay: 0
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 526967cf407f31540a1e69b6f0f99495, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Okay, seriously?
+    animationName: 
+    delay: 0
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Er, sorry, I mean Lilith.
+    animationName: 
+    delay: 0
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 526967cf407f31540a1e69b6f0f99495, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "You\u2019re right. I\u2019ve been so focused on what the meatballs think
+      of me that I lost myself there for a moment."
+    animationName: 
+    delay: 0
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 526967cf407f31540a1e69b6f0f99495, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Well...I guess I should let them go.
+    animationName: 
+    delay: 0
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 526967cf407f31540a1e69b6f0f99495, type: 2}
+    voiceLine: {fileID: 0}
+  nextScene: {fileID: 0}

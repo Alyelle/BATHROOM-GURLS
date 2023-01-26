@@ -34,7 +34,7 @@ MonoBehaviour:
   - text: Heyyyy! Pathetic little meatball!
     animationName: 
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 1
     speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
     voiceLine: {fileID: 0}
   - text: ...!
@@ -46,7 +46,7 @@ MonoBehaviour:
   - text: Why are you crying?
     animationName: 
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 8
     speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
     voiceLine: {fileID: 0}
   - text: "I\u2019m not a pathetic little meatball! My name is Little Bobo!"
@@ -70,14 +70,14 @@ MonoBehaviour:
   - text: "Don\u2019t worry Little Bobo. I like you plenty!"
     animationName: 
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 3
     speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
     voiceLine: {fileID: 0}
   - text: "You\u2019re so small and cute, I could just hold you in my hands and pet
       you all day!"
     animationName: 
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 5
     speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
     voiceLine: {fileID: 0}
   - text: ...
@@ -120,13 +120,13 @@ MonoBehaviour:
   - text: "H-huh? I was just\u2014"
     animationName: 
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 12
     speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
     voiceLine: {fileID: 0}
   - text: "Look! It\u2019s\u2026 summoning\u2026 those mean meatballs back?"
     animationName: 
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 8
     speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
     voiceLine: {fileID: 0}
   - text: AHHH! Why am I here?!

@@ -16,13 +16,13 @@ MonoBehaviour:
   - text: Mhmm...
     animationName: 
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 8
     speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
     voiceLine: {fileID: 0}
   - text: Woah, do you smell that? It suddenly smells so so good...
     animationName: 
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 1
     speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
     voiceLine: {fileID: 0}
   - text: 'Looks like we''re having spaghetti for lunch! Hell yeah! '
@@ -40,7 +40,7 @@ MonoBehaviour:
   - text: What are you looking at? I just like spaghetti a lot, okay?
     animationName: 
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 2
     speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
     voiceLine: {fileID: 0}
   - text: No, it's not that. What in God's name is that thing?
@@ -52,7 +52,7 @@ MonoBehaviour:
   - text: "What thing? I don't see any\u2014"
     animationName: 
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 8
     speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
     voiceLine: {fileID: 0}
   - text: GAAAAAAAAAHHH!!!!!!!!
@@ -76,7 +76,7 @@ MonoBehaviour:
   - text: It's a little meatball!
     animationName: 
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 3
     speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
     voiceLine: {fileID: 0}
   - text: A pathetic little meatball. Look at how useless that thing is. Pssht.

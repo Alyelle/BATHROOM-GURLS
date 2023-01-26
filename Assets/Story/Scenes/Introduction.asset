@@ -14,104 +14,124 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sentences:
   - text: Gosh, class is so boring.
+    animationName: Walk In
     delay: 0.025
     speakerSpriteId: 7
     speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
     voiceLine: {fileID: 0}
   - text: I hate Monday mornings...
+    animationName: Yes
     delay: 0.025
     speakerSpriteId: 4
     speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
     voiceLine: {fileID: 0}
   - text: "I can't stay awake in any of Mr. Vadey\u2019s lectures\u2026"
+    animationName: No
     delay: 0.025
     speakerSpriteId: 9
     speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
     voiceLine: {fileID: 0}
   - text: ...and worst of all...
+    animationName: 
     delay: 0.025
     speakerSpriteId: 0
     speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
     voiceLine: {fileID: 0}
   - text: ...I REALLY REALLY need to use the restroom!
+    animationName: 
     delay: 0.025
     speakerSpriteId: 12
     speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
     voiceLine: {fileID: 0}
   - text: CECILE, is it that bad?
+    animationName: 
     delay: 0.025
     speakerSpriteId: 1
     speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
     voiceLine: {fileID: 0}
   - text: Can't you just hold it for another 30 minutes?
+    animationName: 
     delay: 0.025
     speakerSpriteId: 2
     speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
     voiceLine: {fileID: 0}
   - text: I mean, I could...
+    animationName: 
     delay: 0.025
     speakerSpriteId: 10
     speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
     voiceLine: {fileID: 0}
   - text: "...but I just really need a break from Mr. Vadey\u2019s monotonous voice."
+    animationName: 
     delay: 0.025
     speakerSpriteId: 9
     speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
     voiceLine: {fileID: 0}
   - text: His classes are LITERAL torture!
+    animationName: 
     delay: 0.025
     speakerSpriteId: 2
     speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
     voiceLine: {fileID: 0}
   - text: True. But how are you gonna go? There's only two of us.
+    animationName: 
     delay: 0.025
     speakerSpriteId: 0
     speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
     voiceLine: {fileID: 0}
   - text: The last time three girls went to the restroom together, they never came
       back...
+    animationName: 
     delay: 0.025
     speakerSpriteId: 2
     speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
     voiceLine: {fileID: 0}
   - text: Diana and Mable went alone and they also disappeared.
+    animationName: 
     delay: 0.025
     speakerSpriteId: 3
     speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
     voiceLine: {fileID: 0}
   - text: "Yeah...well, there\u2019s a reason we only have four girls in this class
       of thirty."
+    animationName: 
     delay: 0.025
     speakerSpriteId: 0
     speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
     voiceLine: {fileID: 0}
   - text: Groups of four seem to hold up pretty okay.
+    animationName: 
     delay: 0.025
     speakerSpriteId: 1
     speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
     voiceLine: {fileID: 0}
   - text: But the only other girls in this class are ATHENA and LEAH.
+    animationName: 
     delay: 0.025
     speakerSpriteId: 2
     speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
     voiceLine: {fileID: 0}
   - text: ...
+    animationName: 
     delay: 0.025
     speakerSpriteId: 8
     speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
     voiceLine: {fileID: 0}
   - text: "ATHENA isn't that approachable...and we've always had, um, bad blood with
       LEAH.\r"
+    animationName: 
     delay: 0.025
     speakerSpriteId: 1
     speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
     voiceLine: {fileID: 0}
   - text: "Ew, don\u2019t even mention that name! I literally can't with her."
+    animationName: 
     delay: 0.025
     speakerSpriteId: 4
     speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
     voiceLine: {fileID: 0}
   - text: 'So much for using the restroom. '
+    animationName: 
     delay: 0.025
     speakerSpriteId: 9
     speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}

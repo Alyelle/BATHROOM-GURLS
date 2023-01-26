@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfec41f37a28ba844bf0cf2f2c2a911e, type: 3}
+  m_Name: PostBoboFight3
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: What just happened?
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: e675b7bc17026f64b8cf8f6cd5563650, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Ugh, my head hurts...I lost control of my body, and then the rest...I don't
+      remember.
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: e675b7bc17026f64b8cf8f6cd5563650, type: 2}
+    voiceLine: {fileID: 0}
+  - text: WOAH. Pathetic little meatball, was that you?
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 76575704777040b4cba7eada674ae396, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "It\u2019s Little Bobo to you, and yes."
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: eae57be4ee65a264798c739e0accbfa4, type: 2}
+    voiceLine: {fileID: 0}
+  - text: I'm sorry.
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: eae57be4ee65a264798c739e0accbfa4, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "No no, Little Bobo, that was awesome! You\u2019ll have to teach me how
+      to do that sometime."
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 76575704777040b4cba7eada674ae396, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Me too!
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: e675b7bc17026f64b8cf8f6cd5563650, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Ditto!
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: af7c25e4d5f373146bf6fa7cdd36fedb, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Ugh, I can't believe spent all this time befriending a meatball. Can we
+      leave already?
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Yeah, that was pretty pre-pasta-rous.
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
+    voiceLine: {fileID: 0}
+  - text: ...
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: <3
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
+    voiceLine: {fileID: 0}
+  - text: We should definitely get going. We have a bathroom to reach.
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Goodbye, Little Bobo. It was nice getting to know you.
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Onwards to the courtyard!
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    voiceLine: {fileID: 0}
+  nextScene: {fileID: 0}

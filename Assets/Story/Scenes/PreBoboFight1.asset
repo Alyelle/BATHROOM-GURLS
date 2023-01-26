@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfec41f37a28ba844bf0cf2f2c2a911e, type: 3}
+  m_Name: PreBoboFight1
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: Mhmm...
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Woah, do you smell that? It suddenly smells so so good...
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    voiceLine: {fileID: 0}
+  - text: 'Looks like we''re having spaghetti for lunch! Hell yeah! '
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
+    voiceLine: {fileID: 0}
+  - text: ...?!?!
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: What are you looking at? I just like spaghetti a lot, okay?
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
+    voiceLine: {fileID: 0}
+  - text: No, it's not that. What in God's name is that thing?
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "What thing? I don't see any\u2014"
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
+    voiceLine: {fileID: 0}
+  - text: GAAAAAAAAAHHH!!!!!!!!
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Waaaaaaah...
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: e9b226a15c826b64ba55fb63994be0dd, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Waaaaaaaaaaaaaaaaaaaah...waaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaah...
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: e9b226a15c826b64ba55fb63994be0dd, type: 2}
+    voiceLine: {fileID: 0}
+  - text: It's a little meatball!
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    voiceLine: {fileID: 0}
+  - text: A pathetic little meatball. Look at how useless that thing is. Pssht.
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Huh, there's more of them!
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
+    voiceLine: {fileID: 0}
+  - text: HAHAHAHA! You're so pathetic and weak! And you still go around calling
+      yourself a MEATBALL?!
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 76575704777040b4cba7eada674ae396, type: 2}
+    voiceLine: {fileID: 0}
+  - text: You'll be alone forever. You get no spaghetti.
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: e675b7bc17026f64b8cf8f6cd5563650, type: 2}
+    voiceLine: {fileID: 0}
+  - text: You have terrible taste. It won't be long until you rot and spoil after
+      someone throws you away!
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: af7c25e4d5f373146bf6fa7cdd36fedb, type: 2}
+    voiceLine: {fileID: 0}
+  - text: That's not true! That's not true that's not true! I do get spaghetti!
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: eae57be4ee65a264798c739e0accbfa4, type: 2}
+    voiceLine: {fileID: 0}
+  - text: With that tiny body? You must be joking!
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 76575704777040b4cba7eada674ae396, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "Meatballs, why are we wasting our time showing this pathetic little meatball
+      its place? We\u2019ve got more important matters to take care of."
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: e675b7bc17026f64b8cf8f6cd5563650, type: 2}
+    voiceLine: {fileID: 0}
+  - text: You're right. Later, loser!
+    animationName: 
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: af7c25e4d5f373146bf6fa7cdd36fedb, type: 2}
+    voiceLine: {fileID: 0}
+  nextScene: {fileID: 0}

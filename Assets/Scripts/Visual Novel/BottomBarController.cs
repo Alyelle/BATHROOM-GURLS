@@ -20,15 +20,15 @@ public class BottomBarController : MonoBehaviour
 
     Coroutine currentPlayingCoroutine;
     
-    // Coroutine fadingCoroutine;
+    Coroutine fadingCoroutine;
     
-    // Color defaultSpriteColor;
+    Color defaultSpriteColor;
 
     AudioSource currentVoiceline;
 
     Transform cameraTrans;
 
-    Animator anim;
+    //Animator anim;
 
     [HideInInspector]
     public int SentenceIndex
@@ -54,10 +54,11 @@ public class BottomBarController : MonoBehaviour
 
             speakerSprite.sprite = CurrentText.sentences[sentenceIndex].speaker.sprites[CurrentText.sentences[sentenceIndex].speakerSpriteId];
 
-            if (string.IsNullOrEmpty(CurrentText.sentences[sentenceIndex].animationName))
+            /*if (string.IsNullOrEmpty(CurrentText.sentences[sentenceIndex].animationName))
                 anim.Play("None", -1, 0f);
             else
                 anim.Play(CurrentText.sentences[sentenceIndex].animationName, -1, 0f);
+            */
         }
     }
 
@@ -72,7 +73,7 @@ public class BottomBarController : MonoBehaviour
 
         cameraTrans = Camera.main.transform;
 
-        anim = speakerSprite.GetComponent<Animator>();
+        //anim = speakerSprite.GetComponent<Animator>();
     }
 
     private void Start()
@@ -124,7 +125,7 @@ public class BottomBarController : MonoBehaviour
               DialogueText.color = new Color(DialogueText.color.r, DialogueText.color.g, DialogueText.color.b, 1f); */
             DialogueText.text = CurrentText.sentences[sentenceIndex].text;
             state = State.COMPLETED;
-            //fadingCoroutine = null;
+            fadingCoroutine = null;
         }
     }
 
@@ -174,12 +175,12 @@ public class BottomBarController : MonoBehaviour
             }
         }
     }
-    
-    /*private IEnumerator FadeSpeaker(int indx)
+    /*
+    private IEnumerator FadeSpeaker(int indx)
     {
         defaultSpriteColor = speakerSprite.color;
         
-        for(float alpha = 1f; alpha >= 0f; alpha -= Time.deltaTime * 2f)
+        for(float alpha = 1f; alpha >= 0f; alpha -= Time.deltaTime * 8f)
         {
             NameText.color = new Color(NameText.color.r, NameText.color.g, NameText.color.b, alpha);
             DialogueText.color = new Color(DialogueText.color.r, DialogueText.color.g, DialogueText.color.b, alpha);
@@ -198,12 +199,13 @@ public class BottomBarController : MonoBehaviour
         currentPlayingCoroutine = StartCoroutine(TypeText(CurrentText.sentences[indx].text, CurrentText.sentences[indx].delay, CurrentText.sentences[indx].voiceLine));
         
         
-        for(float alpha = 0f; alpha < 1f; alpha += Time.deltaTime * 2f)
+        for(float alpha = 0f; alpha < 1f; alpha += Time.deltaTime * 8f)
         {
             NameText.color = new Color(NameText.color.r, NameText.color.g, NameText.color.b, alpha);
             speakerSprite.color = new Color(defaultSpriteColor.r * alpha, defaultSpriteColor.g * alpha, defaultSpriteColor.b * alpha, 1f);
             yield return null;
         }
+        
         
         fadingCoroutine = null;
         yield break;

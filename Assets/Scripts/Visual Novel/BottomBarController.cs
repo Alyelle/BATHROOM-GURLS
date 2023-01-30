@@ -28,7 +28,7 @@ public class BottomBarController : MonoBehaviour
 
     Transform cameraTrans;
 
-    //Animator anim;
+    Animator anim;
 
     [HideInInspector]
     public int SentenceIndex
@@ -54,11 +54,11 @@ public class BottomBarController : MonoBehaviour
 
             speakerSprite.sprite = CurrentText.sentences[sentenceIndex].speaker.sprites[CurrentText.sentences[sentenceIndex].speakerSpriteId];
 
-            /*if (string.IsNullOrEmpty(CurrentText.sentences[sentenceIndex].animationName))
+            if (string.IsNullOrEmpty(CurrentText.sentences[sentenceIndex].animationName))
                 anim.Play("None", -1, 0f);
             else
                 anim.Play(CurrentText.sentences[sentenceIndex].animationName, -1, 0f);
-            */
+
         }
     }
 
@@ -73,7 +73,7 @@ public class BottomBarController : MonoBehaviour
 
         cameraTrans = Camera.main.transform;
 
-        //anim = speakerSprite.GetComponent<Animator>();
+        anim = speakerSprite.GetComponent<Animator>();
     }
 
     private void Start()
@@ -109,35 +109,44 @@ public class BottomBarController : MonoBehaviour
             if (Input.GetKeyDown(key)) skipKeyPressed = true;
         }
 
-        if (fadingCoroutine == null && state == State.COMPLETED && (Input.GetMouseButtonDown(0) || keyPressed))
+        if (state == State.COMPLETED && CurrentText.sentences[sentenceIndex].autoPlay) NextSentence();
+
+        if (/*fadingCoroutine == null && */state == State.COMPLETED && (Input.GetMouseButtonDown(0) || keyPressed))
         {
-            if (SentenceIndex >= CurrentText.sentences.Count - 1)
-            {
-                CurrentText = null;
-
-                gameObject.SetActive(false); // Exit animation
-
-                Time.timeScale = 1f;
-
-                OnDialogueEnd();
-
-                return;
-            }
-
-            SentenceIndex++;
+            NextSentence();
         }
-        else if (state == State.PLAYING && currentPlayingCoroutine != null && (Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1) || skipKeyPressed))
+        else if (state == State.PLAYING && currentPlayingCoroutine != null && (Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1) || skipKeyPressed) && !CurrentText.sentences[sentenceIndex].unskippable)
         {
             StopCoroutine(currentPlayingCoroutine);
-            if(fadingCoroutine != null)
-                StopCoroutine(fadingCoroutine);
+            //if(fadingCoroutine != null)
+            //StopCoroutine(fadingCoroutine);
+            /*
             speakerSprite.color = defaultSpriteColor;
             NameText.color = CurrentText.sentences[sentenceIndex].speaker.textColor;
             DialogueText.color = new Color(DialogueText.color.r, DialogueText.color.g, DialogueText.color.b, 1f);
+            */
             DialogueText.text = CurrentText.sentences[sentenceIndex].text;
             state = State.COMPLETED;
             fadingCoroutine = null;
         }
+    }
+
+    public void NextSentence()
+    {
+        if (SentenceIndex >= CurrentText.sentences.Count - 1)
+        {
+            CurrentText = null;
+
+            gameObject.SetActive(false); // Exit animation
+
+            Time.timeScale = 1f;
+
+            OnDialogueEnd();
+
+            return;
+        }
+
+        SentenceIndex++;
     }
 
     private IEnumerator TypeText(string text, float delay, AudioClip voice)
@@ -202,7 +211,8 @@ public class BottomBarController : MonoBehaviour
         
         fadingCoroutine = null;
         yield break;
-    }*/
+    }
+    */
 
     private enum State
     {

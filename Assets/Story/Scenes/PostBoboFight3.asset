@@ -15,6 +15,8 @@ MonoBehaviour:
   sentences:
   - text: What just happened?
     animationName: 
+    unskippable: 0
+    autoPlay: 0
     delay: 0.025
     speakerSpriteId: 0
     speaker: {fileID: 11400000, guid: e675b7bc17026f64b8cf8f6cd5563650, type: 2}
@@ -22,24 +24,32 @@ MonoBehaviour:
   - text: Ugh, my head hurts...I lost control of my body, and then the rest...I don't
       remember.
     animationName: 
+    unskippable: 0
+    autoPlay: 0
     delay: 0.025
     speakerSpriteId: 0
     speaker: {fileID: 11400000, guid: e675b7bc17026f64b8cf8f6cd5563650, type: 2}
     voiceLine: {fileID: 0}
   - text: WOAH. Pathetic little meatball, was that you?
     animationName: 
+    unskippable: 0
+    autoPlay: 0
     delay: 0.025
     speakerSpriteId: 0
     speaker: {fileID: 11400000, guid: 76575704777040b4cba7eada674ae396, type: 2}
     voiceLine: {fileID: 0}
   - text: "It\u2019s Little Bobo to you, and yes."
     animationName: 
+    unskippable: 0
+    autoPlay: 0
     delay: 0.025
     speakerSpriteId: 0
     speaker: {fileID: 11400000, guid: eae57be4ee65a264798c739e0accbfa4, type: 2}
     voiceLine: {fileID: 0}
   - text: I'm sorry.
     animationName: 
+    unskippable: 0
+    autoPlay: 0
     delay: 0.025
     speakerSpriteId: 0
     speaker: {fileID: 11400000, guid: eae57be4ee65a264798c739e0accbfa4, type: 2}
@@ -47,61 +57,81 @@ MonoBehaviour:
   - text: "No no, Little Bobo, that was awesome! You\u2019ll have to teach me how
       to do that sometime."
     animationName: 
+    unskippable: 0
+    autoPlay: 0
     delay: 0.025
     speakerSpriteId: 0
     speaker: {fileID: 11400000, guid: 76575704777040b4cba7eada674ae396, type: 2}
     voiceLine: {fileID: 0}
   - text: Me too!
     animationName: 
+    unskippable: 0
+    autoPlay: 0
     delay: 0.025
     speakerSpriteId: 0
     speaker: {fileID: 11400000, guid: e675b7bc17026f64b8cf8f6cd5563650, type: 2}
     voiceLine: {fileID: 0}
   - text: Ditto!
     animationName: 
+    unskippable: 0
+    autoPlay: 0
     delay: 0.025
     speakerSpriteId: 0
     speaker: {fileID: 11400000, guid: af7c25e4d5f373146bf6fa7cdd36fedb, type: 2}
     voiceLine: {fileID: 0}
-  - text: Ugh, I can't believe spent all this time befriending a meatball. Can we
-      leave already?
+  - text: Ugh, I can't believe we spent all this time befriending a meatball. Can
+      we leave already?
     animationName: 
+    unskippable: 0
+    autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 7
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: Yeah, that was pretty pre-pasta-rous.
     animationName: 
+    unskippable: 0
+    autoPlay: 0
     delay: 0.025
     speakerSpriteId: 4
     speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
     voiceLine: {fileID: 0}
   - text: ...
     animationName: 
+    unskippable: 0
+    autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 8
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: :')
     animationName: 
+    unskippable: 0
+    autoPlay: 0
     delay: 0.025
     speakerSpriteId: 7
     speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
     voiceLine: {fileID: 0}
   - text: We should definitely get going. We have a bathroom to reach.
     animationName: 
+    unskippable: 0
+    autoPlay: 0
     delay: 0.025
     speakerSpriteId: 0
     speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
     voiceLine: {fileID: 0}
   - text: Goodbye, Little Bobo. It was nice getting to know you.
     animationName: 
+    unskippable: 0
+    autoPlay: 0
     delay: 0.025
     speakerSpriteId: 0
     speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
     voiceLine: {fileID: 0}
   - text: Onwards to the courtyard!
     animationName: 
+    unskippable: 0
+    autoPlay: 0
     delay: 0.025
     speakerSpriteId: 3
     speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}

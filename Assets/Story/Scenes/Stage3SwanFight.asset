@@ -10,10 +10,26 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cfec41f37a28ba844bf0cf2f2c2a911e, type: 3}
-  m_Name: PostPoolFight1
+  m_Name: Stage3SwanFight
   m_EditorClassIdentifier: 
   sentences:
-  - text: Oh Lilith, that was so moving~
+  - text: Eughhhh, my wings!
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: e435cb813bdd36d4799da97b4e3e152d, type: 2}
+    voiceLine: {fileID: 0}
+  - text: ...hah!
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Are you guys okay?
     animationName: 
     unskippable: 0
     autoPlay: 0
@@ -21,28 +37,28 @@ MonoBehaviour:
     speakerSpriteId: 0
     speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
     voiceLine: {fileID: 0}
-  - text: Even through all this time, I never knew how you felt!
+  - text: I...
     animationName: 
     unskippable: 0
     autoPlay: 0
     delay: 0.025
     speakerSpriteId: 0
-    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
-  - text: "Thanks. You\u2019ve always seen me as more than a goth, anyway."
+  - text: It matters not! This has gone on for too long.
     animationName: 
     unskippable: 0
     autoPlay: 0
     delay: 0.025
     speakerSpriteId: 0
-    speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
+    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
-  - text: "Thanks. You\u2019ve always seen me as more than a goth, anyway."
+  - text: Concentrate on defeating that idiotic, chlorine-spitting menace of a floatie!
     animationName: 
     unskippable: 0
     autoPlay: 0
     delay: 0.025
     speakerSpriteId: 0
-    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   nextScene: {fileID: 0}

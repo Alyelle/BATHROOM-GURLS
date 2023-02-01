@@ -20,9 +20,9 @@ public class BottomBarController : MonoBehaviour
 
     Coroutine currentPlayingCoroutine;
     
-    Coroutine fadingCoroutine;
+    // Coroutine fadingCoroutine;
     
-    Color defaultSpriteColor;
+    // Color defaultSpriteColor;
 
     AudioSource currentVoiceline;
 
@@ -127,7 +127,7 @@ public class BottomBarController : MonoBehaviour
             */
             DialogueText.text = CurrentText.sentences[sentenceIndex].text;
             state = State.COMPLETED;
-            fadingCoroutine = null;
+            // fadingCoroutine = null;
         }
     }
 
@@ -225,5 +225,5 @@ public class BottomBarController : MonoBehaviour
     }
 
     public event Action onDialogueEnd;
-    public void OnDialogueEnd() { if (onDialogueEnd != null) onDialogueEnd(); }
+    public void OnDialogueEnd() { onDialogueEnd?.Invoke(); }
 }

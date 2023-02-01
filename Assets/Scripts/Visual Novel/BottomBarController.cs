@@ -136,15 +136,17 @@ public class BottomBarController : MonoBehaviour
         if (SentenceIndex >= CurrentText.sentences.Count - 1)
         {
             if (CurrentText.nextScene == null)
+            {
                 CurrentText = null;
+
+                gameObject.SetActive(false); // Exit animation
+
+                Time.timeScale = 1f;
+
+                OnDialogueEnd();
+            }
             else
                 CurrentText = CurrentText.nextScene;
-
-            gameObject.SetActive(false); // Exit animation
-
-            Time.timeScale = 1f;
-
-            OnDialogueEnd();
 
             return;
         }

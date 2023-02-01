@@ -135,7 +135,10 @@ public class BottomBarController : MonoBehaviour
     {
         if (SentenceIndex >= CurrentText.sentences.Count - 1)
         {
-            CurrentText = null;
+            if (CurrentText.nextScene == null)
+                CurrentText = null;
+            else
+                CurrentText = CurrentText.nextScene;
 
             gameObject.SetActive(false); // Exit animation
 

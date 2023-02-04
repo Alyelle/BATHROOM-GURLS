@@ -16,8 +16,8 @@ MonoBehaviour:
   - text: Whewww!
     animationName: 
     delay: 0.025
-    speakerSpriteId: 0
-    speaker: {fileID: 0}
+    speakerSpriteId: 9
+    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
     voiceLine: {fileID: 0}
   - text: Hmph. That was light work.
     animationName: 

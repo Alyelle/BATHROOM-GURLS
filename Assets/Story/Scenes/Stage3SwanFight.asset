@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfec41f37a28ba844bf0cf2f2c2a911e, type: 3}
+  m_Name: Stage3SwanFight
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: Eughhhh, my wings!
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: e435cb813bdd36d4799da97b4e3e152d, type: 2}
+    voiceLine: {fileID: 0}
+  - text: ...hah!
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Are you guys okay?
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    voiceLine: {fileID: 0}
+  - text: I...
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: It matters not! This has gone on for too long.
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Concentrate on defeating that idiotic, chlorine-spitting menace of a floatie!
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
+    voiceLine: {fileID: 0}
+  nextScene: {fileID: 0}

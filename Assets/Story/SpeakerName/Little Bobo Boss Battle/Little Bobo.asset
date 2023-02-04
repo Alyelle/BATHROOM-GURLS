@@ -14,4 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speakerName: Little Bobo
   textColor: {r: 0, g: 0, b: 0, a: 0}
-  sprites: []
+  sprites:
+  - {fileID: 21300000, guid: b6e9db1ca563bad44898d27f22c11c8e, type: 3}
+  - {fileID: 21300000, guid: bbf2717d67595e34596751e00c928333, type: 3}
+  - {fileID: 21300000, guid: a58d233565482994dad120669e03b19f, type: 3}
+  - {fileID: 21300000, guid: 0705f4486dade8a4d8e24401011cf414, type: 3}
+  - {fileID: 21300000, guid: 2e109d3ac3f8c124dbb3cd17680f45c0, type: 3}
+  - {fileID: 21300000, guid: 9bda96032ca9ca9439921fe20addae6d, type: 3}

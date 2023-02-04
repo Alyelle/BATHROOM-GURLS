@@ -23,6 +23,8 @@ public class TextEngine : ScriptableObject
 
         public int speakerSpriteId;
 
+        public Sprite background;
+
         public Speaker speaker;
         
         public AudioClip voiceLine; // insert voice lines (to be manually added)

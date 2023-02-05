@@ -5,6 +5,8 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "NewStoryScene", menuName = "Data/New Story Scene")]
 public class TextEngine : ScriptableObject
 {
+    public Sprite background;
+
     public List<Sentence> sentences;
     public TextEngine nextScene;
 
@@ -22,8 +24,6 @@ public class TextEngine : ScriptableObject
         public float delay;
 
         public int speakerSpriteId;
-
-        public Sprite background;
 
         public Speaker speaker;
         

@@ -15,6 +15,7 @@ public class BottomBarController : MonoBehaviour
     public TMP_Text NameText;
 
     public Image speakerSprite;
+    public Image bg;
 
     public TextEngine CurrentText;
 
@@ -162,6 +163,8 @@ public class BottomBarController : MonoBehaviour
         currentVoiceline = AudioSystem.PlaySound(voice, cameraTrans.position, 1f, 128);
 
         DialogueText.text = ""; // Reset the dialogue box
+
+        bg.sprite = CurrentText.background;
 
         state = State.PLAYING; // Set the play state of the dialogue
 

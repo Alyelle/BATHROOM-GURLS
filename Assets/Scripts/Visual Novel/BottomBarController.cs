@@ -59,7 +59,10 @@ public class BottomBarController : MonoBehaviour
                 anim.Play("None", -1, 0f);
             else
                 anim.Play(CurrentText.sentences[sentenceIndex].animationName, -1, 0f);
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
         }
     }
 
@@ -110,6 +113,7 @@ public class BottomBarController : MonoBehaviour
             if (Input.GetKeyDown(key)) skipKeyPressed = true;
         }
 
+<<<<<<< Updated upstream
         if (state == State.COMPLETED && CurrentText.sentences[sentenceIndex].autoPlay) NextSentence();
 
         if (/*fadingCoroutine == null && */state == State.COMPLETED && (Input.GetMouseButtonDown(0) || keyPressed))
@@ -117,6 +121,9 @@ public class BottomBarController : MonoBehaviour
             NextSentence();
         }
         else if (state == State.PLAYING && currentPlayingCoroutine != null && (Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1) || skipKeyPressed) && !CurrentText.sentences[sentenceIndex].unskippable)
+=======
+        if (/*fadingCoroutine == null &&*/ state == State.COMPLETED && (Input.GetMouseButtonDown(0) || keyPressed))
+>>>>>>> Stashed changes
         {
             StopCoroutine(currentPlayingCoroutine);
             //if(fadingCoroutine != null)
@@ -149,7 +156,23 @@ public class BottomBarController : MonoBehaviour
             else
                 CurrentText = CurrentText.nextScene;
 
+<<<<<<< Updated upstream
             return;
+=======
+            SentenceIndex++;
+        }
+        else if (state == State.PLAYING && currentPlayingCoroutine != null && (Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1) || skipKeyPressed))
+        {
+            StopCoroutine(currentPlayingCoroutine);
+            //if(fadingCoroutine != null)
+                //StopCoroutine(fadingCoroutine);
+/*            speakerSprite.color = defaultSpriteColor;
+            NameText.color = CurrentText.sentences[sentenceIndex].speaker.textColor;
+            DialogueText.color = new Color(DialogueText.color.r, DialogueText.color.g, DialogueText.color.b, 1f);
+            DialogueText.text = CurrentText.sentences[sentenceIndex].text;*/
+            state = State.COMPLETED;
+            //fadingCoroutine = null;
+>>>>>>> Stashed changes
         }
 
         SentenceIndex++;
@@ -185,8 +208,8 @@ public class BottomBarController : MonoBehaviour
             }
         }
     }
-    /*
-    private IEnumerator FadeSpeaker(int indx)
+    
+    /*private IEnumerator FadeSpeaker(int indx)
     {
         defaultSpriteColor = speakerSprite.color;
         
@@ -215,7 +238,6 @@ public class BottomBarController : MonoBehaviour
             speakerSprite.color = new Color(defaultSpriteColor.r * alpha, defaultSpriteColor.g * alpha, defaultSpriteColor.b * alpha, 1f);
             yield return null;
         }
-        
         
         fadingCoroutine = null;
         yield break;

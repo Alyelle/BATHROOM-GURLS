@@ -81,7 +81,10 @@ public class BottomBarController : MonoBehaviour
     private void Start()
     {
         if (CurrentText == null)
+        {
+            gameObject.SetActive(false);
             return;
+        }
 
         SentenceIndex = 0;
     }
@@ -89,7 +92,10 @@ public class BottomBarController : MonoBehaviour
     private void OnEnable()
     {
         if (CurrentText == null)
+        {
+            gameObject.SetActive(false);
             return;
+        }
 
         SentenceIndex = 0;
 

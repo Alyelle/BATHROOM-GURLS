@@ -24,7 +24,7 @@ MonoBehaviour:
     voiceLine: {fileID: 0}
   - text: Ugh, my head hurts...I lost control of my body, and then the rest...I don't
       remember.
-    animationName: 
+    animationName: No
     unskippable: 0
     autoPlay: 0
     delay: 0.025
@@ -44,20 +44,20 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 1
     speaker: {fileID: 11400000, guid: eae57be4ee65a264798c739e0accbfa4, type: 2}
     voiceLine: {fileID: 0}
   - text: I'm sorry.
     animationName: 
     unskippable: 0
     autoPlay: 0
-    delay: 0.025
-    speakerSpriteId: 0
+    delay: 0.5
+    speakerSpriteId: 2
     speaker: {fileID: 11400000, guid: eae57be4ee65a264798c739e0accbfa4, type: 2}
     voiceLine: {fileID: 0}
   - text: "No no, Little Bobo, that was awesome! You\u2019ll have to teach me how
       to do that sometime."
-    animationName: 
+    animationName: Shake
     unskippable: 0
     autoPlay: 0
     delay: 0.025
@@ -65,7 +65,7 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: 76575704777040b4cba7eada674ae396, type: 2}
     voiceLine: {fileID: 0}
   - text: Me too!
-    animationName: 
+    animationName: Yes
     unskippable: 0
     autoPlay: 0
     delay: 0.025
@@ -73,7 +73,7 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: e675b7bc17026f64b8cf8f6cd5563650, type: 2}
     voiceLine: {fileID: 0}
   - text: Ditto!
-    animationName: 
+    animationName: Yes
     unskippable: 0
     autoPlay: 0
     delay: 0.025
@@ -90,7 +90,7 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: Yeah, that was pretty pre-pasta-rous.
-    animationName: 
+    animationName: Shake
     unskippable: 0
     autoPlay: 0
     delay: 0.025
@@ -118,7 +118,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 8
     speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
     voiceLine: {fileID: 0}
   - text: Goodbye, Little Bobo. It was nice getting to know you.
@@ -130,7 +130,7 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
     voiceLine: {fileID: 0}
   - text: Onwards to the courtyard!
-    animationName: 
+    animationName: Yes
     unskippable: 0
     autoPlay: 0
     delay: 0.025

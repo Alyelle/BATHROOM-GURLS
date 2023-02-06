@@ -99,7 +99,7 @@ public class BottomBarController : MonoBehaviour
 
         SentenceIndex = 0;
 
-        Time.timeScale = 0f;
+        //Time.timeScale = 0f;
     }
 
     private void Update()

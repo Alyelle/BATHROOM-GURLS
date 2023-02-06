@@ -15,45 +15,45 @@ MonoBehaviour:
   background: {fileID: 21300000, guid: 9966f65278352044abb71c3750d4f76d, type: 3}
   sentences:
   - text: LOOK AT ME NOW! AHAHAHA!
-    animationName: 
+    animationName: Shake
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 2
     speaker: {fileID: 11400000, guid: 526967cf407f31540a1e69b6f0f99495, type: 2}
     voiceLine: {fileID: 0}
   - text: YOU THOUGHT YOU WON? I HAVEN'T SHOWN YOU MY FULL POTENTIAL YET, RAHAHAHAAHAHA!
-    animationName: 
+    animationName: Shake
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 3
     speaker: {fileID: 11400000, guid: 526967cf407f31540a1e69b6f0f99495, type: 2}
     voiceLine: {fileID: 0}
   - text: ANYWAY, ANY LAST WORDS BEFORE YOU GUYS GET THROWN INTO THE PILE OF MISSING
       PEOPLE?!
-    animationName: 
+    animationName: Shake
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 2
     speaker: {fileID: 11400000, guid: 526967cf407f31540a1e69b6f0f99495, type: 2}
     voiceLine: {fileID: 0}
   - text: "HERE'S A SUGGESTION: APOLOGIZE AND ADMIT THAT I, THE FLYING SPAGHETTI
-      MONSTER IS THE SU\u2014"
-    animationName: 
+      MONSTER IS THE SU\u2014                                                          "
+    animationName: Shake
     unskippable: 0
     autoPlay: 1
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 3
     speaker: {fileID: 11400000, guid: 526967cf407f31540a1e69b6f0f99495, type: 2}
     voiceLine: {fileID: 0}
   - text: STOP THIS! Please...
-    animationName: 
+    animationName: No
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 9
     speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
     voiceLine: {fileID: 0}
   - text: What the heck? A goth girl?
@@ -61,7 +61,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 4
     speaker: {fileID: 11400000, guid: 526967cf407f31540a1e69b6f0f99495, type: 2}
     voiceLine: {fileID: 0}
   - text: "Ooh, that was the loudest I\u2019ve ever heard her talk."
@@ -72,12 +72,12 @@ MonoBehaviour:
     speakerSpriteId: 6
     speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
     voiceLine: {fileID: 0}
-  - text: "Agh, it doesn\u2019t matter."
+  - text: ...
     animationName: 
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 1
     speaker: {fileID: 11400000, guid: 526967cf407f31540a1e69b6f0f99495, type: 2}
     voiceLine: {fileID: 0}
   - text: "Tsk, it doesn\u2019t matter."
@@ -85,15 +85,15 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 2
     speaker: {fileID: 11400000, guid: 526967cf407f31540a1e69b6f0f99495, type: 2}
     voiceLine: {fileID: 0}
-  - text: "PREPARE TO PERISH! RAHAHAHA\u2014"
+  - text: "PREPARE TO PERISH! RAHAHAHA\u2014                                                          "
     animationName: 
     unskippable: 0
     autoPlay: 1
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 3
     speaker: {fileID: 11400000, guid: 526967cf407f31540a1e69b6f0f99495, type: 2}
     voiceLine: {fileID: 0}
   - text: LISTEN TO ME!
@@ -101,7 +101,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 6
     speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
     voiceLine: {fileID: 0}
   - text: ...!
@@ -109,7 +109,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 1
     speaker: {fileID: 11400000, guid: 526967cf407f31540a1e69b6f0f99495, type: 2}
     voiceLine: {fileID: 0}
   - text: Little Bobo, I know how you feel.
@@ -117,7 +117,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 9
     speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
     voiceLine: {fileID: 0}
   - text: ...what?
@@ -125,7 +125,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 4
     speaker: {fileID: 11400000, guid: 526967cf407f31540a1e69b6f0f99495, type: 2}
     voiceLine: {fileID: 0}
   - text: "I mean\u2014I\u2019ve been there."
@@ -133,7 +133,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 12
     speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
     voiceLine: {fileID: 0}
   - text: "Everybody just sees me as some\u2026 edgy quiet goth girl."
@@ -141,7 +141,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 2
     speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
     voiceLine: {fileID: 0}
   - text: (Whoops.)
@@ -158,7 +158,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 12
     speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
     voiceLine: {fileID: 0}
   - text: "I\u2019m academically stable, and I have bigger aspirations beyond high
@@ -167,7 +167,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 7
     speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
     voiceLine: {fileID: 0}
   - text: "But nobody acknowledges that part of me, just because it doesn\u2019t
@@ -176,15 +176,15 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 2
     speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
     voiceLine: {fileID: 0}
   - text: So I get it.
-    animationName: 
+    animationName: Yes
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 11
     speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
     voiceLine: {fileID: 0}
   - text: "I know you\u2019re tired of being stereotyped by these other meatballs."
@@ -192,7 +192,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 7
     speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
     voiceLine: {fileID: 0}
   - text: "I know that you want to change yourself just so they can start seeing
@@ -201,7 +201,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 12
     speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
     voiceLine: {fileID: 0}
   - text: "But it\u2019s not worth changing yourself just so others can realize what
@@ -210,7 +210,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 8
     speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
     voiceLine: {fileID: 0}
   - text: "You'll just have to find the right people that\u2019ll see past what you
@@ -268,7 +268,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 1
     speaker: {fileID: 11400000, guid: 526967cf407f31540a1e69b6f0f99495, type: 2}
     voiceLine: {fileID: 0}
   - text: Okay, seriously?
@@ -276,7 +276,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 9
     speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
     voiceLine: {fileID: 0}
   - text: Er, sorry, I mean Lilith.
@@ -284,7 +284,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 1
     speaker: {fileID: 11400000, guid: 526967cf407f31540a1e69b6f0f99495, type: 2}
     voiceLine: {fileID: 0}
   - text: "You\u2019re right. I\u2019ve been so focused on what the meatballs think

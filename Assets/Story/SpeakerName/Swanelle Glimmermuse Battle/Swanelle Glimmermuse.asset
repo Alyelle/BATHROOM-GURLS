@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: Swanelle Glimmermuse
   m_EditorClassIdentifier: 
   speakerName: Swanelle Glimmermuse
-  textColor: {r: 1, g: 1, b: 1, a: 0}
-  sprites: []
+  textColor: {r: 0.75514275, g: 0.31523672, b: 0.8679245, a: 1}
+  sprites:
+  - {fileID: 21300000, guid: 5929cdf915e7c45449e5aaf876a3db92, type: 3}

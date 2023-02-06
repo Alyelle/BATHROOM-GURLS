@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfec41f37a28ba844bf0cf2f2c2a911e, type: 3}
   m_Name: PreSwanFight1
   m_EditorClassIdentifier: 
+  background: {fileID: 0}
   sentences:
   - text: Hey guys! Look!
     animationName: 
@@ -220,4 +221,4 @@ MonoBehaviour:
     speakerSpriteId: 0
     speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
     voiceLine: {fileID: 0}
-  nextScene: {fileID: 0}
+  nextScene: {fileID: 11400000, guid: a5dca2e2bc8f2194b9db3fd65028bbc0, type: 2}

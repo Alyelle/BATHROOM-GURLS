@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfec41f37a28ba844bf0cf2f2c2a911e, type: 3}
   m_Name: PostSwanFight
   m_EditorClassIdentifier: 
+  background: {fileID: 0}
   sentences:
   - text: No...NOOOOOOO!!!!!!!
     animationName: 
@@ -46,4 +47,4 @@ MonoBehaviour:
     speakerSpriteId: 0
     speaker: {fileID: 11400000, guid: e435cb813bdd36d4799da97b4e3e152d, type: 2}
     voiceLine: {fileID: 0}
-  nextScene: {fileID: 0}
+  nextScene: {fileID: 11400000, guid: 609c9e8e63fcdd54fb9eb7be0b2a5994, type: 2}

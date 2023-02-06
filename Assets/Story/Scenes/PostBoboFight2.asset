@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfec41f37a28ba844bf0cf2f2c2a911e, type: 3}
   m_Name: PostBoboFight2
   m_EditorClassIdentifier: 
+  background: {fileID: 21300000, guid: 9966f65278352044abb71c3750d4f76d, type: 3}
   sentences:
   - text: LOOK AT ME NOW! AHAHAHA!
     animationName: 
@@ -303,4 +304,4 @@ MonoBehaviour:
     speakerSpriteId: 0
     speaker: {fileID: 11400000, guid: 526967cf407f31540a1e69b6f0f99495, type: 2}
     voiceLine: {fileID: 0}
-  nextScene: {fileID: 0}
+  nextScene: {fileID: 11400000, guid: 525f47c328fba8e449ee8c36cf499655, type: 2}

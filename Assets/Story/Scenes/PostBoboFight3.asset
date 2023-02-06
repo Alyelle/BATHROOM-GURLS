@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfec41f37a28ba844bf0cf2f2c2a911e, type: 3}
   m_Name: PostBoboFight3
   m_EditorClassIdentifier: 
+  background: {fileID: 21300000, guid: 9966f65278352044abb71c3750d4f76d, type: 3}
   sentences:
   - text: What just happened?
     animationName: 
@@ -136,4 +137,4 @@ MonoBehaviour:
     speakerSpriteId: 3
     speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
     voiceLine: {fileID: 0}
-  nextScene: {fileID: 0}
+  nextScene: {fileID: 11400000, guid: 130e195f169d1d84eb81b2270d93ef8f, type: 2}

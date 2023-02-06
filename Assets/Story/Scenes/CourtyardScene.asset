@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfec41f37a28ba844bf0cf2f2c2a911e, type: 3}
   m_Name: CourtyardScene
   m_EditorClassIdentifier: 
+  background: {fileID: 0}
   sentences:
   - text: Oh Lilith, that was so moving~
     animationName: 
@@ -183,4 +184,4 @@ MonoBehaviour:
     speakerSpriteId: 0
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
-  nextScene: {fileID: 0}
+  nextScene: {fileID: 11400000, guid: 0c5faae41fe086f47a15e923f1a9f342, type: 2}

@@ -53,7 +53,8 @@ public class BottomBarController : MonoBehaviour
             NameText.text = CurrentText.sentences[sentenceIndex].speaker.speakerName;
             NameText.color = CurrentText.sentences[sentenceIndex].speaker.textColor;
 
-            speakerSprite.sprite = CurrentText.sentences[sentenceIndex].speaker.sprites[CurrentText.sentences[sentenceIndex].speakerSpriteId];
+            if (CurrentText.sentences[sentenceIndex].speakerSpriteId < CurrentText.sentences[sentenceIndex].speaker.sprites.Length)
+                speakerSprite.sprite = CurrentText.sentences[sentenceIndex].speaker.sprites[CurrentText.sentences[sentenceIndex].speakerSpriteId];
 
             if (string.IsNullOrEmpty(CurrentText.sentences[sentenceIndex].animationName))
                 anim.Play("None", -1, 0f);

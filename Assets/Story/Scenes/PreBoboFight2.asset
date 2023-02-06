@@ -19,15 +19,15 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 2
     speaker: {fileID: 11400000, guid: e9b226a15c826b64ba55fb63994be0dd, type: 2}
     voiceLine: {fileID: 0}
-  - text: I...I'll show them....
+  - text: I...I'll show them...
     animationName: 
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 3
     speaker: {fileID: 11400000, guid: e9b226a15c826b64ba55fb63994be0dd, type: 2}
     voiceLine: {fileID: 0}
   - text: "I'll show them that I\u2019m more than just a pathetic little meatball\u2014"
@@ -35,7 +35,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 1
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 4
     speaker: {fileID: 11400000, guid: e9b226a15c826b64ba55fb63994be0dd, type: 2}
     voiceLine: {fileID: 0}
   - text: Heyyyy! Pathetic little meatball!
@@ -51,7 +51,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 3
     speaker: {fileID: 11400000, guid: eae57be4ee65a264798c739e0accbfa4, type: 2}
     voiceLine: {fileID: 0}
   - text: Why are you crying?
@@ -67,7 +67,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 3
     speaker: {fileID: 11400000, guid: e9b226a15c826b64ba55fb63994be0dd, type: 2}
     voiceLine: {fileID: 0}
   - text: Everyone thinks I get no spaghetti because of how I look...
@@ -75,7 +75,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 2
     speaker: {fileID: 11400000, guid: eae57be4ee65a264798c739e0accbfa4, type: 2}
     voiceLine: {fileID: 0}
   - text: "But\u2026 I\u2019m more than what they think! I am\u2014"
@@ -83,7 +83,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 1
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 3
     speaker: {fileID: 11400000, guid: eae57be4ee65a264798c739e0accbfa4, type: 2}
     voiceLine: {fileID: 0}
   - text: "Don\u2019t worry Little Bobo. I like you plenty!"
@@ -108,7 +108,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 3
     speaker: {fileID: 11400000, guid: eae57be4ee65a264798c739e0accbfa4, type: 2}
     voiceLine: {fileID: 0}
   - text: .......................................
@@ -116,7 +116,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 3
     speaker: {fileID: 11400000, guid: eae57be4ee65a264798c739e0accbfa4, type: 2}
     voiceLine: {fileID: 0}
   - text: You...what.
@@ -124,7 +124,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 3
     speaker: {fileID: 11400000, guid: eae57be4ee65a264798c739e0accbfa4, type: 2}
     voiceLine: {fileID: 0}
   - text: Hahahahaha...HAHAHAHAHAHAHAHA. I see. I see now.
@@ -132,16 +132,16 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 4
     speaker: {fileID: 11400000, guid: eae57be4ee65a264798c739e0accbfa4, type: 2}
     voiceLine: {fileID: 0}
   - text: "I\u2019LL SHOW YOU...! I'LL SHOW YOU ALL WHAT THIS PATHETIC LITTLE MEATBALL
       CAN DO...!"
-    animationName: 
+    animationName: Shake
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 5
     speaker: {fileID: 11400000, guid: eae57be4ee65a264798c739e0accbfa4, type: 2}
     voiceLine: {fileID: 0}
   - text: Oh Cecile...you made it angry...
@@ -210,11 +210,11 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
     voiceLine: {fileID: 0}
   - text: RAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA!!!
-    animationName: 
+    animationName: Shake
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 5
     speaker: {fileID: 11400000, guid: eae57be4ee65a264798c739e0accbfa4, type: 2}
     voiceLine: {fileID: 0}
   - text: '"LITTLE BOBO" IS NO MORE!'
@@ -222,7 +222,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 4
     speaker: {fileID: 11400000, guid: eae57be4ee65a264798c739e0accbfa4, type: 2}
     voiceLine: {fileID: 0}
   - text: Seriously, another name change?
@@ -239,15 +239,15 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 5
     speaker: {fileID: 11400000, guid: eae57be4ee65a264798c739e0accbfa4, type: 2}
     voiceLine: {fileID: 0}
   - text: "I\u2019LL SHOW YOU! I\u2019LL SHOW THEM ALL!!!"
-    animationName: 
+    animationName: Shake
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 5
     speaker: {fileID: 11400000, guid: 526967cf407f31540a1e69b6f0f99495, type: 2}
     voiceLine: {fileID: 0}
   - text: "BY THE END OF THIS FIGHT, I\u2019LL BECOME THE CENTER OF A RELIGION!"
@@ -255,7 +255,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 5
     speaker: {fileID: 11400000, guid: 526967cf407f31540a1e69b6f0f99495, type: 2}
     voiceLine: {fileID: 0}
   - text: What the hell is it on about?
@@ -275,11 +275,11 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
     voiceLine: {fileID: 0}
   - text: COME AND SPAGHETT IT!
-    animationName: 
+    animationName: Shake
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 5
     speaker: {fileID: 11400000, guid: 526967cf407f31540a1e69b6f0f99495, type: 2}
     voiceLine: {fileID: 0}
   - text: Hey, long time no see!

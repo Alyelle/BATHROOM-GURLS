@@ -83,7 +83,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 2
     speaker: {fileID: 11400000, guid: e9b226a15c826b64ba55fb63994be0dd, type: 2}
     voiceLine: {fileID: 0}
   - text: Waaaaaaaaaaaaaaaaaaaah...waaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaah...
@@ -149,7 +149,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 1
     speaker: {fileID: 11400000, guid: eae57be4ee65a264798c739e0accbfa4, type: 2}
     voiceLine: {fileID: 0}
   - text: With that tiny body? You must be joking!

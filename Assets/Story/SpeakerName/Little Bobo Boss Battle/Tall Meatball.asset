@@ -14,4 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speakerName: Tall Meatball
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  sprites: []
+  sprites:
+  - {fileID: 21300000, guid: 9ebe9a0d068d20145a004fce5a8831a9, type: 3}

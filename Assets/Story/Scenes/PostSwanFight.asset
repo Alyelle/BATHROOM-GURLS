@@ -15,7 +15,7 @@ MonoBehaviour:
   background: {fileID: 0}
   sentences:
   - text: No...NOOOOOOO!!!!!!!
-    animationName: 
+    animationName: Shake
     unskippable: 0
     autoPlay: 0
     delay: 0.025
@@ -23,7 +23,7 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: e435cb813bdd36d4799da97b4e3e152d, type: 2}
     voiceLine: {fileID: 0}
   - text: I can't lose! I CAN'T LOSE I CAN'T LOSE I CAN'T LOSE!
-    animationName: 
+    animationName: No
     unskippable: 0
     autoPlay: 0
     delay: 0.025

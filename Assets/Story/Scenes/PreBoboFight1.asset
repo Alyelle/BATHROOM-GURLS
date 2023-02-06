@@ -31,7 +31,7 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
     voiceLine: {fileID: 0}
   - text: 'Looks like we''re having spaghetti for lunch! Hell yeah! '
-    animationName: 
+    animationName: Yes
     unskippable: 0
     autoPlay: 0
     delay: 0.025
@@ -71,7 +71,7 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
     voiceLine: {fileID: 0}
   - text: GAAAAAAAAAHHH!!!!!!!!
-    animationName: 
+    animationName: Shake
     unskippable: 0
     autoPlay: 0
     delay: 0.025
@@ -95,7 +95,7 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: e9b226a15c826b64ba55fb63994be0dd, type: 2}
     voiceLine: {fileID: 0}
   - text: It's a little meatball!
-    animationName: 
+    animationName: Yes
     unskippable: 0
     autoPlay: 0
     delay: 0.025
@@ -111,7 +111,7 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: Huh, there's more of them!
-    animationName: 
+    animationName: Yes
     unskippable: 0
     autoPlay: 0
     delay: 0.025
@@ -153,7 +153,7 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: eae57be4ee65a264798c739e0accbfa4, type: 2}
     voiceLine: {fileID: 0}
   - text: With that tiny body? You must be joking!
-    animationName: 
+    animationName: No
     unskippable: 0
     autoPlay: 0
     delay: 0.025

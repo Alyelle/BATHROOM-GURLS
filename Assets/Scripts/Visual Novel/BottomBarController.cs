@@ -147,7 +147,11 @@ public class BottomBarController : MonoBehaviour
                 OnDialogueEnd();
             }
             else
+            {
                 CurrentText = CurrentText.nextScene;
+
+                SentenceIndex = 0;
+            }
 
             return;
         }

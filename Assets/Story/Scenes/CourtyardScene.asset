@@ -79,7 +79,7 @@ MonoBehaviour:
     speakerSpriteId: 0
     speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
     voiceLine: {fileID: 0}
-  - text: Athena, really?
+  - text: ATHENA, really?
     animationName: 
     unskippable: 0
     autoPlay: 0
@@ -112,7 +112,7 @@ MonoBehaviour:
     speakerSpriteId: 0
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
-  - text: "Guys\u2014"
+  - text: "Guys\u2014               "
     animationName: 
     unskippable: 0
     autoPlay: 1
@@ -123,7 +123,7 @@ MonoBehaviour:
   - text: "Yeah, but when I do it, at least it\u2019s funny."
     animationName: 
     unskippable: 0
-    autoPlay: 1
+    autoPlay: 0
     delay: 0.025
     speakerSpriteId: 0
     speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
@@ -131,7 +131,7 @@ MonoBehaviour:
   - text: Stop feeding your superiority complex and get a grip, four-eyes!
     animationName: 
     unskippable: 0
-    autoPlay: 1
+    autoPlay: 0
     delay: 0.025
     speakerSpriteId: 0
     speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
@@ -139,7 +139,7 @@ MonoBehaviour:
   - text: You...!
     animationName: 
     unskippable: 0
-    autoPlay: 1
+    autoPlay: 0
     delay: 0.025
     speakerSpriteId: 0
     speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
@@ -147,7 +147,7 @@ MonoBehaviour:
   - text: "Shut up, both of you! We can\u2019t afford to fight now."
     animationName: 
     unskippable: 0
-    autoPlay: 1
+    autoPlay: 0
     delay: 0.025
     speakerSpriteId: 0
     speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
@@ -155,7 +155,7 @@ MonoBehaviour:
   - text: "Save it for when we get back to Mr. Vadey\u2019s class."
     animationName: 
     unskippable: 0
-    autoPlay: 1
+    autoPlay: 0
     delay: 0.025
     speakerSpriteId: 0
     speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
@@ -163,7 +163,7 @@ MonoBehaviour:
   - text: Thank you! Finally somebody with sense.
     animationName: 
     unskippable: 0
-    autoPlay: 1
+    autoPlay: 0
     delay: 0.025
     speakerSpriteId: 0
     speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
@@ -171,7 +171,7 @@ MonoBehaviour:
   - text: You...
     animationName: 
     unskippable: 0
-    autoPlay: 1
+    autoPlay: 0
     delay: 0.025
     speakerSpriteId: 0
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
@@ -179,7 +179,7 @@ MonoBehaviour:
   - text: ...
     animationName: 
     unskippable: 0
-    autoPlay: 1
+    autoPlay: 0
     delay: 0.025
     speakerSpriteId: 0
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}

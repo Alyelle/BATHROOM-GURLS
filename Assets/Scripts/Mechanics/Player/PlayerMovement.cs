@@ -9,9 +9,12 @@ public class PlayerMovement : MonoBehaviour
 
     Animator anim;
 
+    Rigidbody2D rb;
+
     private void Awake()
     {
         anim = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
     private void Update()
@@ -19,7 +22,7 @@ public class PlayerMovement : MonoBehaviour
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
 
-        transform.Translate(moveSpeed * Time.deltaTime * movement);
+        rb.velocity = moveSpeed * movement;
 
         anim.SetInteger("X", Mathf.RoundToInt(movement.x));
         anim.SetInteger("Y", Mathf.RoundToInt(movement.y));

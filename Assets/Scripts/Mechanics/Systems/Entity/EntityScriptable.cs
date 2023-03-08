@@ -8,5 +8,7 @@ namespace Game.Entity
         public int Health;
 
         public GameObject[] DeathObjects;
+
+        public Factions Faction;
     }
 }

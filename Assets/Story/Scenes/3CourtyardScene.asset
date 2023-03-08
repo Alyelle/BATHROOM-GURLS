@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cfec41f37a28ba844bf0cf2f2c2a911e, type: 3}
-  m_Name: CourtyardScene
+  m_Name: 3CourtyardScene
   m_EditorClassIdentifier: 
   background: {fileID: 0}
   sentences:
@@ -43,7 +43,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 9
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: Fighting a bathroom monster with words.
@@ -51,15 +51,15 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 3
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
-  - text: Touching, but from my end, I cringed.
+  - text: Touching, but from my end, it was cheesiest thing I've ever witnessed.
     animationName: 
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 4
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: "You guys will have to step it up if we\u2019re to get to the bathroom
@@ -68,7 +68,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 2
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: ...
@@ -96,12 +96,12 @@ MonoBehaviour:
     speakerSpriteId: 0
     speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
     voiceLine: {fileID: 0}
-  - text: H-huh?
+  - text: Uh huh?
     animationName: 
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 2
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: Don't say that to me like you don't do the same.
@@ -109,7 +109,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 9
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: "Guys\u2014               "
@@ -136,7 +136,7 @@ MonoBehaviour:
     speakerSpriteId: 0
     speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
     voiceLine: {fileID: 0}
-  - text: You...!
+  - text: Who the hell do you think you are?
     animationName: 
     unskippable: 0
     autoPlay: 0
@@ -173,7 +173,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 3
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: ...
@@ -181,7 +181,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 10
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   nextScene: {fileID: 11400000, guid: 0c5faae41fe086f47a15e923f1a9f342, type: 2}

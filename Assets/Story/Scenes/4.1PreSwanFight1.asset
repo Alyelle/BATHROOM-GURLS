@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cfec41f37a28ba844bf0cf2f2c2a911e, type: 3}
-  m_Name: PreSwanFight1
+  m_Name: 4.1PreSwanFight1
   m_EditorClassIdentifier: 
   background: {fileID: 0}
   sentences:
@@ -35,7 +35,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 7
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: What an eyesore.
@@ -43,7 +43,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 1
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: Excuuuse me? Did someone just call me an eyesore?
@@ -75,7 +75,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 9
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: I would hate to be in its place.
@@ -83,7 +83,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 6
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: .......................................................................................................
@@ -108,7 +108,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 6
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: "You\u2019ll regret every last word, you shiny bald wrinkly stubby-beaked
@@ -120,7 +120,7 @@ MonoBehaviour:
     unskippable: 1
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 2
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: "Somebody\u2019s projecting. At least I\u2019m actually free, getting the
@@ -186,7 +186,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 3
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: "Who\u2019s Tom?"
@@ -202,7 +202,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 2
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: Come and try me, leg-having freaks!

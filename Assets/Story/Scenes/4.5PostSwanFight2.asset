@@ -10,8 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cfec41f37a28ba844bf0cf2f2c2a911e, type: 3}
-  m_Name: PostSwanFight2
+  m_Name: 4.5PostSwanFight2
   m_EditorClassIdentifier: 
+  background: {fileID: 0}
   sentences:
   - text: Hm. Why do I feel kinda bad for that thing?
     animationName: 
@@ -50,7 +51,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 10
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: Athena? What's wrong?
@@ -75,7 +76,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 7
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: Soon-to-be...dream school reject?
@@ -83,7 +84,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 5
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: ...me?
@@ -91,7 +92,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 4
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: What that floatie said is not true! Don't take it to heart, ATHENA!
@@ -115,7 +116,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 10
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: These comments...
@@ -123,7 +124,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 7
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: I really am.
@@ -131,7 +132,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 5
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: Perhaps my source happiness indeed is materialistic and artificial.
@@ -139,7 +140,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 7
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: 'All these things: my perfect GPA, my appearance, outside validation...'
@@ -147,7 +148,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 3
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: "This isn\u2019t what I want. Not at all.\r"
@@ -155,7 +156,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 5
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: "This isn\u2019t what I want. Not at all.\r None of these things define
@@ -164,7 +165,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 7
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: So LEAH, um, I was thinking about what you said earlier.
@@ -172,7 +173,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 5
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: "Huh? Oh yeeeaaaaah, the pasta pun. Listen, I\u2014"
@@ -188,7 +189,7 @@ MonoBehaviour:
     unskippable: 1
     autoPlay: 0
     delay: 0.1
-    speakerSpriteId: 0
+    speakerSpriteId: 7
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: ???
@@ -228,7 +229,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 8
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: I was thinking about what you said earlier about why I feel the need to
@@ -237,7 +238,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 7
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: "Athena, I\u2019m sure Leah didn\u2019t\u2014"
@@ -253,7 +254,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 5
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: I do always put others down.
@@ -261,7 +262,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 7
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: While we were fighting...that thing, I think I realized.
@@ -269,7 +270,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 4
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: What is it?
@@ -285,7 +286,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 7
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: "That was when I wasn\u2019t\u2026 enough. Not anymore."
@@ -293,7 +294,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 5
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: There was always somebody better than me. Another person my parents strived
@@ -302,7 +303,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 7
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: Ultimately, I was always second.
@@ -310,7 +311,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 7
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: "But it wasn\u2019t just my parents."
@@ -318,7 +319,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 7
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: "My friends got so academically competitive too, until I felt like they
@@ -327,7 +328,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 7
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: I realized quickly that I would never meet those expectations. From others
@@ -336,7 +337,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 7
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: So instead of trying to pull ahead...
@@ -344,7 +345,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 7
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: ...I decided to pull others down beneath me.
@@ -352,7 +353,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 3
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: I thought that if I could make others seem worse than me, I would come
@@ -361,7 +362,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 5
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: "But that wasn\u2019t the case, was it?"
@@ -377,7 +378,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 5
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: I regretted it quickly. But I was already the mean nerdy girl, so what
@@ -386,7 +387,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 7
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: "I suppose it\u2019s true that it grounded me academically."
@@ -394,7 +395,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 5
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: "But it wasn\u2019t healthy. I wasn\u2019t happy."
@@ -402,7 +403,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 7
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: I had the beauty and the brains, what I've been working towards all my
@@ -411,7 +412,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 7
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: All these good scores...sure, they give me satisfaction, but using these
@@ -420,7 +421,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 7
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: "It\u2019s never enough."
@@ -428,7 +429,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 7
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: So... I take it back, I guess.
@@ -436,7 +437,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 5
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: Take what back?
@@ -452,7 +453,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 5
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: Soooooo...?
@@ -484,7 +485,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 5
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: And moving forward, I will be a nicer person.
@@ -492,7 +493,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 1
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: Athena...
@@ -516,7 +517,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 10
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: "ATHENA. I understand what it\u2019s like to be pulled down by the weight
@@ -565,7 +566,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 1
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: Mmm, well, wait right there. I haven't forgiven you yet.
@@ -581,7 +582,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 5
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: I only will on ONE condition.
@@ -629,7 +630,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 6
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: I uh...I have a C in his class, but I could tag along to the study sessions
@@ -646,7 +647,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 3
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: "But enough with the sap! We need to keep going, or else I\u2019m worried
@@ -655,7 +656,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 1
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: "Oh, right. Quick, let\u2019s keep going!"

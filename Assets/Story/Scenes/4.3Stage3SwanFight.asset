@@ -10,44 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cfec41f37a28ba844bf0cf2f2c2a911e, type: 3}
-  m_Name: Stage2SwanFight
+  m_Name: 4.3Stage3SwanFight
   m_EditorClassIdentifier: 
   background: {fileID: 0}
   sentences:
-  - text: Woah, it's deflating!
-    animationName: 
-    unskippable: 0
-    autoPlay: 0
-    delay: 0.025
-    speakerSpriteId: 0
-    speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
-    voiceLine: {fileID: 0}
-  - text: Good. Die already.
-    animationName: 
-    unskippable: 0
-    autoPlay: 0
-    delay: 0.025
-    speakerSpriteId: 0
-    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
-    voiceLine: {fileID: 0}
-  - text: "I don\u2019t know, isn\u2019t this technically vandalism? "
-    animationName: 
-    unskippable: 0
-    autoPlay: 0
-    delay: 0.025
-    speakerSpriteId: 0
-    speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
-    voiceLine: {fileID: 0}
-  - text: "It\u2019s alright, we\u2019re dealing with a bathroom monster here. No
-      choice."
-    animationName: 
-    unskippable: 0
-    autoPlay: 0
-    delay: 0.025
-    speakerSpriteId: 0
-    speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
-    voiceLine: {fileID: 0}
-  - text: How...dare you!
+  - text: Eughhhh, my wings!
     animationName: 
     unskippable: 0
     autoPlay: 0
@@ -55,20 +22,44 @@ MonoBehaviour:
     speakerSpriteId: 0
     speaker: {fileID: 11400000, guid: e435cb813bdd36d4799da97b4e3e152d, type: 2}
     voiceLine: {fileID: 0}
-  - text: Serves you right, I warned your sorry ass.
+  - text: ...hah!
     animationName: 
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 6
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
-  - text: Shut your trap, lean-haired, GPA-obsessed, soon-to-be dream school reject!
+  - text: Are you guys okay?
     animationName: 
     unskippable: 0
     autoPlay: 0
     delay: 0.025
     speakerSpriteId: 0
-    speaker: {fileID: 11400000, guid: e435cb813bdd36d4799da97b4e3e152d, type: 2}
+    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
     voiceLine: {fileID: 0}
-  nextScene: {fileID: 11400000, guid: 94cd3ef4ca0b4fb4fae1434f182686c5, type: 2}
+  - text: I...
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 7
+    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: It matters not! This has gone on for too long.
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 3
+    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Concentrate on defeating that idiotic, chlorine-spitting menace of a floatie!
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 2
+    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
+    voiceLine: {fileID: 0}
+  nextScene: {fileID: 11400000, guid: 076a83249bb72c34195555b827186645, type: 2}

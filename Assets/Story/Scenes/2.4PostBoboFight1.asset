@@ -10,35 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cfec41f37a28ba844bf0cf2f2c2a911e, type: 3}
-  m_Name: Stage3SwanFight
+  m_Name: 2.4PostBoboFight1
   m_EditorClassIdentifier: 
-  background: {fileID: 0}
+  background: {fileID: 21300000, guid: 9966f65278352044abb71c3750d4f76d, type: 3}
   sentences:
-  - text: Eughhhh, my wings!
+  - text: Whewww!
     animationName: 
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
-    speaker: {fileID: 11400000, guid: e435cb813bdd36d4799da97b4e3e152d, type: 2}
-    voiceLine: {fileID: 0}
-  - text: ...hah!
-    animationName: 
-    unskippable: 0
-    autoPlay: 0
-    delay: 0.025
-    speakerSpriteId: 0
-    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
-    voiceLine: {fileID: 0}
-  - text: Are you guys okay?
-    animationName: 
-    unskippable: 0
-    autoPlay: 0
-    delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 9
     speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
     voiceLine: {fileID: 0}
-  - text: I...
+  - text: Hmph. That was light work.
     animationName: 
     unskippable: 0
     autoPlay: 0
@@ -46,20 +30,36 @@ MonoBehaviour:
     speakerSpriteId: 0
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
-  - text: It matters not! This has gone on for too long.
+  - text: ...
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 1
+    speaker: {fileID: 11400000, guid: 526967cf407f31540a1e69b6f0f99495, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "N-no\u2026this can't be..."
+    animationName: No
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 4
+    speaker: {fileID: 11400000, guid: 526967cf407f31540a1e69b6f0f99495, type: 2}
+    voiceLine: {fileID: 0}
+  - text: This was my one chance to...
     animationName: 
     unskippable: 0
     autoPlay: 0
     delay: 0.025
     speakerSpriteId: 0
-    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
+    speaker: {fileID: 11400000, guid: 526967cf407f31540a1e69b6f0f99495, type: 2}
     voiceLine: {fileID: 0}
-  - text: Concentrate on defeating that idiotic, chlorine-spitting menace of a floatie!
-    animationName: 
+  - text: NOOOOOOOOOOOOOOOOOOOOOOOOOOOO!
+    animationName: Shake
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
-    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
+    speakerSpriteId: 4
+    speaker: {fileID: 11400000, guid: 526967cf407f31540a1e69b6f0f99495, type: 2}
     voiceLine: {fileID: 0}
-  nextScene: {fileID: 11400000, guid: 076a83249bb72c34195555b827186645, type: 2}
+  nextScene: {fileID: 11400000, guid: 04b344f5b8d51f945909f34114dc8059, type: 2}

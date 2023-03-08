@@ -16,6 +16,8 @@ public class PlayerMovement : MonoBehaviour
 
     bool lockVel;
 
+    float dashBuffer;
+
     private void Awake()
     {
         anim = GetComponent<Animator>();
@@ -32,6 +34,17 @@ public class PlayerMovement : MonoBehaviour
 
         movement.Normalize();
 
+        if (dashBuffer > 0f)
+        {
+            dashBuffer -= Time.deltaTime;
+
+            if (movement.magnitude != 0f)
+            {
+                Dash();
+                dashBuffer = 0f;
+            }
+        }
+
         if (!lockVel)
         {
             rb.velocity = moveSpeed * movement;
@@ -39,17 +52,29 @@ public class PlayerMovement : MonoBehaviour
             anim.SetInteger("X", Mathf.RoundToInt(movement.x));
             anim.SetInteger("Y", Mathf.RoundToInt(movement.y));
 
-            if (Input.GetMouseButtonDown(1) && movement.magnitude != 0f)
+            if (Input.GetMouseButtonDown(1))
             {
-                lockVel = true;
-
-                rb.velocity = dashSpeed * movement;
-                if (par != null)
-                    par.Play();
+                if (movement.magnitude != 0f)
+                {
+                    Dash();
+                }
+                else
+                {
+                    dashBuffer = 0.1f;
+                }
             }
         }
 
         if (rb.velocity.magnitude <= moveSpeed)
             lockVel = false;
+    }
+
+    public void Dash()
+    {
+        lockVel = true;
+
+        rb.velocity = dashSpeed * movement;
+        if (par != null)
+            par.Play();
     }
 }

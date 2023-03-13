@@ -10,6 +10,8 @@ namespace Game.Projectile
         public float Speed;
 
         public Factions Faction;
+
+        public GameObject[] HitObjects;
     }
 }
 

@@ -32,6 +32,11 @@ namespace Game.Projectile
                 }
             }
 
+            foreach (GameObject hit in proj.HitObjects)
+            {
+                Instantiate(hit, transform.position, transform.rotation);
+            }
+
             Destroy(gameObject);
         }
     }

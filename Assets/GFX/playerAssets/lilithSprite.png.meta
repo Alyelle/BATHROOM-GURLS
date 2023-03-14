@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: 7d2e0bc5063207d41811bd13667515a1
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 128
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lilithFrontStand
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 11
+        height: 22
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f017160b24f1b164d8fca463c327a7e2
+      internalID: -1328684740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilithFrontWalk1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 80
+        width: 11
+        height: 22
+      alignment: 9
+      pivot: {x: 0.54, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d58ddcf39a0735b4981296aa74592dd6
+      internalID: 2023308226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilithFrontWalk2
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 80
+        width: 11
+        height: 22
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c82ac4ec4cecfe0468d83f94477e6b8f
+      internalID: 1666195986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilithFrontBatStand
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 80
+        width: 12
+        height: 25
+      alignment: 9
+      pivot: {x: 0.59, y: 0.44}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c4b5ee4e17d02249b71fe74c3a81f90
+      internalID: -286395417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilithFrontBatWalk1
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 80
+        width: 12
+        height: 25
+      alignment: 9
+      pivot: {x: 0.59, y: 0.44}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a7d0e976cd6f64b90fb37b33cede72
+      internalID: 562376660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilithFrontBatWalk2
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 80
+        width: 12
+        height: 25
+      alignment: 9
+      pivot: {x: 0.59, y: 0.44}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69373a03b35e47a498ac3dbe8dfb64e3
+      internalID: -970915952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilithFrontBatSwing
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 80
+        width: 14
+        height: 22
+      alignment: 9
+      pivot: {x: 0.64, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44248e916aa9b948bde2a927c718c99
+      internalID: 1353994602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilithBackStand
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 54
+        width: 11
+        height: 22
+      alignment: 9
+      pivot: {x: 0.47, y: 0.49}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91f1d7be089bce348a462e7b50cbc3d0
+      internalID: -677153520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilithBackWalk1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 54
+        width: 11
+        height: 22
+      alignment: 9
+      pivot: {x: 0.47, y: 0.49}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3898defc4dfa2cc4db023a598f812b69
+      internalID: -747553894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilithBackWalk2
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 54
+        width: 11
+        height: 22
+      alignment: 9
+      pivot: {x: 0.47, y: 0.49}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 548243e4d1d775246a394c4b89c3d46f
+      internalID: 1837187034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilithBackBatStand
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 54
+        width: 13
+        height: 25
+      alignment: 9
+      pivot: {x: 0.4, y: 0.44}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 120abbf3efa99a94181f78d0cea8b75d
+      internalID: -943601198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilithBackBatWalk
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 54
+        width: 13
+        height: 25
+      alignment: 9
+      pivot: {x: 0.4, y: 0.44}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcbe5b0f48aee274a8f1fc695c27aab8
+      internalID: -826288316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilithBackBatWalk2
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 54
+        width: 13
+        height: 25
+      alignment: 9
+      pivot: {x: 0.4, y: 0.44}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70aef03dbaded744e827085c30fd56ac
+      internalID: 1782568741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilithBackBatWalk1
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 54
+        width: 14
+        height: 22
+      alignment: 9
+      pivot: {x: 0.37, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef598629bc56333448b80cc9f7707b6f
+      internalID: -30504682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilithLeftStand
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 26
+        width: 10
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec36f781b083e494197531a38029346c
+      internalID: -223539808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilithLeftWalk
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 26
+        width: 10
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af73110959075bd42b47ddbb903b2e1e
+      internalID: -853776708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilithLeftBatStand
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 26
+        width: 14
+        height: 24
+      alignment: 9
+      pivot: {x: 0.36, y: 0.46}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02db9a4b48f19c040881e769d24f47a8
+      internalID: -1794202007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilithLeftBatWalk
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 26
+        width: 14
+        height: 24
+      alignment: 9
+      pivot: {x: 0.36, y: 0.46}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccad1e458aeda964a8414e81c2c2f590
+      internalID: 2661178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilithLeftBatSwing
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 26
+        width: 17
+        height: 22
+      alignment: 9
+      pivot: {x: 0.71, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f073411fb2c761a44b232c1ca966077a
+      internalID: -1784516266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilithRightStand
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 0
+        width: 9
+        height: 22
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1109ca399b9e0a14e9a5f6fd9de64b78
+      internalID: -1565665445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilithRightWalk
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 0
+        width: 9
+        height: 22
+      alignment: 9
+      pivot: {x: 0.57, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd7385bb60784447ac61aff1f28d496
+      internalID: 1954812842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilithRightBatStand
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 0
+        width: 13
+        height: 24
+      alignment: 9
+      pivot: {x: 0.7, y: 0.46}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b31f688d133064e92c2a21b251e6d3
+      internalID: 1604259659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilithRightBatWalk
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 0
+        width: 13
+        height: 24
+      alignment: 9
+      pivot: {x: 0.7, y: 0.46}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efbcd7b5fc01d194a8fff302339a6e1f
+      internalID: -1223966432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilithRightBatSwing
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 0
+        width: 17
+        height: 22
+      alignment: 9
+      pivot: {x: 0.3, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b549bcbf8a4714aa13401302702f0d
+      internalID: 386551553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      lilithBackBatStand: -943601198
+      lilithBackBatWalk2: 1782568741
+      lilithRightStand: -1565665445
+      lilithFrontStand: -1328684740
+      lilithLeftBatStand: -1794202007
+      lilithLeftBatWalk: 2661178
+      lilithRightBatStand: 1604259659
+      lilithFrontBatWalk1: 562376660
+      lilithFrontWalk1: 2023308226
+      lilithFrontBatSwing: 1353994602
+      lilithLeftStand: -223539808
+      lilithRightBatSwing: 386551553
+      lilithBackStand: -677153520
+      lilithBackBatWalk: -826288316
+      lilithBackBatWalk1: -30504682
+      lilithRightBatWalk: -1223966432
+      lilithFrontWalk2: 1666195986
+      lilithFrontBatStand: -286395417
+      lilithRightWalk: 1954812842
+      lilithLeftBatSwing: -1784516266
+      lilithBackWalk2: 1837187034
+      lilithLeftWalk: -853776708
+      lilithBackWalk1: -747553894
+      lilithFrontBatWalk2: -970915952
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

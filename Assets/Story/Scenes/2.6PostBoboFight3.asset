@@ -61,7 +61,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 1
     speaker: {fileID: 11400000, guid: 76575704777040b4cba7eada674ae396, type: 2}
     voiceLine: {fileID: 0}
   - text: Me too!
@@ -69,7 +69,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 1
     speaker: {fileID: 11400000, guid: e675b7bc17026f64b8cf8f6cd5563650, type: 2}
     voiceLine: {fileID: 0}
   - text: Ditto!
@@ -77,7 +77,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 1
     speaker: {fileID: 11400000, guid: af7c25e4d5f373146bf6fa7cdd36fedb, type: 2}
     voiceLine: {fileID: 0}
   - text: Ugh, I can't believe we spent all this time befriending a meatball. Can

@@ -15,4 +15,5 @@ MonoBehaviour:
   speakerName: Hunky Meatball
   textColor: {r: 1, g: 1, b: 1, a: 1}
   sprites:
-  - {fileID: 21300000, guid: 9ebe9a0d068d20145a004fce5a8831a9, type: 3}
+  - {fileID: 21300000, guid: 29a61f43befe5c9439859c7740d91002, type: 3}
+  - {fileID: 21300000, guid: 45b304ec77122154bbe1fc8b84c17fe2, type: 3}

@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfec41f37a28ba844bf0cf2f2c2a911e, type: 3}
+  m_Name: 5.1PreTowHater
+  m_EditorClassIdentifier: 
+  background: {fileID: 0}
+  sentences:
+  - text: We made it! The bathroom is just across the parking lot!
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "I wonder why it\u2019s so empty? Is it senior ditch day or something?"
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "There\u2019s something about this place that bothers me."
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Why is there a MONSTER TRUCK in the school parking lot?
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "It looks like it came straight from the Cars movie\u2026 but more angsty."
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Ahem.
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 9666eb20ec0fee54d8f04c56d1773618, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "Aren\u2019t you guys like, juniors?"
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 9666eb20ec0fee54d8f04c56d1773618, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "Shouldn\u2019t you be in class?"
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 9666eb20ec0fee54d8f04c56d1773618, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "That\u2019s what I\u2019m saying!"
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "How rude of me, I haven\u2019t even introduced myself."
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 9666eb20ec0fee54d8f04c56d1773618, type: 2}
+    voiceLine: {fileID: 0}
+  - text: My name is Tow Hater III, the most powerful, handsome, vicious dumpster
+      truck of my generation!
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 01e1ab7a2d448f7449363045f94fa057, type: 2}
+    voiceLine: {fileID: 0}
+  - text: For showing up to MY parking lot uninvited...
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 01e1ab7a2d448f7449363045f94fa057, type: 2}
+    voiceLine: {fileID: 0}
+  - text: ...I will make your life into a living nightmare.
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 01e1ab7a2d448f7449363045f94fa057, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "Hey now, no need to get aggressive, I\u2019m sure we can talk this out\u2014          "
+    animationName: 
+    unskippable: 0
+    autoPlay: 1
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    voiceLine: {fileID: 0}
+  - text: PREPARE TO BECOME FLATTER THAN YOU ALREADY ARE!
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 01e1ab7a2d448f7449363045f94fa057, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Oof, he really wastes no time!
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
+    voiceLine: {fileID: 0}
+  nextScene: {fileID: 0}

@@ -30,8 +30,16 @@ MonoBehaviour:
     speakerSpriteId: 10
     speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
     voiceLine: {fileID: 0}
-  - text: "Well, I\u2019m glad I never noticed it."
+  - text: ..........................
     animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 3
+    speaker: {fileID: 11400000, guid: a98a846f18cf818408f37ecfa178252d, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "Well, I\u2019m glad I never noticed it."
+    animationName: No
     unskippable: 0
     autoPlay: 0
     delay: 0.025
@@ -51,11 +59,19 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 2
+    speaker: {fileID: 11400000, guid: a98a846f18cf818408f37ecfa178252d, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Also it's Swanelle Glimmermuse for you, you purple-haired bitchlet.
+    animationName: Shake
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 2
     speaker: {fileID: 11400000, guid: e435cb813bdd36d4799da97b4e3e152d, type: 2}
     voiceLine: {fileID: 0}
-  - text: GAAAAAHHHHH!!!
-    animationName: 
+  - text: The heeeeeeeeeeeeell?!
+    animationName: Shake
     unskippable: 0
     autoPlay: 0
     delay: 0.025
@@ -91,7 +107,7 @@ MonoBehaviour:
     unskippable: 1
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 5
     speaker: {fileID: 11400000, guid: e435cb813bdd36d4799da97b4e3e152d, type: 2}
     voiceLine: {fileID: 0}
   - text: Say that again, you sightless disproportionate hairdryer-wielding big-foreheaded
@@ -100,7 +116,7 @@ MonoBehaviour:
     unskippable: 1
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 2
     speaker: {fileID: 11400000, guid: e435cb813bdd36d4799da97b4e3e152d, type: 2}
     voiceLine: {fileID: 0}
   - text: Wow. Lots of bars coming from such a foolish, hairless creature.
@@ -130,7 +146,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 4
     speaker: {fileID: 11400000, guid: e435cb813bdd36d4799da97b4e3e152d, type: 2}
     voiceLine: {fileID: 0}
   - text: At least I have life goals, you useless piece of plastic.
@@ -162,7 +178,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 2
     speaker: {fileID: 11400000, guid: e435cb813bdd36d4799da97b4e3e152d, type: 2}
     voiceLine: {fileID: 0}
   - text: Yeah! GO ATHENA!!!
@@ -198,7 +214,7 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
     voiceLine: {fileID: 0}
   - text: "Prepare to deflate! I\u2019ll send you to the bottom of the pool!"
-    animationName: 
+    animationName: Shake
     unskippable: 0
     autoPlay: 0
     delay: 0.025
@@ -206,11 +222,11 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: Come and try me, leg-having freaks!
-    animationName: 
+    animationName: Shake
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 2
     speaker: {fileID: 11400000, guid: e435cb813bdd36d4799da97b4e3e152d, type: 2}
     voiceLine: {fileID: 0}
   - text: I really don't wanna be here...

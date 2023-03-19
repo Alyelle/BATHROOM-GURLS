@@ -9,11 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dfdf2429887b4d448a56c881edb1ee5d, type: 3}
-  m_Name: Stone
+  m_Script: {fileID: 11500000, guid: c521d4505a57edf42a9f8ac6398376ce, type: 3}
+  m_Name: Bobo
   m_EditorClassIdentifier: 
-  Damage: 20
-  Speed: 10
-  Faction: 0
-  HitObjects:
-  - {fileID: 6444977257753786640, guid: c27476620fd9e0c48a4e707a71ecc912, type: 3}
+  Health: 300
+  DeathObjects: []
+  Faction: 1

@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c521d4505a57edf42a9f8ac6398376ce, type: 3}
   m_Name: Player
   m_EditorClassIdentifier: 
-  Health: 1
+  Health: 20
   DeathObjects: []
+  Faction: 0

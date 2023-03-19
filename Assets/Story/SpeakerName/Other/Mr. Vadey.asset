@@ -15,4 +15,6 @@ MonoBehaviour:
   speakerName: Mr. Vadey
   textColor: {r: 1, g: 1, b: 1, a: 1}
   sprites:
-  - {fileID: 21300000, guid: 988b82306e180684698a86bc1859ed19, type: 3}
+  - {fileID: 21300000, guid: 0304a5772d0f58846b45a1a58d93781a, type: 3}
+  - {fileID: 21300000, guid: bab15f79ab207cf4e83a2f0fc27d37e9, type: 3}
+  - {fileID: 21300000, guid: 4b3ec265c550d8f4e8e1d8e60c955d4d, type: 3}

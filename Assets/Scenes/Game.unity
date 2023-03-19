@@ -579,7 +579,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attacks:
   - Turret: {fileID: 1901214089}
-    Timer: 3
+    Timer: 5
   - Turret: {fileID: 259706528}
     Timer: 3
 --- !u!1 &519420028

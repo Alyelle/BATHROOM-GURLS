@@ -10,19 +10,51 @@ namespace Game.Entity
         [HideInInspector]
         public int currentHealth;
 
+        bool invulnerable;
+
+        float iFrameTimer;
+
         private void Awake()
         {
             currentHealth = entity.Health;
+            iFrameTimer = 0f;
+        }
+
+        private void Update()
+        {
+            if (entity.IFrameTime > 0f && iFrameTimer > 0f)
+            {
+                iFrameTimer -= Time.deltaTime;
+
+                if (iFrameTimer <= 0f)
+                {
+                    invulnerable = false;
+                    iFrameTimer = 0f;
+
+                    OnIFrameEnd();
+                }
+            }
         }
 
         public void TakeDamage(int dmg)
         {
+            if (invulnerable)
+                return;
+
             currentHealth -= dmg;
 
             OnDamage(dmg);
 
             if (currentHealth <= 0)
                 Death();
+
+            if (entity.IFrameTime > 0f)
+            {
+                invulnerable = true;
+                iFrameTimer = entity.IFrameTime;
+
+                OnIFrameStart();
+            }
         }
 
         public void Death()
@@ -41,5 +73,11 @@ namespace Game.Entity
 
         public event Action onDeath;
         public void OnDeath() { onDeath?.Invoke(); }
+
+        public event Action onIFrameStart;
+        public void OnIFrameStart() { onIFrameStart?.Invoke(); }
+
+        public event Action onIFrameEnd;
+        public void OnIFrameEnd() { onIFrameEnd?.Invoke(); }
     }
 }

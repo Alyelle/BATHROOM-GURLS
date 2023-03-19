@@ -7,6 +7,8 @@ namespace Game.Entity
     {
         public int Health;
 
+        public float IFrameTime;
+
         public GameObject[] DeathObjects;
 
         public Factions Faction;

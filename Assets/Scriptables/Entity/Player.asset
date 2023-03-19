@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: Player
   m_EditorClassIdentifier: 
   Health: 20
+  IFrameTime: 3
   DeathObjects: []
   Faction: 0

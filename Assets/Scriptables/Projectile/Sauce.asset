@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Sauce
   m_EditorClassIdentifier: 
   Damage: 3
-  Speed: 4
-  Faction: 0
+  Speed: 2
+  Faction: 1
   HitObjects: []

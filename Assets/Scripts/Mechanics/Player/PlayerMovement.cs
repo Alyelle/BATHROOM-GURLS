@@ -29,6 +29,12 @@ public class PlayerMovement : MonoBehaviour
         lockVel = false;
     }
 
+    private void Start()
+    {
+        if (CameraSingleton.Singleton != null)
+            CameraSingleton.Singleton.vCam.Follow = transform;
+    }
+
     private void Update()
     {
         movement.x = Input.GetAxisRaw("Horizontal");

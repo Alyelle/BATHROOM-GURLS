@@ -314,7 +314,7 @@ MonoBehaviour:
   NameText: {fileID: 984372827}
   speakerSprite: {fileID: 403274265}
   bg: {fileID: 1320309750}
-  CurrentText: {fileID: 11400000, guid: 1308d870049f64b4f95991566b973a34, type: 2}
+  CurrentText: {fileID: 0}
 --- !u!114 &246360094
 MonoBehaviour:
   m_ObjectHideFlags: 0

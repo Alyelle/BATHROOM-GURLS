@@ -8,7 +8,21 @@ namespace Game.Entity
         public EntityScriptable entity;
 
         [HideInInspector]
-        public int currentHealth;
+        public int currentHealth
+        {
+            get
+            {
+                return hp;
+            }
+            set
+            {
+                hp = value;
+
+                OnHealthChange(value);
+            }
+        }
+
+        int hp;
 
         bool invulnerable;
 
@@ -70,6 +84,9 @@ namespace Game.Entity
 
         public event Action<int> onDamage;
         public void OnDamage(int dmg) { onDamage?.Invoke(dmg); }
+
+        public event Action<int> onHealthChange;
+        public void OnHealthChange(int cHp) { onHealthChange?.Invoke(cHp); }
 
         public event Action onDeath;
         public void OnDeath() { onDeath?.Invoke(); }

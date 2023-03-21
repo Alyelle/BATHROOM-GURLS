@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfdf2429887b4d448a56c881edb1ee5d, type: 3}
   m_Name: Stone
   m_EditorClassIdentifier: 
-  Damage: 20
+  Damage: 10
   Speed: 10
   Faction: 0
   HitObjects:

@@ -5684,6 +5684,7 @@ GameObject:
   - component: {fileID: 483817257}
   - component: {fileID: 483817256}
   - component: {fileID: 483817255}
+  - component: {fileID: 483817264}
   m_Layer: 3
   m_Name: Lilith
   m_TagString: Untagged
@@ -5703,8 +5704,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9eee0e462f90b74ebba7d66ab448416, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackObject: {fileID: 8186458481806896879, guid: 605a0aba1dda4834da220374c81e54cc, type: 3}
-  attackDelay: 0.2
+  attackObject: {fileID: 1616817533684566242, guid: dac5fd4d7cc5de24097acae0c8028a9e, type: 3}
+  attackDelay: 1
 --- !u!95 &483817256
 Animator:
   serializedVersion: 4
@@ -5828,6 +5829,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 3
   dashSpeed: 7
+  Rotation: 0
 --- !u!4 &483817263
 Transform:
   m_ObjectHideFlags: 0
@@ -5844,6 +5846,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &483817264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 483817254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b67930f35e34614ba4ef5e2b5665f4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &499784789
 GameObject:
   m_ObjectHideFlags: 0

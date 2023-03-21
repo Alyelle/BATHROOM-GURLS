@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: LilithWalkUp
+  m_Name: LilithWalkBatonUp
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,13 +20,13 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: -747553894, guid: 7d2e0bc5063207d41811bd13667515a1, type: 3}
+      value: {fileID: -826288316, guid: 7d2e0bc5063207d41811bd13667515a1, type: 3}
     - time: 0.125
-      value: {fileID: -677153520, guid: 7d2e0bc5063207d41811bd13667515a1, type: 3}
+      value: {fileID: -943601198, guid: 7d2e0bc5063207d41811bd13667515a1, type: 3}
     - time: 0.25
-      value: {fileID: 1837187034, guid: 7d2e0bc5063207d41811bd13667515a1, type: 3}
+      value: {fileID: 1782568741, guid: 7d2e0bc5063207d41811bd13667515a1, type: 3}
     - time: 0.375
-      value: {fileID: -677153520, guid: 7d2e0bc5063207d41811bd13667515a1, type: 3}
+      value: {fileID: -943601198, guid: 7d2e0bc5063207d41811bd13667515a1, type: 3}
     attribute: m_Sprite
     path: Sprite
     classID: 212
@@ -46,10 +46,10 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: -747553894, guid: 7d2e0bc5063207d41811bd13667515a1, type: 3}
-    - {fileID: -677153520, guid: 7d2e0bc5063207d41811bd13667515a1, type: 3}
-    - {fileID: 1837187034, guid: 7d2e0bc5063207d41811bd13667515a1, type: 3}
-    - {fileID: -677153520, guid: 7d2e0bc5063207d41811bd13667515a1, type: 3}
+    - {fileID: -826288316, guid: 7d2e0bc5063207d41811bd13667515a1, type: 3}
+    - {fileID: -943601198, guid: 7d2e0bc5063207d41811bd13667515a1, type: 3}
+    - {fileID: 1782568741, guid: 7d2e0bc5063207d41811bd13667515a1, type: 3}
+    - {fileID: -943601198, guid: 7d2e0bc5063207d41811bd13667515a1, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}

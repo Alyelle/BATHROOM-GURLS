@@ -6,6 +6,8 @@ public class PlayerMovement : MonoBehaviour
     public float moveSpeed = 1f;
     public float dashSpeed = 1f;
 
+    public int Rotation;
+
     Vector2 movement;
 
     ParticleSystem par;
@@ -31,6 +33,37 @@ public class PlayerMovement : MonoBehaviour
     {
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
+
+        if (movement != Vector2.zero)
+        {
+            switch (movement)
+            {
+                case Vector2 v when v.Equals(Vector2.down):
+                    Rotation = 0;
+                    break;
+                case Vector2 v when v.Equals(Vector2.up):
+                    Rotation = 180;
+                    break;
+                case Vector2 v when v.Equals(Vector2.right):
+                    Rotation = 90;
+                    break;
+                case Vector2 v when v.Equals(Vector2.left):
+                    Rotation = 270;
+                    break;
+                case Vector2 v when v.Equals(new Vector2(1f, 1f)):
+                    Rotation = 90;
+                    break;
+                case Vector2 v when v.Equals(new Vector2(-1f, 1f)):
+                    Rotation = 270;
+                    break;
+                case Vector2 v when v.Equals(new Vector2(1f, -1f)):
+                    Rotation = 90;
+                    break;
+                case Vector2 v when v.Equals(new Vector2(-1f, -1f)):
+                    Rotation = 270;
+                    break;
+            }
+        }
 
         movement.Normalize();
 

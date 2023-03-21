@@ -133,7 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 116090669}
   - component: {fileID: 116090670}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Spawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -338,7 +338,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 259706529}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Idle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -370,7 +370,7 @@ GameObject:
   m_Component:
   - component: {fileID: 286121200}
   - component: {fileID: 286121201}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Spawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -417,7 +417,7 @@ GameObject:
   m_Component:
   - component: {fileID: 371235770}
   - component: {fileID: 371235771}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -501,7 +501,7 @@ GameObject:
   m_Component:
   - component: {fileID: 383481367}
   - component: {fileID: 383481368}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Spawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -648,7 +648,7 @@ GameObject:
   - component: {fileID: 405460967}
   - component: {fileID: 405460969}
   - component: {fileID: 405460970}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: LittleBobo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -760,7 +760,7 @@ GameObject:
   m_Component:
   - component: {fileID: 480232293}
   - component: {fileID: 480232294}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Spawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -807,7 +807,7 @@ GameObject:
   m_Component:
   - component: {fileID: 499784790}
   - component: {fileID: 499784791}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Spawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -973,7 +973,7 @@ GameObject:
   m_Component:
   - component: {fileID: 719104174}
   - component: {fileID: 719104175}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Spawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1020,7 +1020,7 @@ GameObject:
   m_Component:
   - component: {fileID: 744668565}
   - component: {fileID: 744668566}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Spawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1067,7 +1067,7 @@ GameObject:
   m_Component:
   - component: {fileID: 784446429}
   - component: {fileID: 784446430}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Spawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1114,7 +1114,7 @@ GameObject:
   m_Component:
   - component: {fileID: 790754453}
   - component: {fileID: 790754454}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Spawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1161,7 +1161,7 @@ GameObject:
   m_Component:
   - component: {fileID: 820956602}
   - component: {fileID: 820956603}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Spawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1567,7 +1567,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1041650206}
   - component: {fileID: 1041650207}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Spawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1614,7 +1614,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1062456893}
   - component: {fileID: 1062456894}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Spawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1661,7 +1661,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1147544610}
   - component: {fileID: 1147544611}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Spawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1708,7 +1708,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1191569517}
   - component: {fileID: 1191569518}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Spawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1755,7 +1755,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1199656968}
   - component: {fileID: 1199656969}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Attack2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2013,7 +2013,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1306940122}
   - component: {fileID: 1306940123}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Spawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2136,7 +2136,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1431525302}
   - component: {fileID: 1431525303}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Spawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2284,7 +2284,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1628956308}
   - component: {fileID: 1628956309}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Spawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2331,7 +2331,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1642112847}
   - component: {fileID: 1642112848}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Attack4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2452,7 +2452,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1727263668}
   - component: {fileID: 1727263669}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Spawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2556,7 +2556,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1901214090}
   - component: {fileID: 1901214091}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Attack1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2604,7 +2604,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1926709467}
   - component: {fileID: 1926709468}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Spawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2651,7 +2651,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1926962762}
   - component: {fileID: 1926962763}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Spawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2698,7 +2698,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1959591518}
   - component: {fileID: 1959591517}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Attack3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2746,7 +2746,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2055141677}
   - component: {fileID: 2055141678}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Spawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2793,7 +2793,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2141216808}
   - component: {fileID: 2141216809}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Spawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}

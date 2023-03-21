@@ -15,4 +15,5 @@ MonoBehaviour:
   Damage: 3
   Speed: 3
   Faction: 1
-  HitObjects: []
+  HitObjects:
+  - {fileID: 6444977257753786640, guid: fe4cf3192133bc046887abb6c45fa0ba, type: 3}

@@ -2335,8 +2335,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1265079941}
+  - component: {fileID: 1265079942}
   m_Layer: 0
-  m_Name: PlayerSwitchManager
+  m_Name: PlayerManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2357,6 +2358,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1265079942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1265079940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b7ebb262abaa734d9b72e731b0c5c94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WorldPlayer: {fileID: 1474497656}
+  Players:
+  - {fileID: 4958711549441740039, guid: 8cb7b27d594ec89418ccb8fc896eaf01, type: 3}
+  - {fileID: 4477380253037722897, guid: 060dbef93c68e6245931cb385c4cc3a2, type: 3}
 --- !u!1 &1306940121
 GameObject:
   m_ObjectHideFlags: 0
@@ -2631,6 +2648,17 @@ MonoBehaviour:
   spawnee: {fileID: 8490472862681604217, guid: dabaa7055f422a044b005225f8b9db16, type: 3}
   Timer: 0.1
   Once: 0
+--- !u!114 &1474497656 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4958711549441740039, guid: 8cb7b27d594ec89418ccb8fc896eaf01, type: 3}
+  m_PrefabInstance: {fileID: 1730923919}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac09c9307f98eb48b67d9a598f9ab0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1512279872
 GameObject:
   m_ObjectHideFlags: 0

@@ -192,7 +192,7 @@ public class BottomBarController : MonoBehaviour
         {
             DialogueText.text += text[wordIndex];
 
-            yield return new WaitForSeconds(delay);
+            yield return new WaitForSecondsRealtime(delay);
 
             wordIndex++;
 

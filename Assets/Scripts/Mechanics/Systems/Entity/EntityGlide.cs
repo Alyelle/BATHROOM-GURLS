@@ -4,22 +4,12 @@ using UnityEngine;
 
 public class EntityGlide : MonoBehaviour
 {
-    public GameObject player;
-    public float speed;
+    public float Speed;
 
-    private float distance;
-    void Start()
+    private void Update()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        distance = Vector2.Distance(transform.position, player.transform.position);
-        Vector2 direction = player.transform.position - transform.position;
-        if (player != null) {
-            transform.position = Vector2.MoveTowards(this.transform.position, player.transform.position, speed * Time.deltaTime);
+        if (PlayerManager.Instance.WorldPlayer != null) {
+            transform.position = Vector2.MoveTowards(transform.position, PlayerManager.Instance.WorldPlayer.transform.position, Speed * Time.deltaTime);
         }
     }
 }

@@ -125,7 +125,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 6
+    speakerSpriteId: 10
     speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
     voiceLine: {fileID: 0}
   - text: Stop feeding your superiority complex and get a grip, four-eyes!
@@ -136,13 +136,13 @@ MonoBehaviour:
     speakerSpriteId: 2
     speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
     voiceLine: {fileID: 0}
-  - text: Who the hell do you think you are?
+  - text: Superiority complex...?
     animationName: 
     unskippable: 0
     autoPlay: 0
     delay: 0.025
     speakerSpriteId: 0
-    speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
+    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: "Shut up, both of you! We can\u2019t afford to fight now."
     animationName: 

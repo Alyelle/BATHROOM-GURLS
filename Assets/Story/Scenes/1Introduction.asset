@@ -659,7 +659,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 1
     speaker: {fileID: 11400000, guid: d632a88962f871444aebd2b5cce93ada, type: 2}
     voiceLine: {fileID: 0}
   - text: "Is it that \u201Cmonsters on the way to the bathroom\u201D rumor again?"
@@ -676,7 +676,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 2
     speaker: {fileID: 11400000, guid: d632a88962f871444aebd2b5cce93ada, type: 2}
     voiceLine: {fileID: 0}
   - text: "No, it\u2019s nothing like that. We just coincidentally need to use the
@@ -693,7 +693,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 1
     speaker: {fileID: 11400000, guid: d632a88962f871444aebd2b5cce93ada, type: 2}
     voiceLine: {fileID: 0}
   - text: Of course we won't! I-I mean, I won't. I don't know about them.

@@ -6,6 +6,7 @@ using UnityEngine.UI;
 namespace Game.Entity
 {
     public class EntityBossbar : EntityAddon
+   
     {
         Slider slider;
 

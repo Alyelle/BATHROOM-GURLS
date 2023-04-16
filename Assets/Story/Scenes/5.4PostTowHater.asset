@@ -12,26 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfec41f37a28ba844bf0cf2f2c2a911e, type: 3}
   m_Name: 5.4PostTowHater
   m_EditorClassIdentifier: 
-  background: {fileID: 0}
+  background: {fileID: 21300000, guid: f76fb4431c80dcf42ab042d252124a39, type: 3}
   sentences:
   - text: Aaaahh! My...my beautiful wheels...!
-    animationName: 
+    animationName: Shake
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 4
     speaker: {fileID: 11400000, guid: 01e1ab7a2d448f7449363045f94fa057, type: 2}
     voiceLine: {fileID: 0}
   - text: "I\u2019ve taken too much damage, I can't...I..."
-    animationName: 
+    animationName: No
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 6
     speaker: {fileID: 11400000, guid: 01e1ab7a2d448f7449363045f94fa057, type: 2}
     voiceLine: {fileID: 0}
   - text: Let us pass, Tow Mater. We only wish to use the restroom.
-    animationName: 
+    animationName: Yes
     unskippable: 0
     autoPlay: 0
     delay: 0.025
@@ -39,11 +39,11 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
     voiceLine: {fileID: 0}
   - text: Can't you just use the pool? I don't really know how humans work...
-    animationName: 
+    animationName: No
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 6
     speaker: {fileID: 11400000, guid: 01e1ab7a2d448f7449363045f94fa057, type: 2}
     voiceLine: {fileID: 0}
   - text: If you do, say hi to that SWANELLE GLIMMER SHIMMER WHATEVER creature along
@@ -52,15 +52,15 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 6
     speaker: {fileID: 11400000, guid: 01e1ab7a2d448f7449363045f94fa057, type: 2}
     voiceLine: {fileID: 0}
   - text: "You\u2019ve met her?!"
-    animationName: 
+    animationName: Yes
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 1
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: Unfortunately. How do you think she got here?
@@ -68,15 +68,15 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
-    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
+    speakerSpriteId: 6
+    speaker: {fileID: 11400000, guid: 01e1ab7a2d448f7449363045f94fa057, type: 2}
     voiceLine: {fileID: 0}
   - text: EEEEE!
-    animationName: 
+    animationName: Shake
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 2
     speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
     voiceLine: {fileID: 0}
   - text: "What\u2019s wrong, Cecile?"
@@ -84,15 +84,15 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 10
     speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
     voiceLine: {fileID: 0}
   - text: I REAAAALLLYYY need to go!
-    animationName: 
+    animationName: Shake
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 12
     speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
     voiceLine: {fileID: 0}
   - text: Hm?
@@ -100,63 +100,63 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
-    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    speakerSpriteId: 6
+    speaker: {fileID: 11400000, guid: 01e1ab7a2d448f7449363045f94fa057, type: 2}
     voiceLine: {fileID: 0}
   - text: "I\u2019VE BEEN HOLDING IT IN SINCE MR. VADEY\u2019S CLASS BEGAN!"
-    animationName: 
+    animationName: Yes
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 12
     speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
     voiceLine: {fileID: 0}
   - text: I NEED TO GO!
-    animationName: 
+    animationName: No
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 2
     speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
     voiceLine: {fileID: 0}
   - text: NOWWWW!
-    animationName: 
+    animationName: Shake
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 2
     speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
     voiceLine: {fileID: 0}
   - text: NOT ON MY PARKING LOT!
-    animationName: 
+    animationName: No
     unskippable: 0
     autoPlay: 0
     delay: 0.025
     speakerSpriteId: 0
     speaker: {fileID: 11400000, guid: 01e1ab7a2d448f7449363045f94fa057, type: 2}
     voiceLine: {fileID: 0}
-  - text: "No choice now. I guess I\u2019ll have to\u2014                "
-    animationName: 
+  - text: "No choice now. I really have to\u2014                "
+    animationName: Yes
     unskippable: 0
     autoPlay: 1
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 9
     speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
     voiceLine: {fileID: 0}
   - text: STOP, STOP!
-    animationName: 
+    animationName: Shake
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 4
     speaker: {fileID: 11400000, guid: 01e1ab7a2d448f7449363045f94fa057, type: 2}
     voiceLine: {fileID: 0}
   - text: "Fine. I\u2019ll let you go now."
-    animationName: 
+    animationName: Yes
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 6
     speaker: {fileID: 11400000, guid: 01e1ab7a2d448f7449363045f94fa057, type: 2}
     voiceLine: {fileID: 0}
   - text: "BUT NEXT TIME\u2014              "
@@ -164,8 +164,8 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 1
     delay: 0.025
-    speakerSpriteId: 0
-    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    speakerSpriteId: 2
+    speaker: {fileID: 11400000, guid: 01e1ab7a2d448f7449363045f94fa057, type: 2}
     voiceLine: {fileID: 0}
   - text: Yeah yeah, whatever, dumbtruck.
     animationName: 
@@ -188,11 +188,11 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 10
     speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
     voiceLine: {fileID: 0}
   - text: ARGHHHHH! Just get out of my sight already!
-    animationName: 
+    animationName: No
     unskippable: 0
     autoPlay: 0
     delay: 0.025

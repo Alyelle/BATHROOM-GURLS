@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Green Meatball
   m_EditorClassIdentifier: 
   speakerName: Green Meatball
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  textColor: {r: 0.20251626, g: 0.5, b: 0.18160376, a: 1}
   sprites:
   - {fileID: 21300000, guid: fa9528121dfec514fac2e468c61c350e, type: 3}
   - {fileID: 21300000, guid: 74cbc8f6e862cf842a98dd1f72681454, type: 3}

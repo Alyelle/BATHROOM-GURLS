@@ -54,6 +54,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 3
   dashSpeed: 7
+  Rotation: 0
 --- !u!50 &4958711549441740035
 Rigidbody2D:
   serializedVersion: 4
@@ -114,7 +115,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   entity: {fileID: 11400000, guid: 62a987502b5470744adcce92c325fa7a, type: 2}
-  currentHealth: 0
 --- !u!114 &4958711549441740058
 MonoBehaviour:
   m_ObjectHideFlags: 0

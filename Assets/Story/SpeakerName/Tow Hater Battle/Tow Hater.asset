@@ -15,4 +15,10 @@ MonoBehaviour:
   speakerName: Tow Hater
   textColor: {r: 1, g: 1, b: 1, a: 1}
   sprites:
-  - {fileID: 21300000, guid: 57d41c340d66a5b4c882209708e238be, type: 3}
+  - {fileID: 21300000, guid: f5d7d6bdc43324249ad9530866f253d4, type: 3}
+  - {fileID: 21300000, guid: 5198a3a9dc586934788a92b25d97b206, type: 3}
+  - {fileID: 21300000, guid: 71ad04786b83b5b4895b379bf289cc19, type: 3}
+  - {fileID: 21300000, guid: 96ee6508c8ce7d246ba1469aaee97803, type: 3}
+  - {fileID: 21300000, guid: 6a8d7c9354150f04faa1049e38616f85, type: 3}
+  - {fileID: 21300000, guid: ef43f04bbc7fcad47be667d17b485d90, type: 3}
+  - {fileID: 21300000, guid: f9e4028248d2cd7409a2c187ed827606, type: 3}

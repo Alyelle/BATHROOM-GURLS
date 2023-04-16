@@ -11,6 +11,10 @@ public class BottomBarController : MonoBehaviour
 
     public KeyCode[] KeyBindings;
     public KeyCode[] SkipKeyBindings;
+    public KeyCode[] SpamKeyBindings;
+
+    public float SpamDelay = 0.05f;
+
     public TMP_Text DialogueText;
     public TMP_Text NameText;
 
@@ -30,6 +34,8 @@ public class BottomBarController : MonoBehaviour
     Transform cameraTrans;
 
     Animator anim;
+
+    float spamDelay;
 
     [HideInInspector]
     public int SentenceIndex
@@ -124,25 +130,40 @@ public class BottomBarController : MonoBehaviour
             if (Input.GetKeyDown(key)) skipKeyPressed = true;
         }
 
+        bool spamKeyPressed = false;
+        foreach (KeyCode key in SpamKeyBindings)
+        {
+            if (Input.GetKey(key)) spamKeyPressed = true;
+        }
+
+        if (spamDelay > 0f)
+            spamDelay -= Time.unscaledDeltaTime;
+
+        if (spamKeyPressed && !CurrentText.sentences[sentenceIndex].unskippable)
+        {
+            StopCoroutine(currentPlayingCoroutine);
+            DialogueText.text = CurrentText.sentences[sentenceIndex].text;
+            state = State.COMPLETED;
+        }
+
+        if (spamKeyPressed && spamDelay <= 0f && !CurrentText.sentences[sentenceIndex].unskippable)
+        {
+            spamDelay = SpamDelay;
+            NextSentence();
+            return;
+        }
+
         if (state == State.COMPLETED && CurrentText.sentences[sentenceIndex].autoPlay) NextSentence();
 
-        if (/*fadingCoroutine == null && */state == State.COMPLETED && (Input.GetMouseButtonDown(0) || keyPressed))
+        if (state == State.COMPLETED && keyPressed)
         {
             NextSentence();
         }
-        else if (state == State.PLAYING && currentPlayingCoroutine != null && (Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1) || skipKeyPressed) && !CurrentText.sentences[sentenceIndex].unskippable)
+        else if (state == State.PLAYING && currentPlayingCoroutine != null && skipKeyPressed && !CurrentText.sentences[sentenceIndex].unskippable)
         {
             StopCoroutine(currentPlayingCoroutine);
-            //if(fadingCoroutine != null)
-            //StopCoroutine(fadingCoroutine);
-            /*
-            speakerSprite.color = defaultSpriteColor;
-            NameText.color = CurrentText.sentences[sentenceIndex].speaker.textColor;
-            DialogueText.color = new Color(DialogueText.color.r, DialogueText.color.g, DialogueText.color.b, 1f);
-            */
             DialogueText.text = CurrentText.sentences[sentenceIndex].text;
             state = State.COMPLETED;
-            // fadingCoroutine = null;
         }
     }
 
@@ -154,7 +175,7 @@ public class BottomBarController : MonoBehaviour
             {
                 CurrentText = null;
 
-                gameObject.SetActive(false); // Exit animation
+                gameObject.SetActive(false);
 
                 Time.timeScale = 1f;
 
@@ -162,6 +183,9 @@ public class BottomBarController : MonoBehaviour
             }
             else
             {
+                if (currentPlayingCoroutine != null)
+                    StopCoroutine(currentPlayingCoroutine);
+
                 CurrentText = CurrentText.nextScene;
 
                 SentenceIndex = 0;
@@ -203,46 +227,11 @@ public class BottomBarController : MonoBehaviour
             }
         }
     }
-    /*
-    private IEnumerator FadeSpeaker(int indx)
-    {
-        defaultSpriteColor = speakerSprite.color;
-        
-        for(float alpha = 1f; alpha >= 0f; alpha -= Time.deltaTime * 8f)
-        {
-            NameText.color = new Color(NameText.color.r, NameText.color.g, NameText.color.b, alpha);
-            DialogueText.color = new Color(DialogueText.color.r, DialogueText.color.g, DialogueText.color.b, alpha);
-            speakerSprite.color = new Color(defaultSpriteColor.r * alpha, defaultSpriteColor.g * alpha, defaultSpriteColor.b * alpha, 1f);
-            yield return null;
-        }
-        
-        NameText.text = CurrentText.sentences[indx].speaker.speakerName;
-        DialogueText.text = "";
-        DialogueText.color = new Color(DialogueText.color.r, DialogueText.color.g, DialogueText.color.b, 1f);
-        speakerSprite.sprite = CurrentText.sentences[indx].speaker.sprites[CurrentText.sentences[indx].speakerSpriteId];
-        Color newColor = CurrentText.sentences[indx].speaker.textColor;
-        NameText.color = new Color(newColor.r, newColor.g, newColor.b, 0f);
-        
-        
-        currentPlayingCoroutine = StartCoroutine(TypeText(CurrentText.sentences[indx].text, CurrentText.sentences[indx].delay, CurrentText.sentences[indx].voiceLine));
-        
-        
-        for(float alpha = 0f; alpha < 1f; alpha += Time.deltaTime * 8f)
-        {
-            NameText.color = new Color(NameText.color.r, NameText.color.g, NameText.color.b, alpha);
-            speakerSprite.color = new Color(defaultSpriteColor.r * alpha, defaultSpriteColor.g * alpha, defaultSpriteColor.b * alpha, 1f);
-            yield return null;
-        }
-        
-        
-        fadingCoroutine = null;
-        yield break;
-    }
-    */
 
     private enum State
     {
-        PLAYING, COMPLETED
+        PLAYING, 
+        COMPLETED
     }
 
     public event Action onDialogueEnd;

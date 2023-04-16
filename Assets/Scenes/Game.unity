@@ -308,8 +308,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7cd94be0c0467d4cb391e47cbdc08c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  KeyBindings: 
-  SkipKeyBindings: 
+  KeyBindings: 43010000
+  SkipKeyBindings: 4301000044010000
+  SpamKeyBindings: 32010000
+  SpamDelay: 0.07
   DialogueText: {fileID: 877818592}
   NameText: {fileID: 984372827}
   speakerSprite: {fileID: 403274265}

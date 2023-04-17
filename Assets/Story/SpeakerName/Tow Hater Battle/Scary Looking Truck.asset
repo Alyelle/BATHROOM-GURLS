@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Scary Looking Truck
   m_EditorClassIdentifier: 
   speakerName: Scary-Looking Truck
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  textColor: {r: 0, g: 0, b: 0, a: 1}
   sprites:
   - {fileID: 21300000, guid: f5d7d6bdc43324249ad9530866f253d4, type: 3}
   - {fileID: 21300000, guid: 5198a3a9dc586934788a92b25d97b206, type: 3}

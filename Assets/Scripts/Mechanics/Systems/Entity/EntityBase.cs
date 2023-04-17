@@ -77,6 +77,8 @@ namespace Game.Entity
                 foreach (GameObject go in entity.DeathObjects)
                     Instantiate(go, transform.position, transform.rotation);
 
+            GameEventSystem.OnEntityDeath(this);
+
             OnDeath();
 
             Destroy(gameObject);

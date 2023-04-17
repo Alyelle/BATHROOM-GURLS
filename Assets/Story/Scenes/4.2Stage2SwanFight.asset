@@ -71,4 +71,4 @@ MonoBehaviour:
     speakerSpriteId: 1
     speaker: {fileID: 11400000, guid: e435cb813bdd36d4799da97b4e3e152d, type: 2}
     voiceLine: {fileID: 0}
-  nextScene: {fileID: 11400000, guid: 94cd3ef4ca0b4fb4fae1434f182686c5, type: 2}
+  nextScene: {fileID: 0}

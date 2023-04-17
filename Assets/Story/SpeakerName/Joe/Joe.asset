@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f9d1b129a1c96f4b932c5ed60b1068a, type: 3}
+  m_Name: Joe
+  m_EditorClassIdentifier: 
+  speakerName: Joe
+  textColor: {r: 0, g: 0, b: 0, a: 1}
+  sprites:
+  - {fileID: 21300000, guid: 4961e26ca092a524bbeb0305ff0d8b91, type: 3}
+  - {fileID: 21300000, guid: 3416cb779de594d4a9e93eeb93c733c3, type: 3}
+  - {fileID: 21300000, guid: dab72c1687f7ecf4fb4379ffc29b6d8f, type: 3}
+  - {fileID: 21300000, guid: 2bada7ea5863632469599f56d74621f7, type: 3}
+  - {fileID: 21300000, guid: ff40dcde38e0de348ade490acba3d9d6, type: 3}
+  - {fileID: 21300000, guid: 61eeaa594f941044e96c6766c1490437, type: 3}
+  - {fileID: 21300000, guid: 721d4636a47b83e49bd52797c3ff514d, type: 3}
+  - {fileID: 21300000, guid: 2266dfb00c13ed543be776867e77168b, type: 3}

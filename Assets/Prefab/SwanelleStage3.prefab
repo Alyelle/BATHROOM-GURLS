@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -3080552692766565283}
   - component: {fileID: 6425991439839764502}
   - component: {fileID: -4017524677423797338}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SwanelleStage3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 1403734814713447808}
   - component: {fileID: 1403734814713447809}
   - component: {fileID: 1403734814713447810}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}

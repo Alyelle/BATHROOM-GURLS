@@ -33,10 +33,7 @@ namespace Game.Spawner
         public void OnExit()
         {
             spawner.enabled = true;
-
-            spawner.Spawn();
-
-            spawner.enabled = false;
+            spawner.Once = true;
         }
     }
 }

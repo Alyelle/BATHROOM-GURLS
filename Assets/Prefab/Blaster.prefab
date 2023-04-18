@@ -94,7 +94,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7079395849502438027}
   - component: {fileID: 7079395849502438026}
-  - component: {fileID: 7079395849502438025}
+  - component: {fileID: 5466506538438582590}
   - component: {fileID: 7079395849502438024}
   m_Layer: 0
   m_Name: Blaster
@@ -138,7 +138,7 @@ MonoBehaviour:
   Priority: 128
   targetPos: {x: 0, y: 0, z: 0}
   targetRot: 0
---- !u!114 &7079395849502438025
+--- !u!114 &5466506538438582590
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -147,12 +147,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 7079395849502438028}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 625b857626d0d894a989f53b73c33b7a, type: 3}
+  m_Script: {fileID: 11500000, guid: 66045cd7eb7cd8844b3bd3d9cf6c17af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnee: {fileID: 8490472862681604217, guid: dabaa7055f422a044b005225f8b9db16, type: 3}
-  Timer: 1
+  spawnee: {fileID: 4787085902609853245, guid: 0fc5d5c97057fb741928baf2a783d34a, type: 3}
+  Timer: 0
   Once: 1
+  Burst: 10
+  BurstDelay: 0.05
 --- !u!114 &7079395849502438024
 MonoBehaviour:
   m_ObjectHideFlags: 0

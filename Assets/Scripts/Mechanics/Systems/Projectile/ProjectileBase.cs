@@ -1,9 +1,9 @@
 using Game.Entity;
+using System;
 using UnityEngine;
 
 namespace Game.Projectile
 {
-    [RequireComponent(typeof(Rigidbody2D), typeof(Collider2D))]
     public class ProjectileBase : MonoBehaviour
     {
         public ProjectileScriptable proj;
@@ -14,7 +14,8 @@ namespace Game.Projectile
         {
             rb = GetComponent<Rigidbody2D>();
 
-            rb.gravityScale = 0f;
+            if (rb != null)
+                rb.gravityScale = 0f;
         }
 
         private void Update()
@@ -37,7 +38,12 @@ namespace Game.Projectile
                 Instantiate(hit, transform.position, transform.rotation);
             }
 
+            OnHit(transform.position);
+
             Destroy(gameObject);
         }
+
+        public event Action<Vector2> onHit;
+        public void OnHit(Vector2 vec) { onHit?.Invoke(vec); }
     }
 }

@@ -477,7 +477,7 @@ MonoBehaviour:
   NameText: {fileID: 984372827}
   speakerSprite: {fileID: 403274265}
   bg: {fileID: 1320309750}
-  CurrentText: {fileID: 11400000, guid: f1e17318748e66246881aae1283264ab, type: 2}
+  CurrentText: {fileID: 0}
 --- !u!114 &246360094
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1144,7 +1144,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -5.037781, y: -44.34648}
+  m_AnchoredPosition: {x: -5.0377197, y: -44.34648}
   m_SizeDelta: {x: -162.1659, y: -130.9717}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &877818592

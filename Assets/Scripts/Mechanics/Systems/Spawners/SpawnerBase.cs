@@ -30,11 +30,13 @@ public class SpawnerBase : MonoBehaviour
         }
     }
 
-    public void Spawn()
+    public virtual GameObject Spawn()
     {
-        Instantiate(spawnee, transform.position, transform.rotation);
+        GameObject go = Instantiate(spawnee, transform.position, transform.rotation);
 
         if (Once)
             enabled = false;
+
+        return go;
     }
 }

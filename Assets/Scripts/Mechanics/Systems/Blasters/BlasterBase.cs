@@ -53,7 +53,7 @@ namespace Game.Blasters
 
             transform.SetPositionAndRotation(
                 Vector3.SmoothDamp(transform.position, targetPos, ref velPos, EntryTime),
-                Quaternion.Euler(new Vector3(0f, 0f, Mathf.SmoothDamp(transform.rotation.eulerAngles.z, targetRot, ref velRot, EntryTime)))
+                Quaternion.Euler(0f, 0f, Mathf.SmoothDamp(transform.rotation.eulerAngles.z, targetRot, ref velRot, EntryTime))
                 );
         }
 
@@ -67,6 +67,7 @@ namespace Game.Blasters
             {
                 exited = true;
                 timer = EntryTime * 2f;
+                transform.rotation = Quaternion.Euler(0f, 0f, targetRot);
                 targetPos = transform.position + transform.up * -14f;
             }
 

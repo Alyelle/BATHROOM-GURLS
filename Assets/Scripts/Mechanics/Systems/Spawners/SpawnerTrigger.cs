@@ -4,6 +4,8 @@ using UnityEngine;
 [RequireComponent(typeof(Collider2D))]
 public class SpawnerTrigger : SpawnerAddon
 {
+    public bool Once;
+
     Collider2D col;
 
     private void Start()
@@ -25,6 +27,9 @@ public class SpawnerTrigger : SpawnerAddon
             spawner.enabled = true;
 
             spawner.Spawn();
+
+            if (Once)
+                Destroy(gameObject);
         }
     }
 }

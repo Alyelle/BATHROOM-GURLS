@@ -9,11 +9,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1403734814191412387}
+  - component: {fileID: 1403734814191412397}
   - component: {fileID: 1403734814191412396}
   - component: {fileID: 1403734814191412398}
-  - component: {fileID: 1403734814191412397}
-  m_Layer: 0
-  m_Name: Swanelle
+  - component: {fileID: -3080552692766565283}
+  - component: {fileID: 6507134070408559874}
+  - component: {fileID: -8114608405250898730}
+  m_Layer: 10
+  m_Name: SwanelleStage2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35,6 +38,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1403734814191412397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1403734814191412385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac09c9307f98eb48b67d9a598f9ab0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entity: {fileID: 11400000, guid: 2609b9ed662199f4e8e26cab61d5879b, type: 2}
 --- !u!58 &1403734814191412396
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -50,7 +66,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -0.09}
   serializedVersion: 2
-  m_Radius: 0.69
+  m_Radius: 0.65
 --- !u!50 &1403734814191412398
 Rigidbody2D:
   serializedVersion: 4
@@ -71,8 +87,8 @@ Rigidbody2D:
   m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 1
-  m_Constraints: 4
---- !u!114 &1403734814191412397
+  m_Constraints: 7
+--- !u!114 &-3080552692766565283
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -81,10 +97,34 @@ MonoBehaviour:
   m_GameObject: {fileID: 1403734814191412385}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ac09c9307f98eb48b67d9a598f9ab0d, type: 3}
+  m_Script: {fileID: 11500000, guid: 3f84389fb0728644288863002a3c4314, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  entity: {fileID: 11400000, guid: 7ec7aea55ec889e44ab69fe6482ed683, type: 2}
+--- !u!114 &6507134070408559874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1403734814191412385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee04596579bf87f48adc64c567f73930, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dialogue: {fileID: 11400000, guid: 94cd3ef4ca0b4fb4fae1434f182686c5, type: 2}
+--- !u!114 &-8114608405250898730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1403734814191412385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d03581a2a17fe7c469656279f7dded72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1403734814713447815
 GameObject:
   m_ObjectHideFlags: 0
@@ -96,7 +136,7 @@ GameObject:
   - component: {fileID: 1403734814713447808}
   - component: {fileID: 1403734814713447809}
   - component: {fileID: 1403734814713447810}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -159,7 +199,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 7cec9b386ed47454184379c24326ec28, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f684e613849b5a44bb35547ad462e93e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -183,4 +223,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Freqency: 7
-  Amplitude: 0.05
+  Amplitude: 0.07

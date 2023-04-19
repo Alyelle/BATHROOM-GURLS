@@ -1,7 +1,4 @@
 using Game.Entity;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 
 public class PlayerRespawn : EntityAddon
 {
@@ -15,6 +12,8 @@ public class PlayerRespawn : EntityAddon
         transform.position = LevelManager.Instance.currentLevel.PlayerRespawnPoint.position;
         ent.currentHealth = ent.entity.Health;
 
-        return;
+        GameEventSystem.OnRespawn(ent);
+
+        LevelManager.Instance.currentLevel.Respawn();
     }
 }

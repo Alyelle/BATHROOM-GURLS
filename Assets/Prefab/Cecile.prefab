@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 4958711549441740037}
   - component: {fileID: 4958711549441740038}
   - component: {fileID: 4958711549441740036}
+  - component: {fileID: -3536756860237425875}
   m_Layer: 3
   m_Name: Cecile
   m_TagString: Untagged
@@ -115,6 +116,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   entity: {fileID: 11400000, guid: 62a987502b5470744adcce92c325fa7a, type: 2}
+  isPlayer: 1
 --- !u!114 &4958711549441740058
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -177,6 +179,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackObject: {fileID: 8186458481806896879, guid: 605a0aba1dda4834da220374c81e54cc, type: 3}
   attackDelay: 0.2
+--- !u!114 &-3536756860237425875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4958711549441740045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73c3f4a9c46049e46ad721cc2a4a6499, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4958711549653749097
 GameObject:
   m_ObjectHideFlags: 0

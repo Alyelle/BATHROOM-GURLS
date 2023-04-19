@@ -4888,6 +4888,7 @@ GameObject:
   - component: {fileID: 4477380253037722898}
   - component: {fileID: 4477380253037722909}
   - component: {fileID: 4477380253037722890}
+  - component: {fileID: 8100053047418095945}
   m_Layer: 3
   m_Name: Lilith
   m_TagString: Untagged
@@ -4986,7 +4987,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   entity: {fileID: 11400000, guid: 62a987502b5470744adcce92c325fa7a, type: 2}
-  currentHealth: 0
+  isPlayer: 1
 --- !u!114 &4477380253037722896
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5059,6 +5060,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7b67930f35e34614ba4ef5e2b5665f4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8100053047418095945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4477380253037722908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73c3f4a9c46049e46ad721cc2a4a6499, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &4477380253872833416

@@ -17,6 +17,11 @@ public class SpawnerTrigger : SpawnerAddon
         spawner.enabled = false;
     }
 
+    private void OnEnable()
+    {
+        spawner.enabled = false;
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (!collision.gameObject.TryGetComponent(out EntityBase ent))
@@ -28,8 +33,10 @@ public class SpawnerTrigger : SpawnerAddon
 
             spawner.Spawn();
 
+            spawner.enabled = false;
+
             if (Once)
-                Destroy(gameObject);
+                enabled = false;
         }
     }
 }

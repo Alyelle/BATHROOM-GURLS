@@ -62,7 +62,7 @@ MonoBehaviour:
     speakerSpriteId: 7
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
-  - text: "What thing? I don't see any\u2014"
+  - text: "What thing? I don't see any\u2014                             "
     animationName: 
     unskippable: 0
     autoPlay: 1
@@ -75,7 +75,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 2
     speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
     voiceLine: {fileID: 0}
   - text: Waaaaaaah...

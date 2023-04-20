@@ -36,7 +36,7 @@ public class SpawnerTrigger : SpawnerAddon
             spawner.enabled = false;
 
             if (Once)
-                enabled = false;
+                col.enabled = false;
         }
     }
 }

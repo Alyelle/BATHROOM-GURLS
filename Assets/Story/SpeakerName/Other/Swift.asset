@@ -10,8 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f9d1b129a1c96f4b932c5ed60b1068a, type: 3}
-  m_Name: Menu
+  m_Name: Swift
   m_EditorClassIdentifier: 
-  speakerName: 
-  textColor: {r: 1, g: 1, b: 1, a: 0}
-  sprites: []
+  speakerName: Swift
+  textColor: {r: 0, g: 0, b: 0, a: 1}
+  sprites:
+  - {fileID: 21300000, guid: 8276881536f4b214a8e5aa61d11fccf0, type: 3}
+  - {fileID: 21300000, guid: bb40859df9cedde41a1b0552baefedd1, type: 3}
+  - {fileID: 21300000, guid: eff5b80db36557e4ebd825c1e776fe94, type: 3}

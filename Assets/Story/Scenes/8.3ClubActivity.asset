@@ -1,0 +1,245 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfec41f37a28ba844bf0cf2f2c2a911e, type: 3}
+  m_Name: 8.3ClubActivity
+  m_EditorClassIdentifier: 
+  background: {fileID: 21300000, guid: 937beb20ec812804dbb90aad1e304cb9, type: 3}
+  sentences:
+  - text: This is all so exciting!
+    animationName: Yes
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 2
+    speaker: {fileID: 11400000, guid: 6cf37b44626aeab4fa9149fed37b62c9, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "It\u2019s like an RPG but in real life!"
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 1
+    speaker: {fileID: 11400000, guid: b663ee05cb4b4c449a40b979ceb94c9c, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Actually, I had a bit too much of milk this morning.
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 1
+    speaker: {fileID: 11400000, guid: 6cf37b44626aeab4fa9149fed37b62c9, type: 2}
+    voiceLine: {fileID: 0}
+  - text: I think I needa go, you know?
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 2
+    speaker: {fileID: 11400000, guid: 6cf37b44626aeab4fa9149fed37b62c9, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Again? All three of us are lactose intolerant, idiot.
+    animationName: Yes
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 27dfc1664a172af4bb4f18afd21b46a5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "It\u2019s my favOriTe milk brand, okay? I couldn\u2019t resist!"
+    animationName: No
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 2
+    speaker: {fileID: 11400000, guid: 6cf37b44626aeab4fa9149fed37b62c9, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Speaking of milk, they ran out of oat milk when I went to the coffee shop
+      before school started.
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 1
+    speaker: {fileID: 11400000, guid: 27dfc1664a172af4bb4f18afd21b46a5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "Looks like I\u2019ll be having fun as well!"
+    animationName: Yes
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 1
+    speaker: {fileID: 11400000, guid: 27dfc1664a172af4bb4f18afd21b46a5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Yay! Twinsies!
+    animationName: Shake
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 1
+    speaker: {fileID: 11400000, guid: 6cf37b44626aeab4fa9149fed37b62c9, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Wait...um...now that I think about it...
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: b663ee05cb4b4c449a40b979ceb94c9c, type: 2}
+    voiceLine: {fileID: 0}
+  - text: I feel a bit of pain in my stomach...
+    animationName: No
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: b663ee05cb4b4c449a40b979ceb94c9c, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "I shouldn\u2019t have had those 2 cans of ice cream, 5 caramel frappuccinos,
+      and 29 cheese sticks for breakfast."
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: b663ee05cb4b4c449a40b979ceb94c9c, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "Well, there shouldn\u2019t be any problems, because it\u2019s lunchtime,
+      right?"
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 1
+    speaker: {fileID: 11400000, guid: 27dfc1664a172af4bb4f18afd21b46a5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "There have been some documentation of bathroom monsters during lunchtime,
+      though they\u2019re usually only lurking near the restrooms."
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 2
+    speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
+    voiceLine: {fileID: 0}
+  - text: So it's essentially a lot less safer than going during class.
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 1
+    speaker: {fileID: 11400000, guid: 27dfc1664a172af4bb4f18afd21b46a5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Yeah, I say we go!
+    animationName: Yes
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 3
+    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "What kind of ridiculous\u2014                                      "
+    animationName: 
+    unskippable: 0
+    autoPlay: 1
+    delay: 0.025
+    speakerSpriteId: 1
+    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Why Not?
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 2
+    speaker: {fileID: 11400000, guid: 6cf37b44626aeab4fa9149fed37b62c9, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "Yeah! Don\u2019t be so uptight, ATHENA."
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 10
+    speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "People, it\u2019s the first meeting! We can\u2019t be running off\u2014                                          "
+    animationName: 
+    unskippable: 0
+    autoPlay: 1
+    delay: 0.025
+    speakerSpriteId: 9
+    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "LET\u2019S GET GOING GIRLS!!\r"
+    animationName: Shake
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 1
+    speaker: {fileID: 11400000, guid: 27dfc1664a172af4bb4f18afd21b46a5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: WOOHOOO! PEE BREAKK!!
+    animationName: Shake
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 2
+    speaker: {fileID: 11400000, guid: 6cf37b44626aeab4fa9149fed37b62c9, type: 2}
+    voiceLine: {fileID: 0}
+  - text: YASSSSSSS!!!!!
+    animationName: Shake
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 1
+    speaker: {fileID: 11400000, guid: b663ee05cb4b4c449a40b979ceb94c9c, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Hey! No, stop! Wait up!
+    animationName: Yes
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Well, there they go!
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 8
+    speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
+    voiceLine: {fileID: 0}
+  - text: This was more difficult than I anticipated.
+    animationName: No
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 4
+    speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Well, no better way to practice than first-hand experience!
+    animationName: Yes
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 3
+    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "Let\u2019s do this!"
+    animationName: Shake
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 5
+    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    voiceLine: {fileID: 0}
+  nextScene: {fileID: 0}

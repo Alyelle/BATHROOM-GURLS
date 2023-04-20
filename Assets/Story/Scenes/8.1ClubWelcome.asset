@@ -1,0 +1,431 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfec41f37a28ba844bf0cf2f2c2a911e, type: 3}
+  m_Name: 8.1ClubWelcome
+  m_EditorClassIdentifier: 
+  background: {fileID: 21300000, guid: 937beb20ec812804dbb90aad1e304cb9, type: 3}
+  sentences:
+  - text: Hi everyone!
+    animationName: Yes
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 5
+    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Welcome to the first Girls Who Fight Bathroom Monsters meeting!
+    animationName: Shake
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 3
+    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    voiceLine: {fileID: 0}
+  - text: 'AKA: GWFBM.'
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 10
+    speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
+    voiceLine: {fileID: 0}
+  - text: As a brief summary, we work together to defeat bathroom monsters, and we
+      want the girls at this school to share their knowledge so everyone can do so
+      in the most efficient ways.
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 5
+    speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Oo! Oo!
+    animationName: Yes
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 1
+    speaker: {fileID: 11400000, guid: b663ee05cb4b4c449a40b979ceb94c9c, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Yes, you in the front.
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 3
+    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "Why is the club abbreviated to GWFBM when it\u2019s probably easier to
+      just say the full name?"
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 1
+    speaker: {fileID: 11400000, guid: b663ee05cb4b4c449a40b979ceb94c9c, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Hmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm...
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 6
+    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Moving on!
+    animationName: Shake
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 3
+    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "I\u2019m CECILE! The President of this club. I\u2019m so happy to meet
+      you all!"
+    animationName: No
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 5
+    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "I\u2019m LILITH, and I\u2019m the Vice President!"
+    animationName: Yes
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 7
+    speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "It\u2019s great to see everybody. I\u2019m ATHENA."
+    animationName: Yes
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 5
+    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "I can\u2019t trust these dummies to manage money, so I\u2019m the treasurer
+      AND the secretary."
+    animationName: Yes
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "And last but, of course, not LEAHst, I\u2019m Leah! The outreach officer."
+    animationName: Yes
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 10
+    speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
+    voiceLine: {fileID: 0}
+  - text: ......................................................
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 8
+    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "I\u2019m excited to meet new people...while stuffing the club in their
+      faces. Teehee!"
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 10
+    speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "This club was originally LEAH\u2019s idea, but the concept really resonates
+      with me..."
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    voiceLine: {fileID: 0}
+  - text: I mostly felt helpless and directionless a few weeks ago, but after a fateful
+      adventure with these ladies...
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 1
+    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    voiceLine: {fileID: 0}
+  - text: I realized that more than anything, I want us girls together; as a unit,
+      rather than always trying to tear each other down.
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 8
+    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "(Obviously, I still have to figure out what more I want from my life apart
+      from this club, but it\u2019s a start, right?)"
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 10
+    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Well said, President!
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 11
+    speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
+    voiceLine: {fileID: 0}
+  - text: (Originally, I was so worried about proving myself and the club that I
+      wanted to take over everything)
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 2
+    speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
+    voiceLine: {fileID: 0}
+  - text: (...but supporting her from the vice president position allows both of
+      us to shine so brightly!)
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 3
+    speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
+    voiceLine: {fileID: 0}
+  - text: During our first meeting we will be introducing the various monsters around
+      campus.
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 1
+    speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "I\u2019ve been collecting an index of different monsters we\u2019ve encountered."
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 3
+    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "ATHENA has been great with this! She\u2019s studied the appearances of
+      many monsters as well as their attack patterns."
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 10
+    speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
+    voiceLine: {fileID: 0}
+  - text: That way, us girls have an easier time on campus!
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Can we contribute to the index if we run into new monsters?
+    animationName: Yes
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 1
+    speaker: {fileID: 11400000, guid: 27dfc1664a172af4bb4f18afd21b46a5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Of course.
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 5
+    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Nobody can do everything, certainly not me. This is a community effort.
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 9
+    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "Sounds good. I already know a monster that\u2019s missing from the index."
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 1
+    speaker: {fileID: 11400000, guid: 27dfc1664a172af4bb4f18afd21b46a5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Hey...Aly, why are you looking at me?
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 1
+    speaker: {fileID: 11400000, guid: b663ee05cb4b4c449a40b979ceb94c9c, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Ooo, guys, guys!
+    animationName: Yes
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 1
+    speaker: {fileID: 11400000, guid: 6cf37b44626aeab4fa9149fed37b62c9, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Can we convince the monsters to stan LOONA?
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 6cf37b44626aeab4fa9149fed37b62c9, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Wh-what?
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 7
+    speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
+    voiceLine: {fileID: 0}
+  - text: They need to recognize the goodness of only the greatest girl group ever!
+    animationName: Shake
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 2
+    speaker: {fileID: 11400000, guid: 6cf37b44626aeab4fa9149fed37b62c9, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "Let\u2019s pump it up! Di da dam di dam di dam~"
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 1
+    speaker: {fileID: 11400000, guid: 6cf37b44626aeab4fa9149fed37b62c9, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Literally shut up, your group disbanded like last year.
+    animationName: No
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 27dfc1664a172af4bb4f18afd21b46a5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: B-But but...what about ARTMS?
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 2
+    speaker: {fileID: 11400000, guid: 6cf37b44626aeab4fa9149fed37b62c9, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "Now, now\u2014"
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 1
+    speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Ooh, ooh!
+    animationName: Shake
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 1
+    speaker: {fileID: 11400000, guid: b663ee05cb4b4c449a40b979ceb94c9c, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Ms. President, why are you holding LEAH like that?
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 1
+    speaker: {fileID: 11400000, guid: b663ee05cb4b4c449a40b979ceb94c9c, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "I\u2013?"
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 1
+    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    voiceLine: {fileID: 0}
+  - text: ...........................
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 9
+    speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Seriously, you're doing this now?
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 1
+    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Oh my god, get a room.
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 27dfc1664a172af4bb4f18afd21b46a5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: I can write a fanfiction about this and get all the kudos!
+    animationName: Shake
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: b663ee05cb4b4c449a40b979ceb94c9c, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Focus on running your own club!
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 3
+    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "Ahem, yes ma\u2019am!"
+    animationName: Yes
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 1
+    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    voiceLine: {fileID: 0}
+  - text: ..............................................
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 7
+    speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
+    voiceLine: {fileID: 0}
+  nextScene: {fileID: 11400000, guid: 6a4d3a24b52807b48a13214fcc58596f, type: 2}

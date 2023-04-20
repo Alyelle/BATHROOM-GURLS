@@ -1,0 +1,233 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfec41f37a28ba844bf0cf2f2c2a911e, type: 3}
+  m_Name: 8.2Hallway
+  m_EditorClassIdentifier: 
+  background: {fileID: 21300000, guid: bb4fb212365028f4db36aa4fb09e5b66, type: 3}
+  sentences:
+  - text: What's going on inside that classroom?
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 2ac81d0dc33f0c347b6b22ec5936427a, type: 2}
+    voiceLine: {fileID: 0}
+  - text: I was gonna ask.
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: b67dc8cf1990b4443af81b14c98e374f, type: 2}
+    voiceLine: {fileID: 0}
+  - text: .........................................................
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 1
+    speaker: {fileID: 11400000, guid: 2ac81d0dc33f0c347b6b22ec5936427a, type: 2}
+    voiceLine: {fileID: 0}
+  - text: .........................................................
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: b67dc8cf1990b4443af81b14c98e374f, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "I dunno, sounds like they\u2019re having fun."
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: b67dc8cf1990b4443af81b14c98e374f, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Like a club or something?
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 2ac81d0dc33f0c347b6b22ec5936427a, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "But I\u2019ve never seen this classroom used for club activities before.
+      I wonder what club this is?"
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 2
+    speaker: {fileID: 11400000, guid: 2ac81d0dc33f0c347b6b22ec5936427a, type: 2}
+    voiceLine: {fileID: 0}
+  - text: ' Maybe we could check it out...?'
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: b67dc8cf1990b4443af81b14c98e374f, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "I don\u2019t see a single guy in that classroom. We\u2019re gonna look
+      so out of place in there..."
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 1
+    speaker: {fileID: 11400000, guid: 2ac81d0dc33f0c347b6b22ec5936427a, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "Yeah, maybe it\u2019s like \u2018Girls in STEM\u2019 or something."
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: b67dc8cf1990b4443af81b14c98e374f, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Wait Mech, do you see that?
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 2
+    speaker: {fileID: 11400000, guid: 2ac81d0dc33f0c347b6b22ec5936427a, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Huh? See what?
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: b67dc8cf1990b4443af81b14c98e374f, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "Why is there a giant box here? Look, it\u2019s copying everything I\u2019m
+      saying."
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 1
+    speaker: {fileID: 11400000, guid: 2ac81d0dc33f0c347b6b22ec5936427a, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Are we like, in some sort of video game?
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: b67dc8cf1990b4443af81b14c98e374f, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "I don\u2019t know. But this text engine looks poorly programmed."
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 1
+    speaker: {fileID: 11400000, guid: 2ac81d0dc33f0c347b6b22ec5936427a, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Does this have to do with those girls in there?
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: b67dc8cf1990b4443af81b14c98e374f, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "Those three, Alyelle, Jenni, and Sunny. They\u2019re always up to no good."
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 2ac81d0dc33f0c347b6b22ec5936427a, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "Alyelle\u2019s always trying to bribe me with dating advice to get me
+      to fix her spaghetti code for her, and I don\u2019t even know what she\u2019s
+      making."
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 2
+    speaker: {fileID: 11400000, guid: 2ac81d0dc33f0c347b6b22ec5936427a, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "I wouldn\u2019t be surprised if they used me to create some sort of reality-bending
+      simulation and wiped my memory with Class-A amnestics or something."
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 2ac81d0dc33f0c347b6b22ec5936427a, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Wait, if I could do that...why don't I just code one myself? Better prepare
+      some Scranton Reality Anchors just in case...!
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 2ac81d0dc33f0c347b6b22ec5936427a, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "They scare me. What\u2019s even more off is that those four are together."
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: b67dc8cf1990b4443af81b14c98e374f, type: 2}
+    voiceLine: {fileID: 0}
+  - text: CECILE, LILITH, ATHENA, and LEAH?
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 2
+    speaker: {fileID: 11400000, guid: 2ac81d0dc33f0c347b6b22ec5936427a, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "From what I\u2019ve heard, they are the only four girls in MR. VADEY\u2019s
+      2nd period APUSH class."
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: b67dc8cf1990b4443af81b14c98e374f, type: 2}
+    voiceLine: {fileID: 0}
+  - text: And I heard they all hate each other or something.
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: b67dc8cf1990b4443af81b14c98e374f, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "Eh, whatever, let\u2019s just leave."
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 2ac81d0dc33f0c347b6b22ec5936427a, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Yeah, this dialogue box thing is seriously creeping me out.
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: b67dc8cf1990b4443af81b14c98e374f, type: 2}
+    voiceLine: {fileID: 0}
+  nextScene: {fileID: 11400000, guid: c458a16ebf7fbc44a8502e5a23fbe53b, type: 2}

@@ -18,5 +18,6 @@ namespace Game.Projectile
 public enum Factions
 {
     Player,
-    Enemy
+    Enemy,
+    Neutral
 }

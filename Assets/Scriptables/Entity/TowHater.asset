@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c521d4505a57edf42a9f8ac6398376ce, type: 3}
-  m_Name: TowHaterNoWheels
+  m_Name: TowHater
   m_EditorClassIdentifier: 
-  Health: 200
+  Health: 50
   IFrameTime: 0
   DeathObjects: []
-  Faction: 0
+  Faction: 1

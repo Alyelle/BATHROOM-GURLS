@@ -1,3 +1,4 @@
+using Game.Entity;
 using UnityEngine;
 
 namespace Game.Projectile
@@ -11,6 +12,9 @@ namespace Game.Projectile
             if (r.Length > 0)
                 foreach (RaycastHit2D rs in r)
                 {
+                    if (rs.transform.TryGetComponent(out EntityBase ent) || rs.transform.TryGetComponent(out ProjectileBase proj))
+                        continue;
+
                     Vector2 vec = Vector2.Reflect(transform.up, rs.normal);
                     float rot = Mathf.Atan2(-vec.x, vec.y) * Mathf.Rad2Deg;
                     transform.rotation = Quaternion.Euler(new Vector3(0f, 0f, rot));

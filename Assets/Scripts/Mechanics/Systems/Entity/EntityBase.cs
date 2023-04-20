@@ -86,6 +86,7 @@ namespace Game.Entity
             if (IsPlayer)
             {
                 GameEventSystem.OnPlayerDeath(this);
+                return;
             }
 
             Destroy(gameObject);

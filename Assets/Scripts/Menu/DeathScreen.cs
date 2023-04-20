@@ -10,6 +10,11 @@ public class DeathScreen : MonoBehaviour
         GameEventSystem.onPlayerDeath += OnPlayerDeath;
     }
 
+    private void OnDestroy()
+    {
+        GameEventSystem.onPlayerDeath -= OnPlayerDeath;
+    }
+
     public void OnPlayerDeath(EntityBase ent)
     {
         deathScreen.SetActive(true);

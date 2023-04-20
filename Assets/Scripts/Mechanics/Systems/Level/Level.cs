@@ -8,7 +8,6 @@ public class Level : MonoBehaviour
 
     public void Respawn()
     {
-        foreach (SpawnerTrigger tr in TriggersToReset)
-            tr.enabled = true;
+        
     }
 }

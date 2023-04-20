@@ -24,7 +24,7 @@ public class SpawnerTrigger : SpawnerAddon
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (!collision.gameObject.TryGetComponent(out EntityBase ent) || !enabled)
+        if (!collision.gameObject.TryGetComponent(out EntityBase ent))
             return;
 
         if (ent == PlayerManager.Instance.WorldPlayer)

@@ -22,6 +22,8 @@ namespace Game.Entity
             }
         }
 
+        public bool IsPlayer;
+
         int hp;
 
         bool invulnerable;
@@ -80,6 +82,11 @@ namespace Game.Entity
             GameEventSystem.OnEntityDeath(this);
 
             OnDeath();
+
+            if (IsPlayer)
+            {
+                GameEventSystem.OnPlayerDeath(this);
+            }
 
             Destroy(gameObject);
         }

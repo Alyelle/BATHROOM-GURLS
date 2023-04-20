@@ -115,6 +115,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   entity: {fileID: 11400000, guid: 62a987502b5470744adcce92c325fa7a, type: 2}
+  IsPlayer: 1
 --- !u!114 &4958711549441740058
 MonoBehaviour:
   m_ObjectHideFlags: 0

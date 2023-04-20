@@ -741,7 +741,7 @@ Transform:
   - {fileID: 1127221702}
   - {fileID: 2080862385}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &157089562
 EdgeCollider2D:
@@ -2712,7 +2712,7 @@ Transform:
   - {fileID: 1807737558}
   - {fileID: 1500986835}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &1233418607
 EdgeCollider2D:
@@ -3692,7 +3692,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4958711549441740034, guid: 8cb7b27d594ec89418ccb8fc896eaf01, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4958711549441740034, guid: 8cb7b27d594ec89418ccb8fc896eaf01, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4211,7 +4211,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RequiredEntity: {fileID: 11400000, guid: e9d558aaa76a8d842a77339ccc7a63ee, type: 2}
-  Destination: {fileID: 912013402}
+  Destination: {fileID: 2080862386}
 --- !u!61 &2032078388
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -8,6 +8,8 @@ public class Teleporter : MonoBehaviour
 
     public Teleporter Destination;
 
+    public Level switchTo;
+
     Collider2D col;
 
     bool delay;
@@ -50,6 +52,9 @@ public class Teleporter : MonoBehaviour
     {
         if (col == null)
             return;
+
+        if (switchTo != null)
+            LevelManager.Instance.currentLevel = switchTo;
 
         delay = true;
     }

@@ -7,6 +7,8 @@ namespace Game.Entity
     {
         public EntityScriptable entity;
 
+        public bool isPlayer;
+
         [HideInInspector]
         public int currentHealth
         {
@@ -32,6 +34,8 @@ namespace Game.Entity
         {
             currentHealth = entity.Health;
             iFrameTimer = 0f;
+
+            GameEventSystem.onRespawn += Respawn;
         }
 
         private void Update()
@@ -48,6 +52,12 @@ namespace Game.Entity
                     OnIFrameEnd();
                 }
             }
+        }
+
+        public void Respawn(EntityBase ent)
+        {
+            if (!isPlayer)
+                Destroy(gameObject);
         }
 
         public void TakeDamage(int dmg)
@@ -81,7 +91,8 @@ namespace Game.Entity
 
             OnDeath();
 
-            Destroy(gameObject);
+            if (!isPlayer)
+                Destroy(gameObject);
         }
 
         public event Action<int> onDamage;

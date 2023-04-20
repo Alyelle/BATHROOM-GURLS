@@ -729,7 +729,7 @@ MonoBehaviour:
   NameText: {fileID: 984372827}
   speakerSprite: {fileID: 403274265}
   bg: {fileID: 1320309750}
-  CurrentText: {fileID: 11400000, guid: c458a16ebf7fbc44a8502e5a23fbe53b, type: 2}
+  CurrentText: {fileID: 11400000, guid: 89738dcc6236ecd4db3dbaef07784216, type: 2}
 --- !u!114 &246360094
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2923,7 +2923,7 @@ GameObject:
   - component: {fileID: 1512279874}
   - component: {fileID: 1512279873}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: Visual Novel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

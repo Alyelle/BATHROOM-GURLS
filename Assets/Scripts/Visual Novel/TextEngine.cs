@@ -6,7 +6,7 @@ using UnityEngine;
 public class TextEngine : ScriptableObject
 {
     public Sprite background;
-    public AudioClip backgroundmusic;
+    public AudioClip backgroundMusic;
 
     public List<Sentence> sentences;
     public TextEngine nextScene;

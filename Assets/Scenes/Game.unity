@@ -875,7 +875,7 @@ Transform:
   - {fileID: 1127221702}
   - {fileID: 2080862385}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &157089562
 EdgeCollider2D:
@@ -990,7 +990,7 @@ Transform:
   - {fileID: 905118240}
   - {fileID: 267200591}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &231075325
 GameObject:
@@ -1140,7 +1140,7 @@ MonoBehaviour:
   speakerSprite: {fileID: 403274265}
   bg: {fileID: 1320309750}
   bgm: {fileID: 1595627936}
-  CurrentText: {fileID: 11400000, guid: af71458fb8dcacc4996a3e7e0813f567, type: 2}
+  CurrentText: {fileID: 11400000, guid: 7b96e5f033d88a6448ea3c51e37be130, type: 2}
 --- !u!114 &246360094
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1781,7 +1781,7 @@ Transform:
   - {fileID: 134231615}
   - {fileID: 2132089887}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &455793128
 EdgeCollider2D:
@@ -3722,7 +3722,7 @@ Transform:
   - {fileID: 1807737558}
   - {fileID: 1500986835}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &1233418607
 EdgeCollider2D:
@@ -4659,7 +4659,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1595627935
 Transform:
@@ -4668,13 +4668,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1595627934}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1053.9006, y: 566.1722, z: -8.476115}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1595627936
 AudioSource:
@@ -4686,21 +4686,21 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 78ce5baaa294d624291ecc617f4755b5, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 1
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 0.4
   m_Pitch: 1
   Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 10
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
-  BypassEffects: 0
+  BypassEffects: 1
   BypassListenerEffects: 0
   BypassReverbZones: 0
   rolloffCustomCurve:
@@ -4849,7 +4849,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4958711549441740034, guid: 8cb7b27d594ec89418ccb8fc896eaf01, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4958711549441740034, guid: 8cb7b27d594ec89418ccb8fc896eaf01, type: 3}
       propertyPath: m_LocalPosition.x

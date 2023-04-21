@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 1Introduction
   m_EditorClassIdentifier: 
   background: {fileID: 21300000, guid: 937beb20ec812804dbb90aad1e304cb9, type: 3}
-  backgroundmusic: {fileID: 8300000, guid: 78ce5baaa294d624291ecc617f4755b5, type: 3}
+  backgroundMusic: {fileID: 8300000, guid: 78ce5baaa294d624291ecc617f4755b5, type: 3}
   sentences:
   - text: Gosh, class is so boring.
     animationName: 

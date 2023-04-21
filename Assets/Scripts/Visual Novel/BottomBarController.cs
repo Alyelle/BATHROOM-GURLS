@@ -94,6 +94,9 @@ public class BottomBarController : MonoBehaviour
         }
 
         SentenceIndex = 0;
+
+        bgm.clip = CurrentText.backgroundMusic;
+        bgm.Play();
     }
 
     private void OnEnable()
@@ -178,6 +181,8 @@ public class BottomBarController : MonoBehaviour
 
                 gameObject.SetActive(false);
 
+                bgm.Stop();
+
                 Time.timeScale = 1f;
 
                 OnDialogueEnd();
@@ -188,6 +193,13 @@ public class BottomBarController : MonoBehaviour
                     StopCoroutine(currentPlayingCoroutine);
 
                 CurrentText = CurrentText.nextScene;
+
+                if (CurrentText.backgroundMusic != bgm.clip)
+                {
+                    bgm.clip = CurrentText.backgroundMusic;
+
+                    bgm.Play();
+                }
 
                 SentenceIndex = 0;
             }
@@ -208,8 +220,6 @@ public class BottomBarController : MonoBehaviour
         DialogueText.text = ""; // Reset the dialogue box
 
         bg.sprite = CurrentText.background;
-
-        bgm.clip = CurrentText.backgroundmusic;
 
         state = State.PLAYING; // Set the play state of the dialogue
 

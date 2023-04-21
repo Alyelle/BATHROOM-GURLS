@@ -20,13 +20,14 @@ public class BottomBarController : MonoBehaviour
 
     public Image speakerSprite;
     public Image bg;
+    public AudioSource bgm;
 
     public TextEngine CurrentText;
 
     Coroutine currentPlayingCoroutine;
-    
+
     // Coroutine fadingCoroutine;
-    
+
     // Color defaultSpriteColor;
 
     AudioSource currentVoiceline;
@@ -207,6 +208,8 @@ public class BottomBarController : MonoBehaviour
         DialogueText.text = ""; // Reset the dialogue box
 
         bg.sprite = CurrentText.background;
+
+        bgm.clip = CurrentText.backgroundmusic;
 
         state = State.PLAYING; // Set the play state of the dialogue
 

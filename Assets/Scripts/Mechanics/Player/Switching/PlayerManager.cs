@@ -27,6 +27,14 @@ public class PlayerManager : MonoBehaviour
         {
             SwitchPlayer(1);
         }
+        if (Input.GetKeyDown(KeyCode.Alpha3) && CurrentPlayerIndex != 2)
+        {
+            SwitchPlayer(2);
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha3) && CurrentPlayerIndex != 3)
+        {
+            SwitchPlayer(3);
+        }
     }
 
     public void SwitchPlayer(int i)

@@ -22,8 +22,8 @@ MonoBehaviour:
     speakerSpriteId: 0
     speaker: {fileID: 11400000, guid: 2ac81d0dc33f0c347b6b22ec5936427a, type: 2}
     voiceLine: {fileID: 0}
-  - text: I was gonna ask.
-    animationName: 
+  - text: I have no idea.
+    animationName: No
     unskippable: 0
     autoPlay: 0
     delay: 0.025
@@ -47,7 +47,7 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: b67dc8cf1990b4443af81b14c98e374f, type: 2}
     voiceLine: {fileID: 0}
   - text: "I dunno, sounds like they\u2019re having fun."
-    animationName: 
+    animationName: Yes
     unskippable: 0
     autoPlay: 0
     delay: 0.025
@@ -72,7 +72,7 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: 2ac81d0dc33f0c347b6b22ec5936427a, type: 2}
     voiceLine: {fileID: 0}
   - text: ' Maybe we could check it out...?'
-    animationName: 
+    animationName: Yes
     unskippable: 0
     autoPlay: 0
     delay: 0.025
@@ -81,7 +81,7 @@ MonoBehaviour:
     voiceLine: {fileID: 0}
   - text: "I don\u2019t see a single guy in that classroom. We\u2019re gonna look
       so out of place in there..."
-    animationName: 
+    animationName: No
     unskippable: 0
     autoPlay: 0
     delay: 0.025
@@ -146,7 +146,7 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: b67dc8cf1990b4443af81b14c98e374f, type: 2}
     voiceLine: {fileID: 0}
   - text: "Those three, Alyelle, Jenni, and Sunny. They\u2019re always up to no good."
-    animationName: 
+    animationName: No
     unskippable: 0
     autoPlay: 0
     delay: 0.025
@@ -215,7 +215,7 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: b67dc8cf1990b4443af81b14c98e374f, type: 2}
     voiceLine: {fileID: 0}
   - text: "Eh, whatever, let\u2019s just leave."
-    animationName: 
+    animationName: Yes
     unskippable: 0
     autoPlay: 0
     delay: 0.025

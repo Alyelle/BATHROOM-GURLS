@@ -15,7 +15,7 @@ MonoBehaviour:
   background: {fileID: 21300000, guid: 6a8648a8fdbc52a468eb5945d110d043, type: 3}
   sentences:
   - text: WHAT THE ACTUAL AHHHH!!!!!!!!!
-    animationName: 
+    animationName: Shake
     unskippable: 0
     autoPlay: 0
     delay: 0.025
@@ -23,7 +23,7 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: f9ffc879290a39a4b85c497440a0e924, type: 2}
     voiceLine: {fileID: 0}
   - text: YESSSS! DIE ALREADY!
-    animationName: 
+    animationName: Shake
     unskippable: 0
     autoPlay: 0
     delay: 0.025
@@ -104,7 +104,7 @@ MonoBehaviour:
     voiceLine: {fileID: 0}
   - text: "Thank god. I was about to ask to bring that plastic swan back. She\u2019s
       much more preferable to him."
-    animationName: 
+    animationName: No
     unskippable: 0
     autoPlay: 0
     delay: 0.025
@@ -112,7 +112,7 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   - text: WAAAAAAAAH!!! THIS IS SO TRAGIC!!!
-    animationName: 
+    animationName: Shake
     unskippable: 0
     autoPlay: 0
     delay: 0.025
@@ -144,7 +144,7 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
     voiceLine: {fileID: 0}
   - text: We defeated all the bathroom monsters! You can finally go pee!
-    animationName: 
+    animationName: No
     unskippable: 0
     autoPlay: 0
     delay: 0.025
@@ -168,7 +168,7 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
     voiceLine: {fileID: 0}
   - text: I never had to use the bathroom...
-    animationName: 
+    animationName: Yes
     unskippable: 0
     autoPlay: 0
     delay: 0.025
@@ -200,7 +200,7 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
     voiceLine: {fileID: 0}
   - text: Seriously? Then what did we come here for?
-    animationName: 
+    animationName: Shake
     unskippable: 0
     autoPlay: 0
     delay: 0.025

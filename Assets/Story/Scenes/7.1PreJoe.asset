@@ -62,7 +62,7 @@ MonoBehaviour:
     speakerSpriteId: 8
     speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
     voiceLine: {fileID: 0}
-  - text: IT IS I, THE WRETCHED BATHROOM MONSTER
+  - text: IT IS I, THE WRETCHED BATHROOM MONSTER!
     animationName: 
     unskippable: 0
     autoPlay: 0

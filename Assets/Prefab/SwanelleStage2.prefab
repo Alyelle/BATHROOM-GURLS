@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3580110148671142081}
-  - component: {fileID: 7545211439632619390}
   - component: {fileID: 3868072560293585560}
   m_Layer: 0
   m_Name: Attack2
@@ -26,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 269641305042103966}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.000000059604645, z: 0}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -34,20 +33,6 @@ Transform:
   m_Father: {fileID: 1403734814191412387}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7545211439632619390
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 269641305042103966}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7df93ddc8d211ae4aa1969a3909e637f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SpeedMin: 0
-  SpeedMax: 350
 --- !u!114 &3868072560293585560
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -297,6 +282,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1737924206681399965}
   - component: {fileID: 8807175628136348414}
+  - component: {fileID: 4343496594398970869}
   m_Layer: 0
   m_Name: Spawner
   m_TagString: Untagged
@@ -334,3 +320,18 @@ MonoBehaviour:
   spawnee: {fileID: 8341398505620139750, guid: 09d771e133c100241970818197a88e84, type: 3}
   Timer: 0.5
   Once: 0
+--- !u!114 &4343496594398970869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6499109094421774220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7df93ddc8d211ae4aa1969a3909e637f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Max: 360
+  Min: 0
+  Timer: 0.5

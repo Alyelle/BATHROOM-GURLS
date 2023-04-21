@@ -34,6 +34,15 @@ namespace Game.Entity
         {
             currentHealth = entity.Health;
             iFrameTimer = 0f;
+
+            if (IsPlayer)
+                GameEventSystem.onEntityDeath += PlayerHeal;
+        }
+
+        private void OnDestroy()
+        {
+            if (IsPlayer)
+                GameEventSystem.onEntityDeath -= PlayerHeal;
         }
 
         private void Update()
@@ -50,6 +59,14 @@ namespace Game.Entity
                     OnIFrameEnd();
                 }
             }
+        }
+
+        public void PlayerHeal(EntityBase ent)
+        {
+            if (!IsPlayer)
+                return;
+
+            currentHealth = entity.Health;
         }
 
         public void TakeDamage(int dmg)

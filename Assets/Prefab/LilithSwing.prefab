@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1616817533684566254}
   - component: {fileID: 1616817533684566255}
   - component: {fileID: 6215573707863185949}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LilithSwing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -111,7 +111,7 @@ GameObject:
   - component: {fileID: 3979390221788242859}
   - component: {fileID: 1429911325114193918}
   - component: {fileID: 5434798744041664212}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Particles
   m_TagString: Untagged
   m_Icon: {fileID: 0}

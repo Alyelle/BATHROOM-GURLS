@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: 8.2Hallway
   m_EditorClassIdentifier: 
   background: {fileID: 21300000, guid: bb4fb212365028f4db36aa4fb09e5b66, type: 3}
+  backgroundmusic: {fileID: 0}
   sentences:
   - text: What's going on inside that classroom?
     animationName: 
@@ -145,7 +146,7 @@ MonoBehaviour:
     speakerSpriteId: 0
     speaker: {fileID: 11400000, guid: b67dc8cf1990b4443af81b14c98e374f, type: 2}
     voiceLine: {fileID: 0}
-  - text: "Those three, Alyelle, Jenni, and Sunny. They\u2019re always up to no good."
+  - text: Possibly, I mean Alyelle, Jenni, and Sunny are in there. They're...interesting.
     animationName: No
     unskippable: 0
     autoPlay: 0
@@ -181,7 +182,24 @@ MonoBehaviour:
     speakerSpriteId: 0
     speaker: {fileID: 11400000, guid: 2ac81d0dc33f0c347b6b22ec5936427a, type: 2}
     voiceLine: {fileID: 0}
-  - text: "They scare me. What\u2019s even more off is that those four are together."
+  - text: Uh, what?
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: b67dc8cf1990b4443af81b14c98e374f, type: 2}
+    voiceLine: {fileID: 0}
+  - text: What.
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 2
+    speaker: {fileID: 11400000, guid: 2ac81d0dc33f0c347b6b22ec5936427a, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "But anyway, they highkey scare me. What\u2019s even more off is that those
+      four are together."
     animationName: 
     unskippable: 0
     autoPlay: 0

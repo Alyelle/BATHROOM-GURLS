@@ -15,7 +15,7 @@ MonoBehaviour:
   speakerName: Leah
   textColor: {r: 0.8018868, g: 0.40224025, b: 0.3063813, a: 1}
   sprites:
-  - {fileID: 21300000, guid: c5897fae2b676ae4284eb98b214aac74, type: 3}
+  - {fileID: 21300000, guid: c61ea8ad1ecd8ff42af04ab83d6ea898, type: 3}
   - {fileID: 21300000, guid: f195913ce50ebd64db6086ca034801e4, type: 3}
   - {fileID: 21300000, guid: 77525d23e99e7424d9c391fac1f0f6e2, type: 3}
   - {fileID: 21300000, guid: 5ff5f750a6be2aa43b0ac079f7d087e7, type: 3}

@@ -2549,8 +2549,8 @@ MonoBehaviour:
     sit amet venenatis urna cursus eget nunc. A diam sollicitudin tempor id eu nisl.
     Ac feugiat sed lectus vestibulum mattis. Interdum posuere lorem ipsum dolor sit.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1ebea54b42184e541b5962c481d16e6e, type: 2}
-  m_sharedMaterial: {fileID: -8751117050127585415, guid: 1ebea54b42184e541b5962c481d16e6e, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 30b448e9090e59f46a08b376ed445d23, type: 2}
+  m_sharedMaterial: {fileID: 9079597298901368412, guid: 30b448e9090e59f46a08b376ed445d23, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2574,12 +2574,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 42.45
+  m_fontSize: 46.6
   m_fontSizeBase: 32
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 20
-  m_fontSizeMax: 50
+  m_fontSizeMax: 65
   m_fontStyle: 0
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
@@ -4403,7 +4403,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: ea5f4332d8bc8124db3e3f3e69125ea2, type: 3}
+  m_audioClip: {fileID: 8300000, guid: e4bdc20caeb93204b9af29ea3d41fc55, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1

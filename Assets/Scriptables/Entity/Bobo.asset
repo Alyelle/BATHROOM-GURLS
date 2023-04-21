@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: Bobo
   m_EditorClassIdentifier: 
   Health: 300
+  IFrameTime: 0
   DeathObjects: []
   Faction: 1

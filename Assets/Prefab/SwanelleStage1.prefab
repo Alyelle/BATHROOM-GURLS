@@ -282,7 +282,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8013910800102222419}
-  - component: {fileID: 8631621932986724887}
+  - component: {fileID: 290242294720442822}
+  - component: {fileID: 2178405374348896675}
   m_Layer: 10
   m_Name: Attack1
   m_TagString: Untagged
@@ -306,7 +307,21 @@ Transform:
   m_Father: {fileID: 1403734814191412387}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8631621932986724887
+--- !u!114 &290242294720442822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8559832543061699837}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7df93ddc8d211ae4aa1969a3909e637f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpeedMin: 0
+  SpeedMax: 350
+--- !u!114 &2178405374348896675
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -318,4 +333,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68ad32eda266c0b40acb3317fe1a3b13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 110
+  Speed: 80

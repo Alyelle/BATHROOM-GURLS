@@ -919,6 +919,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   entity: {fileID: 11400000, guid: e2e404ac64b77604090ff8a76a6d3c01, type: 2}
+  IsPlayer: 0
 --- !u!58 &8708328710481637776
 CircleCollider2D:
   m_ObjectHideFlags: 0

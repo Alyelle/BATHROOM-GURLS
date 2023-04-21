@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c521d4505a57edf42a9f8ac6398376ce, type: 3}
   m_Name: SwanelleStage2
   m_EditorClassIdentifier: 
-  Health: 200
+  Health: 100
   IFrameTime: 0
   DeathObjects:
   - {fileID: 1403734814191412385, guid: 0416d8c2bd155024ca0ae8e2c6b29587, type: 3}

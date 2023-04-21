@@ -104,7 +104,7 @@ MonoBehaviour:
     voiceLine: {fileID: 0}
   - text: .......................................................................................................
     animationName: 
-    unskippable: 1
+    unskippable: 0
     autoPlay: 0
     delay: 0.025
     speakerSpriteId: 5
@@ -113,7 +113,7 @@ MonoBehaviour:
   - text: Say that again, you sightless disproportionate hairdryer-wielding big-foreheaded
       Rei Mekaru wannabe son of a snake.
     animationName: 
-    unskippable: 1
+    unskippable: 0
     autoPlay: 0
     delay: 0.025
     speakerSpriteId: 2
@@ -133,7 +133,7 @@ MonoBehaviour:
       Science Exam and so utterly hideous you deserve to be contained in a 5 x 5
       x 5 airtight steel cube for the rest of eternity."
     animationName: 
-    unskippable: 1
+    unskippable: 0
     autoPlay: 0
     delay: 0.025
     speakerSpriteId: 2

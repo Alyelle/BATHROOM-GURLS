@@ -126,6 +126,7 @@ GameObject:
   - component: {fileID: 6215820790882674555}
   - component: {fileID: 7807269468205454947}
   - component: {fileID: 514962196643281324}
+  - component: {fileID: -1662191407937501358}
   m_Layer: 11
   m_Name: Tow Hater
   m_TagString: Untagged
@@ -304,3 +305,23 @@ MonoBehaviour:
   Amplitude: 2
   Frequency: 3
   Duration: 0.5
+--- !u!95 &-1662191407937501358
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3601724084584175784}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f764156252824144ebb7e23644a898f6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

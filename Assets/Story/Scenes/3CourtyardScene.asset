@@ -185,4 +185,4 @@ MonoBehaviour:
     speakerSpriteId: 10
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
-  nextScene: {fileID: 11400000, guid: 0c5faae41fe086f47a15e923f1a9f342, type: 2}
+  nextScene: {fileID: 11400000, guid: 42d222b5bd7a49b498d20aa3f47ebe1e, type: 2}

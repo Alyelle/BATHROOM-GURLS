@@ -15,7 +15,7 @@ MonoBehaviour:
   background: {fileID: 21300000, guid: 41cb93c492e3f834f9443344fbfa7331, type: 3}
   backgroundMusic: {fileID: 8300000, guid: 8c5b5a825a1601b4e952428b79343c78, type: 3}
   sentences:
-  - text: "Wow Cecile, you\u2019ve become so annoying that you even scared a bathroom
+  - text: "Wow CECILE, you\u2019ve become so annoying that you even scared a bathroom
       monster away."
     animationName: 
     unskippable: 0
@@ -32,7 +32,7 @@ MonoBehaviour:
     speakerSpriteId: 5
     speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
     voiceLine: {fileID: 0}
-  - text: No one thanked you, Cecile.
+  - text: No one thanked you, CECILE.
     animationName: 
     unskippable: 0
     autoPlay: 0
@@ -104,7 +104,7 @@ MonoBehaviour:
     speakerSpriteId: 0
     speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
     voiceLine: {fileID: 0}
-  - text: "Don\u2019t play dumb with me, Leah."
+  - text: "Don\u2019t play dumb with me, LEAH."
     animationName: 
     unskippable: 0
     autoPlay: 0
@@ -186,7 +186,7 @@ MonoBehaviour:
     speakerSpriteId: 2
     speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
     voiceLine: {fileID: 0}
-  - text: "Leah, you\u2019re hiding something from us. You\u2019re blabbering."
+  - text: "LEAH, you\u2019re hiding something from us. You\u2019re blabbering."
     animationName: 
     unskippable: 0
     autoPlay: 0
@@ -218,7 +218,7 @@ MonoBehaviour:
     speakerSpriteId: 5
     speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
     voiceLine: {fileID: 0}
-  - text: Just admit it, Leah! What were your intentions?
+  - text: Just admit it, LEAH! What were your intentions?
     animationName: 
     unskippable: 0
     autoPlay: 0
@@ -325,7 +325,7 @@ MonoBehaviour:
     speakerSpriteId: 1
     speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
     voiceLine: {fileID: 0}
-  - text: I started caring for my lookd during the summer of freshman year. They
+  - text: I started caring for my looks during the summer of freshman year. They
       let me join their group.
     animationName: 
     unskippable: 0
@@ -504,7 +504,7 @@ MonoBehaviour:
     speakerSpriteId: 12
     speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
     voiceLine: {fileID: 0}
-  - text: "Heh, I\u2019ve know."
+  - text: Heh, I know.
     animationName: 
     unskippable: 0
     autoPlay: 0
@@ -643,7 +643,7 @@ MonoBehaviour:
     speakerSpriteId: 5
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
-  - text: Honestly, Cecile and I could benefit from more friends anyways.
+  - text: Honestly, CECILE and I could benefit from more friends anyways.
     animationName: 
     unskippable: 0
     autoPlay: 0
@@ -668,7 +668,7 @@ MonoBehaviour:
     speakerSpriteId: 3
     speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
     voiceLine: {fileID: 0}
-  - text: Leah, you need to allow yourself some self-love, and open your heart to
+  - text: LEAH, you need to allow yourself some self-love, and open your heart to
       others.
     animationName: 
     unskippable: 0

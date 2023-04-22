@@ -124,7 +124,7 @@ MonoBehaviour:
     speakerSpriteId: 0
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
-  - text: "And last but, of course, not LEAHst, I\u2019m Leah! The outreach officer."
+  - text: "And last but, of course, not LEAHst, I\u2019m LEAH! The outreach officer."
     animationName: Yes
     unskippable: 0
     autoPlay: 0

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: 7.2MidJoe
   m_EditorClassIdentifier: 
   background: {fileID: 21300000, guid: 6a8648a8fdbc52a468eb5945d110d043, type: 3}
+  backgroundMusic: {fileID: 0}
   sentences:
   - text: Urgh...
     animationName: 
@@ -175,7 +176,7 @@ MonoBehaviour:
     speakerSpriteId: 1
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
-  - text: "Athena! I\u2019m serious! It\u2019s our only chance."
+  - text: "ATHENA! I\u2019m serious! It\u2019s our only chance."
     animationName: 
     unskippable: 0
     autoPlay: 0

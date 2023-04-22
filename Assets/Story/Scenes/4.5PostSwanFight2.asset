@@ -160,8 +160,7 @@ MonoBehaviour:
     speakerSpriteId: 5
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
-  - text: "This isn\u2019t what I want. Not at all.\r None of these things define
-      me."
+  - text: None of these things define me.
     animationName: 
     unskippable: 0
     autoPlay: 0
@@ -189,7 +188,7 @@ MonoBehaviour:
     animationName: 
     unskippable: 1
     autoPlay: 0
-    delay: 0.1
+    delay: 0.05
     speakerSpriteId: 7
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
@@ -242,7 +241,7 @@ MonoBehaviour:
     speakerSpriteId: 7
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
-  - text: "Athena, I\u2019m sure Leah didn\u2019t\u2014           "
+  - text: "ATHENA, I\u2019m sure LEAH didn\u2019t\u2014           "
     animationName: 
     unskippable: 0
     autoPlay: 1
@@ -602,7 +601,7 @@ MonoBehaviour:
     speakerSpriteId: 1
     speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
     voiceLine: {fileID: 0}
-  - text: "Leah, seriously? That\u2019s what you\u2019re thinking about right now?"
+  - text: "LEAH, seriously? That\u2019s what you\u2019re thinking about right now?"
     animationName: 
     unskippable: 0
     autoPlay: 0

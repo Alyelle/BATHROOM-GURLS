@@ -1,0 +1,244 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfec41f37a28ba844bf0cf2f2c2a911e, type: 3}
+  m_Name: 2.2PreBoboFight2 1
+  m_EditorClassIdentifier: 
+  background: {fileID: 21300000, guid: 9966f65278352044abb71c3750d4f76d, type: 3}
+  backgroundMusic: {fileID: 0}
+  sentences:
+  - text: ...
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 2
+    speaker: {fileID: 11400000, guid: e9b226a15c826b64ba55fb63994be0dd, type: 2}
+    voiceLine: {fileID: 0}
+  - text: I...I'll show them...
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 3
+    speaker: {fileID: 11400000, guid: e9b226a15c826b64ba55fb63994be0dd, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "I'll show them that I\u2019m more than just a pathetic little meatball...!"
+    animationName: No
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 4
+    speaker: {fileID: 11400000, guid: e9b226a15c826b64ba55fb63994be0dd, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Uh...................
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 8
+    speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
+    voiceLine: {fileID: 0}
+  - text: What are those things? And what are they blabbering on about?
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "Strange. I\u2019ve never seen these...creatures...around campus\u2026"
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 10
+    speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Hmph. Fools.
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 9
+    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "Isn\u2019t it obvious?"
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 2
+    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: The leftover lunch turned sentient.
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 4
+    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: These meatball idiots are clearly bathroom monsters.
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 3
+    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: But they seem different from your average bathroom monsters.
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 0
+    speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Have you been at this school for less than one day? Of course they are
+      different!
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 2
+    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: They are much more powerful than those monsters we fought off just now!
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 9
+    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: They are clearly BOSS bathroom monsters.
+    animationName: Yes
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 4
+    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "Which means we need to avoid them at all co\u2014                                 "
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 5
+    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Heyyyy! Pathetic little meatball!
+    animationName: Yes
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 1
+    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    voiceLine: {fileID: 0}
+  - text: ...!
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 3
+    speaker: {fileID: 11400000, guid: e9b226a15c826b64ba55fb63994be0dd, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "You\u2019ve got to be kidding me."
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 8
+    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
+    voiceLine: {fileID: 0}
+  - text: ...why am I not surprised...
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 11
+    speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Why are you crying?
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 8
+    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "I\u2019m not a pathetic little meatball! My name is Little Bobo!"
+    animationName: No
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 3
+    speaker: {fileID: 11400000, guid: e9b226a15c826b64ba55fb63994be0dd, type: 2}
+    voiceLine: {fileID: 0}
+  - text: Everyone thinks I get no spaghetti because of how I look...
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 2
+    speaker: {fileID: 11400000, guid: eae57be4ee65a264798c739e0accbfa4, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "But\u2026 I\u2019m more than what they think! I am\u2014                                                          "
+    animationName: No
+    unskippable: 0
+    autoPlay: 1
+    delay: 0.025
+    speakerSpriteId: 3
+    speaker: {fileID: 11400000, guid: eae57be4ee65a264798c739e0accbfa4, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "Don\u2019t worry Little Bobo. I like you plenty!"
+    animationName: Yes
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 3
+    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    voiceLine: {fileID: 0}
+  - text: "You\u2019re so small and cute, I could just hold you in my hands and pet
+      you all day!"
+    animationName: Shake
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 5
+    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    voiceLine: {fileID: 0}
+  - text: ...
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 3
+    speaker: {fileID: 11400000, guid: eae57be4ee65a264798c739e0accbfa4, type: 2}
+    voiceLine: {fileID: 0}
+  - text: .......................................
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 3
+    speaker: {fileID: 11400000, guid: eae57be4ee65a264798c739e0accbfa4, type: 2}
+    voiceLine: {fileID: 0}
+  - text: You...what.
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 3
+    speaker: {fileID: 11400000, guid: eae57be4ee65a264798c739e0accbfa4, type: 2}
+    voiceLine: {fileID: 0}
+  nextScene: {fileID: 11400000, guid: 7c0667ba329f8914b94469d28d60682f, type: 2}

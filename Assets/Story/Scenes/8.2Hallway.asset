@@ -215,7 +215,7 @@ MonoBehaviour:
     speakerSpriteId: 2
     speaker: {fileID: 11400000, guid: 2ac81d0dc33f0c347b6b22ec5936427a, type: 2}
     voiceLine: {fileID: 0}
-  - text: "From what I\u2019ve heard, they are the only four girls in MR. VADEY\u2019s
+  - text: "From what I\u2019ve heard, they are the only four girls in Mr. Vadey's
       2nd period APUSH class."
     animationName: 
     unskippable: 0

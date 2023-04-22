@@ -177,7 +177,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackObject: {fileID: 8186458481806896879, guid: 605a0aba1dda4834da220374c81e54cc, type: 3}
-  attackDelay: 0.2
+  attackDelay: 1.5
 --- !u!1 &4958711549653749097
 GameObject:
   m_ObjectHideFlags: 0

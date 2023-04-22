@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 6.1Courtyard
   m_EditorClassIdentifier: 
   background: {fileID: 21300000, guid: 41cb93c492e3f834f9443344fbfa7331, type: 3}
-  backgroundMusic: {fileID: 0}
+  backgroundMusic: {fileID: 8300000, guid: 8c5b5a825a1601b4e952428b79343c78, type: 3}
   sentences:
   - text: "Wow Cecile, you\u2019ve become so annoying that you even scared a bathroom
       monster away."

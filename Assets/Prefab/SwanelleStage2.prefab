@@ -270,7 +270,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd79e50cd26cd24489799a69ce23705f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Freqency: 7
+  Freqency: 13
   Amplitude: 0.07
 --- !u!1 &6499109094421774220
 GameObject:

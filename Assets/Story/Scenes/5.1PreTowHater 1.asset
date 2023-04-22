@@ -10,9 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cfec41f37a28ba844bf0cf2f2c2a911e, type: 3}
-  m_Name: 5.1PreTowHater
+  m_Name: 5.1PreTowHater 1
   m_EditorClassIdentifier: 
   background: {fileID: 21300000, guid: f76fb4431c80dcf42ab042d252124a39, type: 3}
+  backgroundMusic: {fileID: 8300000, guid: 78ce5baaa294d624291ecc617f4755b5, type: 3}
   sentences:
   - text: We made it! The bathroom is just across the parking lot!
     animationName: Yes
@@ -94,53 +95,4 @@ MonoBehaviour:
     speakerSpriteId: 5
     speaker: {fileID: 11400000, guid: 9666eb20ec0fee54d8f04c56d1773618, type: 2}
     voiceLine: {fileID: 0}
-  - text: My name is Tow Hater III, the most powerful, handsome, vicious dumpster
-      truck of my generation!
-    animationName: Yes
-    unskippable: 0
-    autoPlay: 0
-    delay: 0.025
-    speakerSpriteId: 5
-    speaker: {fileID: 11400000, guid: 01e1ab7a2d448f7449363045f94fa057, type: 2}
-    voiceLine: {fileID: 0}
-  - text: For showing up to MY parking lot uninvited...
-    animationName: 
-    unskippable: 0
-    autoPlay: 0
-    delay: 0.025
-    speakerSpriteId: 2
-    speaker: {fileID: 11400000, guid: 01e1ab7a2d448f7449363045f94fa057, type: 2}
-    voiceLine: {fileID: 0}
-  - text: ...I will make your life into a living nightmare.
-    animationName: 
-    unskippable: 0
-    autoPlay: 0
-    delay: 0.025
-    speakerSpriteId: 1
-    speaker: {fileID: 11400000, guid: 01e1ab7a2d448f7449363045f94fa057, type: 2}
-    voiceLine: {fileID: 0}
-  - text: "Hey now, no need to get aggressive, I\u2019m sure we can talk this out\u2014          "
-    animationName: 
-    unskippable: 0
-    autoPlay: 1
-    delay: 0.025
-    speakerSpriteId: 2
-    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
-    voiceLine: {fileID: 0}
-  - text: PREPARE TO BECOME FLATTER THAN YOU ALREADY ARE!
-    animationName: Shake
-    unskippable: 0
-    autoPlay: 0
-    delay: 0.025
-    speakerSpriteId: 3
-    speaker: {fileID: 11400000, guid: 01e1ab7a2d448f7449363045f94fa057, type: 2}
-    voiceLine: {fileID: 0}
-  - text: Oof, he really wastes no time!
-    animationName: 
-    unskippable: 0
-    autoPlay: 0
-    delay: 0.025
-    speakerSpriteId: 4
-    speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
-    voiceLine: {fileID: 0}
-  nextScene: {fileID: 11400000, guid: b86eb587fc14dcd439c07297e534a3b7, type: 2}
+  nextScene: {fileID: 11400000, guid: f1e17318748e66246881aae1283264ab, type: 2}

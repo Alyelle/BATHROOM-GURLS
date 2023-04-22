@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 2.4PostBoboFight1
   m_EditorClassIdentifier: 
   background: {fileID: 21300000, guid: 9966f65278352044abb71c3750d4f76d, type: 3}
-  backgroundMusic: {fileID: 8300000, guid: ea5f4332d8bc8124db3e3f3e69125ea2, type: 3}
+  backgroundMusic: {fileID: 8300000, guid: e4bdc20caeb93204b9af29ea3d41fc55, type: 3}
   sentences:
   - text: Whewww!
     animationName: 

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: 4.4PostSwanFight
   m_EditorClassIdentifier: 
   background: {fileID: 21300000, guid: 1249510a898b89342b9594500df018ff, type: 3}
+  backgroundMusic: {fileID: 8300000, guid: e19e0a98b159bae45834c69dbade2e00, type: 3}
   sentences:
   - text: No...NOOOOOOO!!!!!!!
     animationName: Shake

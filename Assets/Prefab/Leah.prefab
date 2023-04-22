@@ -176,7 +176,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9eee0e462f90b74ebba7d66ab448416, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackObject: {fileID: 8186458481806896879, guid: 605a0aba1dda4834da220374c81e54cc, type: 3}
+  attackObject: {fileID: 1616817533684566242, guid: dac5fd4d7cc5de24097acae0c8028a9e, type: 3}
   attackDelay: 0.2
 --- !u!1 &1652956886992613206
 GameObject:

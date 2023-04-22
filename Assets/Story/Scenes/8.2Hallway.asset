@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 8.2Hallway
   m_EditorClassIdentifier: 
   background: {fileID: 21300000, guid: bb4fb212365028f4db36aa4fb09e5b66, type: 3}
-  backgroundMusic: {fileID: 0}
+  backgroundMusic: {fileID: 8300000, guid: 78ce5baaa294d624291ecc617f4755b5, type: 3}
   sentences:
   - text: What's going on inside that classroom?
     animationName: 

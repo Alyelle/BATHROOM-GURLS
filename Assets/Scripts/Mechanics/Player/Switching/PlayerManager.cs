@@ -44,6 +44,7 @@ public class PlayerManager : MonoBehaviour
         CurrentPlayerIndex = i;
 
         ent.currentHealth = WorldPlayer.currentHealth;
+        if (ent.iFrameTimer > 0f) ent.TriggerIFrame(ent.iFrameTimer);
 
         Destroy(WorldPlayer.gameObject);
 

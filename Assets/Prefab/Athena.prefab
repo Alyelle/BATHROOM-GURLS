@@ -4986,6 +4986,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   entity: {fileID: 11400000, guid: 62a987502b5470744adcce92c325fa7a, type: 2}
   IsPlayer: 1
+  iFrameTimer: 0
 --- !u!114 &3152402133663703314
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5046,8 +5047,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9eee0e462f90b74ebba7d66ab448416, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackObject: {fileID: 8186458481806896879, guid: 605a0aba1dda4834da220374c81e54cc, type: 3}
-  attackDelay: 0.2
+  attackObject: {fileID: 125312583273056825, guid: 60cf34c95dd235741859586de253ef1c, type: 3}
+  attackDelay: 2
 --- !u!1 &3152402133736907105
 GameObject:
   m_ObjectHideFlags: 0
@@ -5123,7 +5124,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 98534609, guid: de3f9c9167326ac4f8205d3409879572, type: 3}
+  m_Sprite: {fileID: 1444427843, guid: de3f9c9167326ac4f8205d3409879572, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

@@ -28,7 +28,8 @@ namespace Game.Entity
 
         bool invulnerable;
 
-        float iFrameTimer;
+        [HideInInspector]
+        public float iFrameTimer;
 
         private void Awake()
         {
@@ -69,6 +70,17 @@ namespace Game.Entity
             currentHealth = entity.Health;
         }
 
+        public void TriggerIFrame(float timer)
+        {
+            if (entity.IFrameTime > 0f || iFrameTimer <= 0f)
+            {
+                invulnerable = true;
+                iFrameTimer = timer;
+
+                OnIFrameStart();
+            }
+        }
+
         public void TakeDamage(int dmg)
         {
             if (invulnerable)
@@ -81,13 +93,7 @@ namespace Game.Entity
             if (currentHealth <= 0)
                 Death();
 
-            if (entity.IFrameTime > 0f)
-            {
-                invulnerable = true;
-                iFrameTimer = entity.IFrameTime;
-
-                OnIFrameStart();
-            }
+            TriggerIFrame(entity.IFrameTime);
         }
 
         public void Death()

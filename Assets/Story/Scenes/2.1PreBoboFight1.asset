@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: 2.1PreBoboFight1
   m_EditorClassIdentifier: 
   background: {fileID: 21300000, guid: 9966f65278352044abb71c3750d4f76d, type: 3}
+  backgroundMusic: {fileID: 0}
   sentences:
   - text: Mhmm...
     animationName: 

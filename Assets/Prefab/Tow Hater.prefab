@@ -125,6 +125,7 @@ GameObject:
   - component: {fileID: 8417629781828760679}
   - component: {fileID: 6215820790882674555}
   - component: {fileID: 7807269468205454947}
+  - component: {fileID: 514962196643281324}
   m_Layer: 11
   m_Name: Tow Hater
   m_TagString: Untagged
@@ -264,9 +265,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.020832658, y: 0.38391593}
+  m_Offset: {x: 0.035146594, y: 0.1548935}
   serializedVersion: 2
-  m_Radius: 0.391638
+  m_Radius: 0.64642525
 --- !u!50 &7807269468205454947
 Rigidbody2D:
   serializedVersion: 4
@@ -288,3 +289,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 7
+--- !u!114 &514962196643281324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3601724084584175784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52271a627d7189544b00d767bae395ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Amplitude: 2
+  Frequency: 3
+  Duration: 0.5

@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: 5.4PostTowHater
   m_EditorClassIdentifier: 
   background: {fileID: 21300000, guid: f76fb4431c80dcf42ab042d252124a39, type: 3}
+  backgroundMusic: {fileID: 0}
   sentences:
-  - text: Aaaahh! My...my beautiful wheels...!
+  - text: My...my beautiful wheels...!
     animationName: Shake
     unskippable: 0
     autoPlay: 0

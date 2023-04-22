@@ -9,7 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1799343036710072791}
-  m_Layer: 10
+  - component: {fileID: 1334321317451560454}
+  m_Layer: 11
   m_Name: Attack1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32,6 +33,19 @@ Transform:
   m_Father: {fileID: 3601724084584175787}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1334321317451560454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1180309054315719569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68ad32eda266c0b40acb3317fe1a3b13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 150
 --- !u!1 &3065684828281419015
 GameObject:
   m_ObjectHideFlags: 0
@@ -43,7 +57,7 @@ GameObject:
   - component: {fileID: 813608717806406000}
   - component: {fileID: 2302713238982114335}
   - component: {fileID: 7814792881044424732}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: Spawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -77,9 +91,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7df93ddc8d211ae4aa1969a3909e637f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Max: 360
-  Min: 0
-  Timer: 0
+  Max: 35
+  Min: -35
+  Timer: 2
 --- !u!114 &7814792881044424732
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -87,12 +101,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3065684828281419015}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 625b857626d0d894a989f53b73c33b7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnee: {fileID: 0}
+  spawnee: {fileID: 8490472862681604217, guid: 55a8253cbb4b63a49bb85d29c56ec6b1, type: 3}
   Timer: 0
   Once: 1
 --- !u!1 &3601724084584175784
@@ -112,7 +126,7 @@ GameObject:
   - component: {fileID: 6215820790882674555}
   - component: {fileID: 7807269468205454947}
   - component: {fileID: 2825797572971478517}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: Tow Hater Chick
   m_TagString: Untagged
   m_Icon: {fileID: 0}

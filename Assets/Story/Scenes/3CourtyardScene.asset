@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfec41f37a28ba844bf0cf2f2c2a911e, type: 3}
   m_Name: 3CourtyardScene
   m_EditorClassIdentifier: 
-  background: {fileID: 21300000, guid: 1249510a898b89342b9594500df018ff, type: 3}
+  background: {fileID: 21300000, guid: 41cb93c492e3f834f9443344fbfa7331, type: 3}
+  backgroundMusic: {fileID: 0}
   sentences:
   - text: Oh Lilith, that was so moving~
     animationName: 

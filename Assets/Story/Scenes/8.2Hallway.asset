@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 8.2Hallway
   m_EditorClassIdentifier: 
   background: {fileID: 21300000, guid: bb4fb212365028f4db36aa4fb09e5b66, type: 3}
-  backgroundmusic: {fileID: 0}
+  backgroundMusic: {fileID: 0}
   sentences:
   - text: What's going on inside that classroom?
     animationName: 
@@ -52,7 +52,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 1
     speaker: {fileID: 11400000, guid: b67dc8cf1990b4443af81b14c98e374f, type: 2}
     voiceLine: {fileID: 0}
   - text: Like a club or something?
@@ -77,7 +77,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 2
     speaker: {fileID: 11400000, guid: b67dc8cf1990b4443af81b14c98e374f, type: 2}
     voiceLine: {fileID: 0}
   - text: "I don\u2019t see a single guy in that classroom. We\u2019re gonna look
@@ -94,7 +94,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 1
     speaker: {fileID: 11400000, guid: b67dc8cf1990b4443af81b14c98e374f, type: 2}
     voiceLine: {fileID: 0}
   - text: Wait Mech, do you see that?
@@ -127,7 +127,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 1
     speaker: {fileID: 11400000, guid: b67dc8cf1990b4443af81b14c98e374f, type: 2}
     voiceLine: {fileID: 0}
   - text: "I don\u2019t know. But this text engine looks poorly programmed."
@@ -221,7 +221,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 2
     speaker: {fileID: 11400000, guid: b67dc8cf1990b4443af81b14c98e374f, type: 2}
     voiceLine: {fileID: 0}
   - text: And I heard they all hate each other or something.
@@ -240,12 +240,12 @@ MonoBehaviour:
     speakerSpriteId: 0
     speaker: {fileID: 11400000, guid: 2ac81d0dc33f0c347b6b22ec5936427a, type: 2}
     voiceLine: {fileID: 0}
-  - text: Yeah, this dialogue box thing is seriously creeping me out.
+  - text: Haha yeah, this dialogue box thing is seriously creeping me out.
     animationName: 
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 0
+    speakerSpriteId: 1
     speaker: {fileID: 11400000, guid: b67dc8cf1990b4443af81b14c98e374f, type: 2}
     voiceLine: {fileID: 0}
   nextScene: {fileID: 11400000, guid: c458a16ebf7fbc44a8502e5a23fbe53b, type: 2}

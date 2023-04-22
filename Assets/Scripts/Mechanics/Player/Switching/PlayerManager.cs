@@ -1,4 +1,5 @@
 using Game.Entity;
+using System.Collections;
 using UnityEngine;
 
 public class PlayerManager : MonoBehaviour
@@ -44,10 +45,21 @@ public class PlayerManager : MonoBehaviour
         CurrentPlayerIndex = i;
 
         ent.currentHealth = WorldPlayer.currentHealth;
-        if (ent.iFrameTimer > 0f) ent.TriggerIFrame(ent.iFrameTimer);
+
+        float temp = WorldPlayer.iFrameTimer;
+
+        if (WorldPlayer.iFrameTimer > 0f) StartCoroutine(TriggerIFrame(ent, temp));
 
         Destroy(WorldPlayer.gameObject);
 
         WorldPlayer = ent;
+    }
+
+    IEnumerator TriggerIFrame(EntityBase ent, float f)
+    {
+        yield return new WaitForEndOfFrame();
+        yield return new WaitForEndOfFrame();
+
+        ent.TriggerIFrame(f);
     }
 }

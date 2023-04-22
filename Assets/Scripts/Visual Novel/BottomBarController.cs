@@ -96,7 +96,6 @@ public class BottomBarController : MonoBehaviour
         SentenceIndex = 0;
 
         bgm.clip = CurrentText.backgroundMusic;
-        bgm.Stop();
         bgm.Play();
     }
 
@@ -199,7 +198,6 @@ public class BottomBarController : MonoBehaviour
                 {
                     bgm.clip = CurrentText.backgroundMusic;
 
-                    bgm.Stop();
                     bgm.Play();
                 }
 

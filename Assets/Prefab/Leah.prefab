@@ -182,7 +182,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackObject: {fileID: 8186458481806896879, guid: 241f53fea6896fb499874467fea01058, type: 3}
-  attackDelay: 2
+  attackDelay: 10
 --- !u!114 &5164320504539377383
 MonoBehaviour:
   m_ObjectHideFlags: 0

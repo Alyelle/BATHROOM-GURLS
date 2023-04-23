@@ -289,4 +289,37 @@ MonoBehaviour:
     speakerSpriteId: 3
     speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
     voiceLine: {fileID: 0}
+  - text: On the count of three...
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 3
+    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    voiceLine: {fileID: 0}
+  - text: ONE...
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 3
+    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    voiceLine: {fileID: 0}
+  - text: TWO...
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 3
+    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    voiceLine: {fileID: 0}
+  - text: THREE...
+    animationName: 
+    unskippable: 0
+    autoPlay: 0
+    delay: 0.025
+    speakerSpriteId: 3
+    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
+    voiceLine: {fileID: 0}
   nextScene: {fileID: 11400000, guid: c410b653fe012cb4baa794096f5af63d, type: 2}
+  Final: 0

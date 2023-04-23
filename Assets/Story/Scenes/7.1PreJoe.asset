@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: 7.1PreJoe
   m_EditorClassIdentifier: 
   background: {fileID: 21300000, guid: 6a8648a8fdbc52a468eb5945d110d043, type: 3}
+  backgroundMusic: {fileID: 0}
   sentences:
   - text: It seems we're finally here...
     animationName: 
@@ -262,4 +263,5 @@ MonoBehaviour:
     speakerSpriteId: 3
     speaker: {fileID: 11400000, guid: f9ffc879290a39a4b85c497440a0e924, type: 2}
     voiceLine: {fileID: 0}
-  nextScene: {fileID: 11400000, guid: 96805ac2590e41144ac232a553fc97f0, type: 2}
+  nextScene: {fileID: 0}
+  Final: 0

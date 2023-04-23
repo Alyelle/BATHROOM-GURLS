@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: TowHaterNoWheel
+  m_Name: LockerMonsterBop
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,16 +20,16 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 21300000, guid: c1f502a89ceb3ff41a7c26d204866231, type: 3}
-    - time: 0.25
-      value: {fileID: 21300000, guid: 41df0f1b62f23c54dab06662aa0f81be, type: 3}
-    - time: 0.5
-      value: {fileID: 21300000, guid: c1f502a89ceb3ff41a7c26d204866231, type: 3}
+      value: {fileID: 21300000, guid: 4d08953e3cb1845499a75cc6c3902534, type: 3}
+    - time: 0.5833333
+      value: {fileID: 21300000, guid: ba602d75754e34b4d85173b6b1025818, type: 3}
+    - time: 1.1666666
+      value: {fileID: 21300000, guid: 4d08953e3cb1845499a75cc6c3902534, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
     script: {fileID: 0}
-  m_SampleRate: 8
+  m_SampleRate: 60
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -44,15 +44,15 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 21300000, guid: c1f502a89ceb3ff41a7c26d204866231, type: 3}
-    - {fileID: 21300000, guid: 41df0f1b62f23c54dab06662aa0f81be, type: 3}
-    - {fileID: 21300000, guid: c1f502a89ceb3ff41a7c26d204866231, type: 3}
+    - {fileID: 21300000, guid: 4d08953e3cb1845499a75cc6c3902534, type: 3}
+    - {fileID: 21300000, guid: ba602d75754e34b4d85173b6b1025818, type: 3}
+    - {fileID: 21300000, guid: 4d08953e3cb1845499a75cc6c3902534, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.625
+    m_StopTime: 1.1833333
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0

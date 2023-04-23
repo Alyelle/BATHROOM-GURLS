@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfdf2429887b4d448a56c881edb1ee5d, type: 3}
   m_Name: WaterDrop
   m_EditorClassIdentifier: 
-  Damage: 3
+  Damage: 2
   Speed: 3
   Faction: 1
   HitObjects:

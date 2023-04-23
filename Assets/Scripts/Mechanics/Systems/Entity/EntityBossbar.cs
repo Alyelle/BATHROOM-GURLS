@@ -16,6 +16,8 @@ namespace Game.Entity
 
             slider.gameObject.SetActive(true);
 
+            slider.value = 1;
+
             ent.onHealthChange += OnHealthChange;
             ent.onDeath += Ent_onDeath;
         }

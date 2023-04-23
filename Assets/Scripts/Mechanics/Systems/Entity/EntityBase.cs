@@ -72,7 +72,7 @@ namespace Game.Entity
 
         public void TriggerIFrame(float timer)
         {
-            if (entity.IFrameTime > 0f || iFrameTimer <= 0f)
+            if (entity.IFrameTime > 0f && iFrameTimer <= 0f)
             {
                 invulnerable = true;
                 iFrameTimer = timer;

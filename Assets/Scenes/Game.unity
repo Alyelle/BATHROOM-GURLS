@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 54262713}
   - component: {fileID: 54262714}
   - component: {fileID: 54262715}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: redcar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5193,7 +5193,7 @@ GameObject:
   - component: {fileID: 1577934812}
   - component: {fileID: 1577934813}
   - component: {fileID: 1577934814}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: bluecar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5502,11 +5502,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4958711549441740034, guid: 8cb7b27d594ec89418ccb8fc896eaf01, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -45
+      value: 15.2
       objectReference: {fileID: 0}
     - target: {fileID: 4958711549441740034, guid: 8cb7b27d594ec89418ccb8fc896eaf01, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 23.719063
+      value: -24.5
       objectReference: {fileID: 0}
     - target: {fileID: 4958711549441740034, guid: 8cb7b27d594ec89418ccb8fc896eaf01, type: 3}
       propertyPath: m_LocalPosition.z

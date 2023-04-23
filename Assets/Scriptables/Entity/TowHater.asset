@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c521d4505a57edf42a9f8ac6398376ce, type: 3}
   m_Name: TowHater
   m_EditorClassIdentifier: 
-  Health: 25
+  Health: 50
   IFrameTime: 0
   DeathObjects:
   - {fileID: 3601724084584175784, guid: ca52410d2087115429b329f5ef0fa290, type: 3}

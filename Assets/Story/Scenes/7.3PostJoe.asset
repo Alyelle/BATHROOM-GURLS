@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 7.3PostJoe
   m_EditorClassIdentifier: 
   background: {fileID: 21300000, guid: 6a8648a8fdbc52a468eb5945d110d043, type: 3}
-  backgroundMusic: {fileID: 0}
+  backgroundMusic: {fileID: 8300000, guid: 8c5b5a825a1601b4e952428b79343c78, type: 3}
   sentences:
   - text: WHAT THE ACTUAL AHHHH!!!!!!!!!
     animationName: Shake
@@ -622,3 +622,4 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
     voiceLine: {fileID: 0}
   nextScene: {fileID: 11400000, guid: af71458fb8dcacc4996a3e7e0813f567, type: 2}
+  Final: 0

@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: 7.2MidJoe
   m_EditorClassIdentifier: 
   background: {fileID: 21300000, guid: 6a8648a8fdbc52a468eb5945d110d043, type: 3}
-  backgroundMusic: {fileID: 0}
+  backgroundMusic: {fileID: 8300000, guid: 845ee32dcc4e9d04db2f49430695c1c6, type: 3}
   sentences:
-  - text: Urgh...
+  - text: Urgh...why are you guys still breathing...
     animationName: 
     unskippable: 0
     autoPlay: 0
@@ -23,7 +23,7 @@ MonoBehaviour:
     speakerSpriteId: 1
     speaker: {fileID: 11400000, guid: f9ffc879290a39a4b85c497440a0e924, type: 2}
     voiceLine: {fileID: 0}
-  - text: "Oof! He\u2019s strong!"
+  - text: OOF! HE'S SO STRONG!
     animationName: 
     unskippable: 0
     autoPlay: 0
@@ -39,7 +39,7 @@ MonoBehaviour:
     speakerSpriteId: 2
     speaker: {fileID: 11400000, guid: 60adb1c7ebe1cfe44ae1410ffbfc6ab7, type: 2}
     voiceLine: {fileID: 0}
-  - text: "I\u2019m out of breath..."
+  - text: "Ouch...I\u2019m out of breath..."
     animationName: 
     unskippable: 0
     autoPlay: 0

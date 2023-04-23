@@ -244,3 +244,4 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
     voiceLine: {fileID: 0}
   nextScene: {fileID: 0}
+  Final: 1

@@ -3,6 +3,7 @@ using System;
 using System.Collections;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class BottomBarController : MonoBehaviour
@@ -177,8 +178,6 @@ public class BottomBarController : MonoBehaviour
         {
             if (CurrentText.nextScene == null)
             {
-                CurrentText = null;
-
                 gameObject.SetActive(false);
 
                 //bgm.Stop();
@@ -186,6 +185,13 @@ public class BottomBarController : MonoBehaviour
                 Time.timeScale = 1f;
 
                 OnDialogueEnd();
+
+                if (CurrentText.Final)
+                {
+                    SceneManager.LoadScene(2);
+                }
+
+                CurrentText = null;
             }
             else
             {

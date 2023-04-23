@@ -62,7 +62,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   proj: {fileID: 0}
-  FadeoutTime: 1
+  FadeoutTime: 0.3
 --- !u!120 &4787085902609853233
 LineRenderer:
   m_ObjectHideFlags: 0

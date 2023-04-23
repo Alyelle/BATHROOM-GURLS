@@ -8,4 +8,7 @@ public static class GameEventSystem
 
     public static Action<EntityBase> onPlayerDeath;
     public static void OnPlayerDeath(EntityBase ent) { onPlayerDeath?.Invoke(ent); }
+
+    public static Action onJoe;
+    public static void OnJoe() { onJoe?.Invoke(); }
 }

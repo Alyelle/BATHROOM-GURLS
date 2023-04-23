@@ -216,6 +216,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   entity: {fileID: 11400000, guid: e9d558aaa76a8d842a77339ccc7a63ee, type: 2}
   IsPlayer: 0
+  iFrameTimer: 0
 --- !u!114 &5305045232083827862
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -315,7 +316,7 @@ Animator:
   m_GameObject: {fileID: 3601724084584175784}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: f764156252824144ebb7e23644a898f6, type: 2}
+  m_Controller: {fileID: 9100000, guid: fd175dad24afda14dbbcc50e1c1c3f0f, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

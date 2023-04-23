@@ -11,6 +11,8 @@ public class TextEngine : ScriptableObject
     public List<Sentence> sentences;
     public TextEngine nextScene;
 
+    public bool Final;
+
     [System.Serializable]
     
     public struct Sentence

@@ -1,11 +1,16 @@
 using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Game.Entity
 {
     public class EntityBase : MonoBehaviour
     {
+        public static bool Joe;
+
         public EntityScriptable entity;
+
+        public bool IsJoe;
 
         [HideInInspector]
         public int currentHealth
@@ -38,6 +43,9 @@ namespace Game.Entity
 
             if (IsPlayer)
                 GameEventSystem.onEntityDeath += PlayerHeal;
+
+            if (IsJoe)
+                Joe = true;
         }
 
         private void OnDestroy()
@@ -108,7 +116,11 @@ namespace Game.Entity
 
             if (IsPlayer)
             {
-                GameEventSystem.OnPlayerDeath(this);
+                if (!Joe)
+                    GameEventSystem.OnPlayerDeath(this);
+                else
+                    GameEventSystem.OnJoe();
+
                 return;
             }
 

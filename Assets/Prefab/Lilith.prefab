@@ -4888,6 +4888,9 @@ GameObject:
   - component: {fileID: 4477380253037722898}
   - component: {fileID: 4477380253037722909}
   - component: {fileID: 4477380253037722890}
+  - component: {fileID: 3644986849460608396}
+  - component: {fileID: 3109041573717176571}
+  - component: {fileID: -6564358677739573043}
   m_Layer: 3
   m_Name: Lilith
   m_TagString: Untagged
@@ -4986,7 +4989,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   entity: {fileID: 11400000, guid: 62a987502b5470744adcce92c325fa7a, type: 2}
+  IsJoe: 0
   IsPlayer: 1
+  iFrameTimer: 0
 --- !u!114 &4477380253037722896
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5059,6 +5064,43 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7b67930f35e34614ba4ef5e2b5665f4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3644986849460608396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4477380253037722908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d165831f075d2ec4a8de049677aa42e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3109041573717176571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4477380253037722908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee04596579bf87f48adc64c567f73930, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dialogue: {fileID: 11400000, guid: 96805ac2590e41144ac232a553fc97f0, type: 2}
+--- !u!114 &-6564358677739573043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4477380253037722908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78851ea087a6bd3499c410507411bd8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &4477380253872833416

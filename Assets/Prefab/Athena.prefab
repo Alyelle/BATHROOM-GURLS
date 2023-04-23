@@ -4887,6 +4887,9 @@ GameObject:
   - component: {fileID: 3152402133663703309}
   - component: {fileID: 3152402133663703310}
   - component: {fileID: 3152402133663703308}
+  - component: {fileID: 3410303842666095432}
+  - component: {fileID: -2772610412039702781}
+  - component: {fileID: 5322561579646450888}
   m_Layer: 3
   m_Name: Athena
   m_TagString: Untagged
@@ -4985,6 +4988,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   entity: {fileID: 11400000, guid: 62a987502b5470744adcce92c325fa7a, type: 2}
+  IsJoe: 0
   IsPlayer: 1
   iFrameTimer: 0
 --- !u!114 &3152402133663703314
@@ -5049,6 +5053,43 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackObject: {fileID: 125312583273056825, guid: 60cf34c95dd235741859586de253ef1c, type: 3}
   attackDelay: 2
+--- !u!114 &3410303842666095432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3152402133663703301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d165831f075d2ec4a8de049677aa42e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-2772610412039702781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3152402133663703301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee04596579bf87f48adc64c567f73930, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dialogue: {fileID: 11400000, guid: 96805ac2590e41144ac232a553fc97f0, type: 2}
+--- !u!114 &5322561579646450888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3152402133663703301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78851ea087a6bd3499c410507411bd8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3152402133736907105
 GameObject:
   m_ObjectHideFlags: 0

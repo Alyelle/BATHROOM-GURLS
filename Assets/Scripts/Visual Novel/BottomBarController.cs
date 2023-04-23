@@ -100,7 +100,7 @@ public class BottomBarController : MonoBehaviour
         bgm.Stop();
         bgm.Play();
     }
-
+    
     private void OnEnable()
     {
         if (CurrentText == null)

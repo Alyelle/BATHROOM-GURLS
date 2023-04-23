@@ -97,7 +97,7 @@ GameObject:
   - component: {fileID: 5466506538438582590}
   - component: {fileID: 7079395849502438024}
   m_Layer: 0
-  m_Name: Blaster
+  m_Name: ToiletBlaster
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

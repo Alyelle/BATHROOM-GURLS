@@ -52,7 +52,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   entity: {fileID: 11400000, guid: 7ec7aea55ec889e44ab69fe6482ed683, type: 2}
+  IsJoe: 0
   IsPlayer: 0
+  iFrameTimer: 0
 --- !u!58 &1403734814191412396
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -271,7 +273,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 625b857626d0d894a989f53b73c33b7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnee: {fileID: 8341398505620139750, guid: 09d771e133c100241970818197a88e84, type: 3}
+  spawnee: {fileID: 8341398505620139750, guid: 9502023d4761f8c4ca6ae210ed1f5265, type: 3}
   Timer: 1
   Once: 0
 --- !u!114 &4517060936284950756

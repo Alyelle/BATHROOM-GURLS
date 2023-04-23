@@ -15,4 +15,9 @@ public class BossbarSingleton : MonoBehaviour
 
         slider = GetComponent<Slider>();
     }
+
+    private void Start()
+    {
+        gameObject.SetActive(false);
+    }
 }

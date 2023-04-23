@@ -14,7 +14,15 @@ namespace Game.Entity
             if (BossbarSingleton.Singleton != null)
                 slider = BossbarSingleton.Singleton.slider;
 
+            slider.gameObject.SetActive(true);
+
             ent.onHealthChange += OnHealthChange;
+            ent.onDeath += Ent_onDeath;
+        }
+
+        private void Ent_onDeath()
+        {
+            slider.gameObject.SetActive(false);
         }
 
         private void OnHealthChange(int hp)

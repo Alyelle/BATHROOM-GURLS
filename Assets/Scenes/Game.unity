@@ -4814,6 +4814,8 @@ GameObject:
   - component: {fileID: 1441812016}
   - component: {fileID: 1441812018}
   - component: {fileID: 1441812017}
+  - component: {fileID: 1441812019}
+  - component: {fileID: 1441812020}
   m_Layer: 0
   m_Name: Monster1
   m_TagString: Untagged
@@ -4934,7 +4936,36 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
+--- !u!114 &1441812019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1441812014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac09c9307f98eb48b67d9a598f9ab0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entity: {fileID: 11400000, guid: 4ad84f9cfbf6b3442b56ae80c5a2282a, type: 2}
+  IsJoe: 0
+  IsPlayer: 0
+  iFrameTimer: 0
+--- !u!114 &1441812020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1441812014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0165fdff4b3b859498c0deb805dccae5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 1
 --- !u!1 &1471539302
 GameObject:
   m_ObjectHideFlags: 0
@@ -5720,11 +5751,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4958711549441740034, guid: 8cb7b27d594ec89418ccb8fc896eaf01, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 35.65
+      value: -45.5
       objectReference: {fileID: 0}
     - target: {fileID: 4958711549441740034, guid: 8cb7b27d594ec89418ccb8fc896eaf01, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -28.25
+      value: 23.9
       objectReference: {fileID: 0}
     - target: {fileID: 4958711549441740034, guid: 8cb7b27d594ec89418ccb8fc896eaf01, type: 3}
       propertyPath: m_LocalPosition.z

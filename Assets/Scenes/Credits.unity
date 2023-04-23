@@ -742,8 +742,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: All graphic assets, sound assets/music, writing, and code was created for
-    the game; please do not redistribute.
+  m_text: 100% graphic assets, sound assets/music, writing, and code was created
+    specifically for the game,
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 30b448e9090e59f46a08b376ed445d23, type: 2}
   m_sharedMaterial: {fileID: 9079597298901368412, guid: 30b448e9090e59f46a08b376ed445d23, type: 2}

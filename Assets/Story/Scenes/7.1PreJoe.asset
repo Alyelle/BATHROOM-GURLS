@@ -13,64 +13,8 @@ MonoBehaviour:
   m_Name: 7.1PreJoe
   m_EditorClassIdentifier: 
   background: {fileID: 21300000, guid: 6a8648a8fdbc52a468eb5945d110d043, type: 3}
-  backgroundMusic: {fileID: 0}
+  backgroundMusic: {fileID: 8300000, guid: 845ee32dcc4e9d04db2f49430695c1c6, type: 3}
   sentences:
-  - text: It seems we're finally here...
-    animationName: 
-    unskippable: 0
-    autoPlay: 0
-    delay: 0.025
-    speakerSpriteId: 5
-    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
-    voiceLine: {fileID: 0}
-  - text: Why does the entrance look more ominous than usual?
-    animationName: 
-    unskippable: 0
-    autoPlay: 0
-    delay: 0.025
-    speakerSpriteId: 10
-    speaker: {fileID: 11400000, guid: b32996de866fc5743bbf00d4bc1e2bd1, type: 2}
-    voiceLine: {fileID: 0}
-  - text: Cecile, you can finally go now.
-    animationName: 
-    unskippable: 0
-    autoPlay: 0
-    delay: 0.025
-    speakerSpriteId: 9
-    speaker: {fileID: 11400000, guid: 2b04d10957061d443b98958172d90ff5, type: 2}
-    voiceLine: {fileID: 0}
-  - text: "YAY! The moment we\u2019ve all been waiting for!"
-    animationName: 
-    unskippable: 0
-    autoPlay: 0
-    delay: 0.025
-    speakerSpriteId: 3
-    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
-    voiceLine: {fileID: 0}
-  - text: Not so fast.
-    animationName: 
-    unskippable: 0
-    autoPlay: 0
-    delay: 0.025
-    speakerSpriteId: 4
-    speaker: {fileID: 11400000, guid: 9989754d0741ff4489fbd3106cfc1992, type: 2}
-    voiceLine: {fileID: 0}
-  - text: Oh!
-    animationName: 
-    unskippable: 0
-    autoPlay: 0
-    delay: 0.025
-    speakerSpriteId: 8
-    speaker: {fileID: 11400000, guid: da2b47b829755364bb7cd9375aec1833, type: 2}
-    voiceLine: {fileID: 0}
-  - text: IT IS I, THE WRETCHED BATHROOM MONSTER!
-    animationName: 
-    unskippable: 0
-    autoPlay: 0
-    delay: 0.025
-    speakerSpriteId: 4
-    speaker: {fileID: 11400000, guid: 9989754d0741ff4489fbd3106cfc1992, type: 2}
-    voiceLine: {fileID: 0}
   - text: JOE!
     animationName: 
     unskippable: 0

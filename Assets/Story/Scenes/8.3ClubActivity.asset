@@ -44,7 +44,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 2
+    speakerSpriteId: 3
     speaker: {fileID: 11400000, guid: 6cf37b44626aeab4fa9149fed37b62c9, type: 2}
     voiceLine: {fileID: 0}
   - text: Again? All three of us are lactose intolerant, idiot.
@@ -184,7 +184,7 @@ MonoBehaviour:
     unskippable: 0
     autoPlay: 0
     delay: 0.025
-    speakerSpriteId: 1
+    speakerSpriteId: 2
     speaker: {fileID: 11400000, guid: 27dfc1664a172af4bb4f18afd21b46a5, type: 2}
     voiceLine: {fileID: 0}
   - text: WOOHOOO! PEE BREAKK!!

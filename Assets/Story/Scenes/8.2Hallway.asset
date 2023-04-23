@@ -146,7 +146,7 @@ MonoBehaviour:
     speakerSpriteId: 0
     speaker: {fileID: 11400000, guid: b67dc8cf1990b4443af81b14c98e374f, type: 2}
     voiceLine: {fileID: 0}
-  - text: Possibly, I mean Alyelle, Jenni, and Sunny are in there. They're...interesting.
+  - text: Possibly, I mean Alyelle, Jenni, and Sunny are in there. Those three are...interesting.
     animationName: No
     unskippable: 0
     autoPlay: 0
@@ -155,8 +155,8 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: 2ac81d0dc33f0c347b6b22ec5936427a, type: 2}
     voiceLine: {fileID: 0}
   - text: "Alyelle\u2019s always trying to bribe me with dating advice to get me
-      to fix her spaghetti code for her, and I don\u2019t even know what she\u2019s
-      making."
+      to fix her spaghetti code without ANY context, and I don\u2019t even know what
+      she\u2019s making."
     animationName: 
     unskippable: 0
     autoPlay: 0
